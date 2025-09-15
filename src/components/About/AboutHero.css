@@ -1,0 +1,78 @@
+/* =========================
+   ABOUT HERO SECTION
+========================= */
+.about-hero {
+  position: relative;
+  width: 100%;
+  min-height: 40vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 2rem 2rem 0rem;
+}
+
+/* Content Wrapper */
+.abouthero-content {
+  max-width: 60%;
+  animation: fadeInUp 1.2s ease forwards;
+}
+
+/* Headline */
+.abouthero-content h1 {
+  font-size: 2rem;
+  font-weight: normal;
+  margin-bottom: 1rem;
+  line-height: 1.2;
+  color: #8e1616;
+}
+
+/* Paragraph */
+.abouthero-content p {
+  font-size: 1rem;
+  line-height: 1.1;
+  color: var(--text-color);
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+/* Smooth fade-up animation */
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* =========================
+   RESPONSIVE DESIGN
+========================= */
+@media (max-width: 1024px) {
+  .abouthero-content h1 {
+    font-size: 2.2rem;
+  }
+
+  .abouthero-content p {
+    font-size: 1.05rem;
+  }
+}
+
+@media (max-width: 600px) {
+  .about-hero {
+    min-height: 35vh;
+    padding: 0rem 5%;
+  }
+
+  .abouthero-content h1 {
+    font-size: 1.8rem;
+    margin-bottom: 0;
+  }
+
+  .abouthero-content p {
+    display: none;
+  }
+}

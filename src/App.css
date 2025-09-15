@@ -1,0 +1,16 @@
+html,
+body,
+#root,
+.app-container {
+  height: 100%;
+}
+
+.app-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.content-wrapper {
+  flex: 1; /* This allows content to grow and pushes footer to bottom */
+}

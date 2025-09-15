@@ -1,0 +1,390 @@
+/* Reset and base styles */
+* {
+  box-sizing: border-box;
+}
+
+body,
+html {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  overflow-x: hidden;
+}
+
+/* Hero Container */
+.devhero-container {
+  position: relative;
+  width: 100%;
+  min-height: 100vh;
+  background: var(--bg-color);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  font-family: 'Sarabun', sans-serif;
+  margin: 0;
+  padding: 0;
+  transition: background-color 0.3s ease;
+}
+
+.devhero-background {
+  position: absolute;
+  inset: 0;
+  opacity: 0.8;
+  background: radial-gradient(
+    ellipse 60% 80% at center,
+    rgba(255, 87, 51, 0.2) 0%,
+    rgba(255, 107, 107, 0.15) 25%,
+    rgba(138, 43, 226, 0.1) 50%,
+    var(--bg-color) 100%
+  );
+  transition: background 0.3s ease;
+}
+
+.devhero-background::after,
+.devhero-background::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  width: 100%;
+  height: 180px;
+  pointer-events: none;
+}
+
+.devhero-background::after {
+  bottom: 0;
+  background: linear-gradient(to bottom, transparent, var(--bg-color));
+}
+
+.devhero-background::before {
+  top: 0;
+  background: linear-gradient(to top, transparent, var(--bg-color));
+}
+
+/* Light mode specific background */
+:root .devhero-background {
+  background: radial-gradient(
+    ellipse 80% 80% at center,
+    rgba(142, 22, 22, 0.08) 0%,
+    rgba(221, 75, 57, 0.06) 25%,
+    rgba(142, 22, 22, 0.04) 50%,
+    var(--bg-color) 100%
+  );
+}
+
+/* Dark mode specific background */
+body.dark .devhero-background {
+  background: radial-gradient(
+    ellipse 80% 80% at center,
+    rgba(255, 87, 51, 0.2) 0%,
+    rgba(255, 107, 107, 0.15) 25%,
+    rgba(138, 43, 226, 0.1) 50%,
+    var(--bg-color) 100%
+  );
+}
+
+/* Particles */
+.devparticles-container {
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+}
+
+.devparticle {
+  position: absolute;
+  width: 2px;
+  height: 2px;
+  background: var(--primary-color);
+  border-radius: 50%;
+  opacity: 0.4;
+  animation: particle-float 4s ease-in-out infinite;
+  transition: background-color 0.3s ease;
+}
+
+/* Light mode particles */
+:root .devparticle {
+  background: var(--primary-color);
+  opacity: 0.3;
+}
+
+/* Dark mode particles */
+body.dark .devparticle {
+  background: #ff5733;
+  opacity: 0.4;
+}
+
+@keyframes particle-float {
+  0%,
+  100% {
+    transform: translateY(0px);
+    opacity: 0.4;
+  }
+  50% {
+    transform: translateY(-20px);
+    opacity: 0.8;
+  }
+}
+
+/* Main Content */
+.devhero-content {
+  position: relative;
+  z-index: 10;
+  text-align: center;
+  width: 100%;
+  max-width: none;
+  margin: 0;
+}
+
+/* Typography */
+.devhero-text {
+  margin-bottom: 0rem;
+}
+
+.devhero-titleline1,
+.devhero-titleline2,
+.devhero-titleline3 {
+  line-height: 1;
+  margin: 0;
+  font-weight: normal;
+  transition: color 0.3s ease;
+}
+
+.devhero-titleline1 {
+  color: var(--text-color);
+  font-size: 2rem;
+  font-weight: 300;
+  margin-bottom: 1rem;
+  margin-top: 5rem;
+}
+
+.devhero-titleline2,
+.devhero-titleline3 {
+  color: var(--text-color);
+  font-weight: 300;
+  line-height: 1;
+  font-size: 4rem;
+  letter-spacing: .1rem;
+}
+
+/* Theme-aware highlight text */
+.devhighlight-text {
+  background: linear-gradient(135deg, var(--primary-color), var(--hover-color));
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-size: 200% 200%;
+  animation: gradient-shift 3s ease infinite;
+  transition: background 0.3s ease;
+  font-weight: normal;
+}
+
+/* Light mode highlight */
+:root .devhighlight-text {
+  background: #8e1616;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-size: 200% 200%;
+  font-weight: normal;
+}
+
+/* Dark mode highlight */
+body.dark .devhighlight-text {
+  background: #8e1616;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-size: 200% 200%;
+}
+
+@keyframes gradient-shift {
+  0%,
+  100% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+}
+
+.devhero-subtitle {
+  color: var(--text-color);
+  opacity: 0.7;
+  font-size: 1.5rem;
+  line-height: 1.2;
+  margin: 1rem auto;
+  max-width: 90%;
+  font-weight: 300;
+  transition:
+    color 0.3s ease,
+    opacity 0.3s ease;
+}
+
+/* Light mode subtitle */
+:root .devhero-subtitle {
+  opacity: 0.6;
+}
+
+/* Dark mode subtitle */
+body.dark .devhero-subtitle {
+  opacity: 0.7;
+}
+
+/* CTA Button with theme support */
+.devcta-button {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.75rem;
+  background: transparent;
+  color: var(--text-color);
+  padding: 0.75rem 2rem;
+  border: 2px solid var(--text-color);
+  border-radius: 50px;
+  font-size: 1rem;
+  font-weight: normal;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  position: relative;
+  overflow: hidden;
+  margin-top: 2rem;
+}
+
+.devcta-button:hover {
+  transform: translateY(-2px);
+  border-color: var(--primary-color);
+  color: var(--primary-color);
+}
+
+/* Light mode button hover */
+:root .devcta-button:hover {
+  border-color: var(--primary-color);
+  color: var(--primary-color);
+}
+
+/* Dark mode button hover */
+body.dark .devcta-button:hover {
+  border-color: var(--hover-color);
+  color: var(--hover-color);
+}
+
+.devcta-button span,
+.devcta-arrow {
+  position: relative;
+  z-index: 1;
+  transition: color 0.3s ease;
+}
+
+.devcta-arrow {
+  width: 1.25rem;
+  height: 1.25rem;
+  transition:
+    transform 0.3s ease,
+    color 0.3s ease;
+}
+
+.devcta-button:hover .devcta-arrow {
+  transform: translateX(4px);
+  color: #fff;
+}
+@media (min-width: 1200px) and (max-width: 1400px) {
+  .devhero-titleline1 {
+    font-size: 2.5rem;
+    margin-bottom: 1.5rem;
+    margin-top: 5rem;
+  }
+
+  .devhero-titleline2,
+  .devhero-titleline3 {
+    font-weight: normal;
+    font-size: 5rem;
+  }}
+/* Responsive Design */
+@media (max-width: 768px) {
+  .devhero-content {
+    padding: 0 1rem;
+  }
+
+  .devhero-titleline1 {
+    font-size: 1.5rem;
+    margin-bottom: 1.5rem;
+    margin-top: 5rem;
+  }
+
+  .devhero-titleline2,
+  .devhero-titleline3 {
+    font-weight: normal;
+    font-size: 2rem;
+  }
+
+  .devhero-subtitle {
+    margin: 2rem auto;
+    font-size: 1rem;
+  }
+
+  .devcta-button {
+    padding: 0.875rem 1.75rem;
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .devhero-container {
+    min-height: 70vh;
+    min-width: 100%;
+    margin-top: 50px;
+  }
+
+  .devhero-titleline1 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+  }
+
+  .devhero-titleline2,
+  .devhero-titleline3 {
+    font-size: 2rem;
+    font-weight: normal;
+    line-height: 1.3;
+  }
+
+  .devhero-background {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    min-height: 70vh;
+    top: 0;
+    overflow: hidden;
+    margin-top: -50px;
+  }
+
+  .devhero-background::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 80px;
+    background: linear-gradient(to bottom, transparent, var(--bg-color));
+    pointer-events: none;
+  }
+
+  .devparticles-container {
+    display: none;
+  }
+
+  .devhero-content {
+    padding: 0 0.5rem;
+    transform: translateY(-2rem);
+  }
+
+  .devhero-subtitle {
+    display: none;
+  }
+
+  .devcta-button {
+    top: 4rem;
+    padding: 0.55rem 1.5rem;
+    font-size: 1rem;
+  }
+}

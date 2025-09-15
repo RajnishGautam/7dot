@@ -1,0 +1,416 @@
+.process-section {
+  position: relative; /* needed for absolute positioning inside cards */
+  padding: 2rem 0 0rem;
+  background-color: var(--bg-color);
+  overflow: hidden;
+  font-family: 'Sarabun', sans-serif;
+}
+
+.process-section__container {
+  max-width: 90%;
+  margin: 0 auto;
+  padding: 0;
+}
+
+.process-section__header {
+  text-align: center;
+  margin-bottom: 60px;
+}
+
+.process-section__title {
+  font-size: 1.5rem;
+  font-weight: normal;
+  color: var(--text-color);
+  line-height: 1.2;
+  font-family: 'Sarabun', sans-serif;
+  letter-spacing: 0.1rem;
+}
+
+.process-section__highlight {
+  color: #8e1616;
+  display: inline-block;
+  margin-left: 0;
+  font-weight: normal;
+}
+
+/* Cards container */
+.process-section__cards-container {
+  display: flex;
+  gap: 0;
+  height: 300px;
+  overflow: hidden;
+}
+
+.process-section__card {
+  position: relative; /* for absolute title inside */
+  background: transparent;
+  border-right: 2px solid #8e1616;
+  cursor: pointer;
+  overflow: hidden;
+  transition:
+    flex 0.6s cubic-bezier(0.4, 0, 0.2, 1),
+    background 0.3s ease,
+    transform 0.3s ease;
+  will-change: flex, transform, background;
+}
+
+/* Top gradient */
+.process-section__card::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 1px;
+  background: linear-gradient(to right, var(--bg-color), #8e1616);
+}
+
+/* Bottom gradient */
+.process-section__card::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 1px;
+  background: linear-gradient(to right, var(--bg-color), #8e1616);
+}
+
+/* Collapsed and active states */
+.process-section__card--collapsed {
+  flex: 0 1 150px;
+}
+
+.process-section__card--active {
+  flex: 2 1 auto;
+  transform: scale(1);
+}
+
+/* Card content */
+.process-section__card-content {
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  text-align: center;
+  height: 100%; /* important for collapsed title */
+  position: relative;
+}
+
+/* Step number */
+.process-section__step-number {
+  font-size: 1.5rem;
+  font-weight: normal;
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  opacity: 0.3;
+  z-index: 10;
+  transition: opacity 0.6s ease;
+}
+
+.process-section__card--active .process-section__step-number {
+  opacity: 0.7;
+}
+
+/* Step icon container */
+.process-section__step-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5rem;
+  margin-bottom: 20px;
+  transition:
+    margin 0.4s ease,
+    transform 0.4s ease;
+}
+
+/* Optional: shrink icon slightly when collapsed */
+.process-section__card--collapsed .process-section__step-icon {
+  margin-bottom: 60px; /* space above title */
+  transform: scale(0.9);
+  opacity: 0.6;
+}
+
+/* Step icon image */
+.process-section__icon-img {
+  width: 80px;
+  height: 80px;
+  object-fit: contain;
+  opacity: 0.8;
+  transition:
+    transform 0.3s ease,
+    opacity 0.3s ease;
+}
+
+/* Step title */
+.process-section__step-title {
+  font-size: 1rem;
+  color: var(--text-color);
+  font-weight: normal;
+  margin-bottom: 20px;
+  line-height: 1.3;
+  transition: all 0.4s ease;
+  position: relative; /* normal flow for active card */
+  text-align: center;
+}
+
+/* Collapsed: move title to bottom inside card */
+.process-section__card--collapsed .process-section__step-title {
+  position: absolute;
+  bottom: 10px; /* sticks at bottom inside card */
+  left: 50%;
+  transform: translateX(-50%);
+  margin: 0;
+  opacity: 0.7;
+  font-size: 1rem;
+  z-index: 5;
+}
+
+/* Active: restore normal flow */
+.process-section__card--active .process-section__step-title {
+  position: relative;
+  margin-bottom: 20px;
+  opacity: 1;
+  font-size: 1.2rem;
+}
+
+/* Step description */
+.process-section__step-description {
+  opacity: 0;
+  transform: translateY(20px);
+  max-height: 0;
+  overflow: hidden;
+  max-width: 90%;
+  line-height: 1;
+  font-size: 1rem;
+  transition:
+    opacity 0.6s ease,
+    transform 0.6s ease,
+    max-height 0.6s ease;
+}
+
+.process-section__card--active .process-section__step-description {
+  opacity: 1;
+  transform: translateY(0);
+  max-height: 300px;
+}
+
+/* Tablet & Mobile Slider */
+.process-section__slider {
+  display: none;
+  position: relative;
+  padding-bottom: 40px;
+}
+
+.process-section__slider-row {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+/* Ensure slider cards auto-expand to fit content */
+.process-section__slider-card {
+  display: none;
+  background: var(--bg-color);
+  border-radius: 12px;
+  min-height: auto; /* instead of fit-content */
+  padding: 16px; /* enough padding */
+  border: 1px solid var(--border-color);
+  position: relative;
+  flex: 0 0 auto; /* allow height to grow */
+}
+
+/* Active card */
+.process-section__slider-card.active {
+  display: block;
+  height: auto; /* ensures card height grows with content */
+  padding: 16px;
+}
+
+.process-section__slider-controls {
+  display: none;
+  justify-content: center;
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+.process-section__slider-btn {
+  background: transparent;
+  color: #8e1616;
+  border: none;
+  width: 40px;
+  height: 40px;
+  border-radius: 10%;
+  cursor: pointer;
+  padding: 0;
+  font-size: 2rem;
+  transition: all 0.3s ease;
+}
+/* Step description adjustments */
+.process-section__step-description {
+  max-height: none; /* remove max-height restriction */
+  overflow: visible;
+  opacity: 0;
+  transform: translateY(20px);
+  transition:
+    opacity 0.6s ease,
+    transform 0.6s ease;
+}
+/* Active state */
+.process-section__card--active .process-section__step-description,
+.process-section__slider-card.active .process-section__step-description {
+  opacity: 1;
+  transform: translateY(0);
+}
+.process-section__slider-btn:hover {
+  background: transparent;
+  border: none;
+}
+
+/* Desktop Accordion */
+@media (min-width: 1025px) {
+  .process-section__cards-container {
+    display: flex;
+  }
+  .process-section__slider {
+    display: none;
+  }
+}
+
+@media (min-width: 1025px) and (max-width: 1400px) {
+  .process-section {
+    padding: 2rem 0rem 0rem;
+  }
+  .process-section__title {
+    font-size: 2rem;
+    font-weight: normal;
+    text-transform: uppercase;
+    letter-spacing: .1rem;
+  }
+  .process-section__step-title {
+    font-size: 1.2rem;
+    margin: 0 0 0.5rem 0 !important;
+  }
+  .process-section__step-icon {
+    margin-bottom: 0.5rem;
+  }
+  .process-section__icon-img {
+    width: 70px;
+    height: 70px;
+  }
+}
+
+/* Tablet 768px - 1024px */
+@media (min-width: 768px) and (max-width: 1024px) {
+  .process-section__cards-container {
+    display: none;
+  }
+  .process-section__slider {
+    display: block;
+    padding-bottom: 0rem;
+  }
+  .process-section__slider-card {
+    flex: 0 0 calc(25% - 0.75rem);
+    padding: 0px !important;
+    margin-bottom: 0rem;
+  }
+  .process-section__slider-controls {
+    display: flex;
+  }
+  .process-section__title {
+    font-size: 2.5rem;
+    font-weight: normal;
+    text-transform: uppercase;
+    letter-spacing: .1rem;
+  }
+  .process-section__step-description {
+    display: none;
+  }
+}
+
+/* Tablet 481px - 767px */
+@media (min-width: 481px) and (max-width: 767px) {
+  .process-section {
+    padding: 2rem 0rem 0rem;
+  }
+  .process-section__container {
+    margin-bottom: 1rem;
+    height: fit-content;
+  }
+  .process-section__cards-container {
+    display: none;
+  }
+  .process-section__slider {
+    display: block;
+    padding-bottom: 0rem;
+  }
+  .process-section__title {
+    font-size: 1.5rem;
+    font-weight: normal;
+    text-transform: uppercase;
+    letter-spacing: .1rem;
+  }
+  .process-section__slider-card {
+    flex: 0 0 calc(50% - 0.5rem);
+    padding: 0rem !important;
+  }
+  .process-section__slider-controls {
+    display: flex;
+  }
+  .process-section__step-description {
+    display: none;
+  }
+}
+
+/* Mobile <=480px - UPDATED TO SHOW 2 CARDS */
+@media (max-width: 480px) {
+  .process-section {
+    padding: 3rem 0rem 1rem;
+  }
+  .process-section__container {
+    margin-bottom: 1rem;
+  }
+  .process-section__cards-container {
+    display: none;
+  }
+  .process-section__title {
+    font-size: 1rem;
+    font-weight: normal;
+    text-transform: uppercase;
+    letter-spacing: .1rem;
+  }
+  .process-section__slider {
+    display: block;
+    padding-bottom: 0rem;
+    margin-top: -50px;
+  }
+  .process-section__slider-card {
+    flex: 0 0 calc(50% - 0.5rem); /* Show 2 cards per row */
+    padding: 16px;
+  }
+  .process-section__slider-controls {
+    display: flex;
+  }
+  .process-section__step-number {
+    display: none;
+  }
+  .process-section__step-icon {
+    margin-top: 1rem;
+    margin-bottom: 0.5rem;
+  }
+  .process-section__icon-img {
+    width: 60px;
+    height: 60px;
+  }
+  .process-section__step-title {
+    font-weight: normal;
+    font-size: 0.9rem;
+    margin: 0 0 0.5rem 0 !important;
+  }
+  .process-section__step-description {
+    display: none;
+  }
+}

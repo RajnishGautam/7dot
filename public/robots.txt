@@ -1,0 +1,20 @@
+# Allow all search engines to crawl main pages
+User-agent: *
+Allow: / 
+Allow: /development
+Allow: /branding
+Allow: /digital-marketing
+Allow: /blog
+Allow: /blog/*
+Allow: /contact
+Allow: /about
+Allow: /privacypolicy
+
+# Block any private or unnecessary folders (if any)
+Disallow: /node_modules/
+Disallow: /dist/
+Disallow: /src/
+Disallow: /assets/
+
+# Optional: Sitemap location for better indexing
+Sitemap: https://punto-sigma.vercel.app/sitemap.xml

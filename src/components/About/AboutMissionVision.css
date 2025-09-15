@@ -1,0 +1,126 @@
+.aboutmv-section {
+  width: 100%;
+  padding: 1rem 8%;
+  background: var(--bg-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.aboutmv-cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 2rem;
+  width: 100%;
+  max-width: 1400px;
+}
+
+/* Glass Mirror Effect Cards */
+.aboutmv-card {
+  background: rgba(255, 255, 255, 0.05); /* lighter for mirror feel */
+  backdrop-filter: blur(18px) saturate(180%);
+  -webkit-backdrop-filter: blur(18px) saturate(180%);
+  padding: 2rem;
+  border-radius: 1.5rem;
+  border: .5px solid #8e1616;
+  box-shadow:
+    0 8px 25px rgba(0, 0, 0, 0.4),
+    inset 0 0 25px rgba(255, 255, 255, 0.05);
+  transition:
+    transform 0.4s ease,
+    box-shadow 0.4s ease,
+    border-color 0.4s ease;
+  color: var(--text-color, #e2e8f0);
+  position: relative;
+  overflow: hidden;
+}
+
+.aboutmv-card:hover {
+  transform: translateY(0px) scale(1.02);
+  border-color: #8e1616;
+  
+}
+
+/* Card Header */
+.aboutmv-header {
+  display: flex;
+  align-items: center;
+  gap: 0.8rem;
+  margin-bottom: 1rem;
+}
+
+.aboutmv-header h2 {
+  font-size: 1.5rem;
+  color: #8e1616;
+  margin: 0;
+  font-weight: normal;
+}
+
+.aboutmv-icon {
+  font-size: 1.5rem;
+  color: #8e1616;
+}
+
+/* Description */
+.aboutmv-card p {
+  font-size: 1rem;
+  line-height: 1.2;
+  color: var(--text-color, #e2e8f0);
+  margin: 0;
+  text-align: center;
+}
+
+/* Shimmer Glow Effect */
+.aboutmv-glow {
+  position: absolute;
+  top: -50%;
+  left: -50%;
+  width: 200%;
+  height: 200%;
+  background: linear-gradient(
+    120deg,
+    rgba(255, 255, 255, 0.25),
+    rgba(255, 255, 255, 0.05),
+    rgba(255, 255, 255, 0.25)
+  );
+  transform: rotate(-45deg);
+  opacity: 0;
+  transition: opacity 0.6s ease;
+  pointer-events: none;
+}
+
+.aboutmv-card:hover .aboutmv-glow {
+  opacity: 1;
+  animation: aboutmv-shimmer 2.5s ease-in-out infinite;
+}
+
+@keyframes aboutmv-shimmer {
+  0% {
+    transform: rotate(-45deg) translateX(-100%);
+  }
+  100% {
+    transform: rotate(-45deg) translateX(100%);
+  }
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .aboutmv-section {
+    padding: 0% 5%;
+  }
+  .aboutmv-cards {
+    gap: 10px;
+  }
+  .aboutmv-card {
+    padding: 1rem;
+  }
+  .aboutmv-header {
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 0.5rem;
+  }
+  .aboutmv-card p {
+    text-align: center;
+    line-height: 1;
+  }
+}
