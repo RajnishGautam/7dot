@@ -35,7 +35,7 @@ const Footer = () => {
               />
             </div>
             <p className="brand-description">
-                Your digital partner
+                Digital Tech
             </p>
             <p>SCO 2/3 IT Park, Chandigarh (Panchkula)</p>
           </div>
@@ -79,7 +79,7 @@ const Footer = () => {
                 Phone: <a href="tel:+917838649867">+52 6634149718</a>
               </p>
               <p className="contactfooter-item">
-                Mail: <a href="mailto:support@7dotit.solutions">support@7dotit.solutions</a>
+                Email: <a href="mailto:support@7dotit.solutions">support@7dotit.solutions</a>
               </p>
             </div>
           </div>

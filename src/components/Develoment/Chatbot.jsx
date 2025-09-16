@@ -30,14 +30,11 @@ const ChatbotServiceSection = () => {
   return (
     <section className="chatbot-section">
       <div className="chatbot-container">
-        <div className="chatbot-grid">
-          {/* Left Content */}
+        {/* Desktop Layout */}
+        <div className="chatbot-grid desktop-layout">
           <div className="chatbot-left">
-            <div className="chatbot-heading">
-              <div className="chatbot-label">
-                <MessageCircle className="w-6 h-6 text-white" />
-                <span>AI Chatbot Development</span>
-              </div>
+            <div className="chatbot-heading desktop-heading">
+            
               <h2>
                 Personalized AI <span>Chatbots</span>
               </h2>
@@ -49,7 +46,6 @@ const ChatbotServiceSection = () => {
               </p>
             </div>
 
-            {/* Features */}
             <div className="chatbot-features">
               {features.map((feature, index) => (
                 <div key={index} className="chatbot-feature">
@@ -59,7 +55,6 @@ const ChatbotServiceSection = () => {
               ))}
             </div>
 
-            {/* Benefits */}
             <div className="chatbot-benefits">
               {benefits.map((benefit, index) => (
                 <div key={index} className="chatbot-benefit">
@@ -69,7 +64,6 @@ const ChatbotServiceSection = () => {
               ))}
             </div>
 
-            {/* CTA */}
             <div className="chatbot-cta">
               <a
                 href="https://wa.me/917838649867"
@@ -88,13 +82,69 @@ const ChatbotServiceSection = () => {
             </div>
           </div>
 
-          {/* Right Image */}
           <div className="chatbot-right">
             <img
               src="/services/chatbotilu.png"
               alt="Chatbot illustration"
               className="chatbot-image"
             />
+          </div>
+        </div>
+
+        {/* Mobile Layout */}
+        <div className="chatbot-mobile-wrapper">
+          <div className="chatbot-heading mobile-heading">
+            
+            <h2>
+              Personalized AI <span>Chatbots</span>
+            </h2>
+            <p>
+              We build intelligent conversational AI solutions tailored to
+              your business needs. Our custom chatbots enhance customer
+              experience, automate support, and drive engagement through
+              natural, meaningful conversations.
+            </p>
+          </div>
+
+          <img
+            src="/services/chatbotilu.png"
+            alt="Chatbot illustration"
+            className="chatbot-image"
+          />
+
+          <div className="chatbot-features">
+            {features.map((feature, index) => (
+              <div key={index} className="chatbot-feature">
+                <div className="chatbot-feature-icon">{feature.icon}</div>
+                <span>{feature.text}</span>
+              </div>
+            ))}
+          </div>
+
+          <div className="chatbot-benefits">
+            {benefits.map((benefit, index) => (
+              <div key={index} className="chatbot-benefit">
+                <CheckCircle className="w-5 h-5 text-red-500" />
+                <span>{benefit}</span>
+              </div>
+            ))}
+          </div>
+
+          <div className="chatbot-cta">
+            <a
+              href="https://wa.me/917838649867"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <button
+                className={`chatbot-button ${isHovered ? 'hovered' : ''}`}
+                onMouseEnter={() => setIsHovered(true)}
+                onMouseLeave={() => setIsHovered(false)}
+              >
+                Get Your Custom Chatbot
+                <ArrowRight className="arrow" />
+              </button>
+            </a>
           </div>
         </div>
       </div>

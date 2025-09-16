@@ -54,9 +54,6 @@
   padding: 1.5rem 1rem;
   border-radius: 1.5rem;
   border: 1px solid rgba(255, 255, 255, 0.15);
-  box-shadow:
-    0 10px 25px rgba(0, 0, 0, 0.4),
-    inset 0 0 20px rgba(255, 255, 255, 0.05);
   transition:
     transform 0.4s ease,
     box-shadow 0.4s ease,
@@ -68,11 +65,9 @@
 
 /* Hover Glow */
 .stat-card:hover {
-  transform: translateY(-10px) scale(1.05);
+  transform:  scale(1.05);
   border-color: #8e1616;
-  box-shadow:
-    0 20px 50px rgba(142, 22, 22, 0.3),
-    inset 0 0 35px rgba(255, 255, 255, 0.08);
+ 
 }
 
 /* Number Highlight */

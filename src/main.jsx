@@ -5,7 +5,7 @@ import App from './App.jsx'
 import './index.css'
 
 // Set dark mode as default
-document.body.classList.add('dark')
+document.body.classList.add('light')
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>

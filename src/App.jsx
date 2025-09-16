@@ -12,6 +12,9 @@ import PrivacyPolicy from './pages/privacypolicy'
 import Navbar from './components/common/Navbar/Navbar'
 import Footer from './components/common/Footer/Footer'
 import ScrollToTop from './components/common/ScrollToTop'
+import WebDevelopmentPage from './pages/webdevelopment'
+import AppDevelopmentPage from './pages/appdevelopment'
+import ChatbotDevelopmentPage from './pages/chatbotdevelopment'
 import './App.css'
 
 function App() {
@@ -38,6 +41,9 @@ function App() {
         <Route path="/contact" element={<ContactPage />} />
         <Route path="/about" element={<About />} />
         <Route path="/privacypolicy" element={<PrivacyPolicy />} />
+        <Route path="/webdevelopment" element={<WebDevelopmentPage />} />
+        <Route path="/appdevelopment" element={<AppDevelopmentPage />} />
+        <Route path="/chatbotdevelopment" element={<ChatbotDevelopmentPage />} />
       </Routes>
       <Footer />
     </>

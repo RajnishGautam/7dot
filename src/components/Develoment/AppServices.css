@@ -539,6 +539,7 @@
 /* Responsive Design */
 @media (min-width: 1024px) and (max-width: 1400px) {
   .app-services-container {
+    padding-top:3rem;
     padding-bottom: 0rem;
     height: fit-content;
   }
@@ -581,7 +582,7 @@
 /* Large Tablet (768px to 1023px) */
 @media (min-width: 768px) and (max-width: 1023px) {
   .app-services-section {
-    padding: 3rem 2% 2rem;
+    padding: 5rem 2% 2rem;
   }
 
   .app-showcase {
@@ -662,7 +663,7 @@
 }
 @media (min-width: 481px) and (max-width: 767px) {
   .app-services-section {
-    padding: 2rem 3% 0rem;
+    padding: 5rem 3% 0rem;
   }
 
   .app-showcase {
@@ -803,7 +804,7 @@
 /* Mobile (767px and below) */
 @media (max-width: 480px) {
   .app-services-section {
-    padding: 3rem 3% 2rem;
+    padding: 5rem 3% 2rem;
   }
 
   .app-showcase {

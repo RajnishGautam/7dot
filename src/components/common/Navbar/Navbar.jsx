@@ -4,14 +4,31 @@ import './Navbar.css'
 import MoonSunToggle from './MoonSunToggle'
 import logoLight from '../../../assets/logolightmode.png'
 import logoDark from '../../../assets/logodarkmode.png'
-import { FaBars, FaTimes, FaFacebookF, FaWhatsapp, FaInstagram, FaLinkedinIn } from 'react-icons/fa'
+import { FaBars, FaTimes, FaFacebookF, FaWhatsapp, FaInstagram, FaLinkedinIn, FaChevronDown } from 'react-icons/fa'
 
 const Navbar = () => {
   const [darkMode, setDarkMode] = useState(() =>
     document.body.classList.contains('dark')
   )
   const [menuOpen, setMenuOpen] = useState(false)
+  const [servicesDropdownOpen, setServicesDropdownOpen] = useState(false)
+
+  // Track open dropdown for mobile
+  const [openDropdown, setOpenDropdown] = useState(null)
+
   const location = useLocation()
+
+// Services data
+const servicesData = [
+  { name: 'Branding', path: '/branding', image: '/services/branding.png' },
+  { name: 'AI Chatbots', path: '/chatbotdevelopment', image: '/services/chatbot.png' },
+  { name: 'Web Development', path: '/webdevelopment', image: '/services/webdevelopment.png' },
+  { name: 'Lead Generation', path: '/digital-marketing', image: '/services/leads.png' },
+  { name: 'Content Creation', path: '/digital-marketing', image: '/services/contentwriting.png' },
+  { name: 'Digital Marketing', path: '/digital-marketing', image: '/services/marketing.png' },
+  { name: 'Career & Training', path: '/development#career-training', image: '/services/training.png' },
+  { name: 'Mobile App Development', path: '/appdevelopment', image: '/services/appdevelopment.png' }
+]
 
   const toggleMenu = () => setMenuOpen(!menuOpen)
   const closeMenu = () => setMenuOpen(false)
@@ -24,16 +41,16 @@ const Navbar = () => {
   // Prevent body scroll when menu is open
   useEffect(() => {
     document.body.classList.toggle('menu-open', menuOpen)
-
-    // Cleanup on unmount
     return () => {
       document.body.classList.remove('menu-open')
     }
   }, [menuOpen])
 
-  // Close menu on route change
+  // Close menu & dropdown on route change
   useEffect(() => {
     setMenuOpen(false)
+    setServicesDropdownOpen(false)
+    setOpenDropdown(null)
   }, [location])
 
   // Handle overlay click to close menu
@@ -41,6 +58,15 @@ const Navbar = () => {
     if (e.target === e.currentTarget) {
       closeMenu()
     }
+  }
+
+  // Desktop services dropdown
+  const handleServicesMouseEnter = () => setServicesDropdownOpen(true)
+  const handleServicesMouseLeave = () => setServicesDropdownOpen(false)
+
+  // Mobile dropdown toggle
+  const toggleMobileDropdown = (name) => {
+    setOpenDropdown(openDropdown === name ? null : name)
   }
 
   return (
@@ -55,7 +81,7 @@ const Navbar = () => {
             />
           </div>
 
-          {/* Desktop Navigation Links */}
+          {/* Desktop Navigation */}
           <nav className="navbar-links desktop-only">
             <Link to="/" className={location.pathname === '/' ? 'active' : ''}>
               HOME
@@ -67,26 +93,46 @@ const Navbar = () => {
             >
               ABOUT US
             </Link>
-            <Link
-              to="/development"
-              className={location.pathname === '/development' ? 'active' : ''}
+
+            {/* Services Dropdown */}
+            <div
+              className="navbar-dropdown"
+              onMouseEnter={handleServicesMouseEnter}
+              onMouseLeave={handleServicesMouseLeave}
             >
               SERVICES
-            </Link>
+              <FaChevronDown className={`dropdown-arrow ${servicesDropdownOpen ? 'open' : ''}`} />
+
+              <div className={`navbar-dropdown-menu ${servicesDropdownOpen ? 'open' : ''}`}>
+                {servicesData.map((service, index) => (
+                  <Link
+                    key={index}
+                    to={service.path}
+                    className={`dropdown-item ${location.pathname === service.path ? 'active' : ''}`}
+                  >
+                    <img 
+                      src={service.image} 
+                      alt={service.name}
+                      className="dropdown-item-image"
+                      onError={(e) => {
+                        e.target.style.display = 'none'
+                      }}
+                    />
+                    <span className="dropdown-item-text">{service.name}</span>
+                  </Link>
+                ))}
+              </div>
+            </div>
+
             <Link
               to="/contact"
-              className={
-                location.pathname === '/contact' ? 'active' : ''
-              }
+              className={location.pathname === '/contact' ? 'active' : ''}
             >
               CONTACT US
             </Link>
             <Link
               to="/blog"
-              onClick={closeMenu}
-              className={
-                location.pathname === '/blog' ? 'active' : ''
-              }
+              className={location.pathname === '/blog' ? 'active' : ''}
             >
               BLOGS
             </Link>
@@ -109,7 +155,6 @@ const Navbar = () => {
           {/* Mobile Actions */}
           <div className="navbar-actions mobile-only">
             <MoonSunToggle darkMode={darkMode} onToggle={toggleDarkMode} />
-
             <div
               className="hamburger-icon"
               onClick={toggleMenu}
@@ -126,7 +171,7 @@ const Navbar = () => {
         </div>
       </header>
 
-      {/* Full Screen Mobile Menu Overlay */}
+      {/* Mobile Menu Overlay */}
       <div
         className={`mobile-menu-overlay ${menuOpen ? 'open' : ''}`}
         onClick={handleOverlayClick}
@@ -156,34 +201,58 @@ const Navbar = () => {
             >
               ABOUT US
             </Link>
-            <Link
-              to="/development"
-              onClick={closeMenu}
-              className={location.pathname === '/development' ? 'active' : ''}
-            >
-              SERVICES
-            </Link>
+
+            {/* Mobile Services Dropdown */}
+            <div className="mobile-dropdown">
+              <div
+                className="mobile-dropdown-trigger"
+                onClick={() => toggleMobileDropdown('services')}
+              >
+                SERVICES
+                <FaChevronDown
+                  className={`mobile-dropdown-arrow ${openDropdown === 'services' ? 'open' : ''}`}
+                />
+              </div>
+
+              <div className={`mobile-sub-items ${openDropdown === 'services' ? 'open' : ''}`}>
+                {servicesData.map((service, index) => (
+                  <Link
+                    key={index}
+                    to={service.path}
+                    onClick={closeMenu}
+                    className={`mobile-sub-item ${location.pathname === service.path ? 'active' : ''}`}
+                  >
+                    <img 
+                      src={service.image} 
+                      alt={service.name}
+                      className="mobile-sub-item-image"
+                      onError={(e) => {
+                        e.target.style.display = 'none'
+                      }}
+                    />
+                    <span>{service.name}</span>
+                  </Link>
+                ))}
+              </div>
+            </div>
+
             <Link
               to="/contact"
               onClick={closeMenu}
-              className={
-                location.pathname === '/contact' ? 'active' : ''
-              }
+              className={location.pathname === '/contact' ? 'active' : ''}
             >
               CONTACT US
             </Link>
-              <Link
+            <Link
               to="/blog"
               onClick={closeMenu}
-              className={
-                location.pathname === '/blog' ? 'active' : ''
-              }
+              className={location.pathname === '/blog' ? 'active' : ''}
             >
               BLOGS
             </Link>
           </nav>
 
-          {/* Social Media Icons - Only in Hamburger Menu */}
+          {/* Mobile Socials */}
           <div className="hambergsocial">
             <a
               href="https://www.facebook.com/share/1CRjRz1M3j/"
