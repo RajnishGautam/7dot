@@ -234,7 +234,7 @@ body.dark {
 }
 
 .dropdown-item.active {
-  background-color: rgba(221, 75, 57, 0.12);
+
   color: var(--primary-color);
 }
 
@@ -394,26 +394,8 @@ body.dark {
   color: white;
 }
 
-/* ========== DARK MODE TOGGLE ========== */
-.dark-toggle {
-  width: 40px;
-  height: 40px;
-  border: 2px solid var(--text-color);
-  background-color: var(--bg-color);
-  color: var(--text-color);
-  border-radius: 10px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  cursor: pointer;
-  transition: var(--transition);
-  flex-shrink: 0;
-}
+ 
 
-.dark-toggle:hover {
-  background-color: var(--text-color);
-  color: var(--bg-color);
-}
 
 /* ========== HAMBURGER MENU ========== */
 .hamburger-icon {
@@ -912,7 +894,7 @@ body.menu-open {
 /* Mobile */
 @media (max-width: 480px) {
   .navbar {
-    height: 60px;
+    height: 50px;
   }
 
   .navbar-container {
@@ -923,7 +905,7 @@ body.menu-open {
 
   .navbar-logo img,
   .logo-img {
-    display: none;
+   height: 2rem;
   }
 
   .navbar-links {
@@ -975,7 +957,7 @@ body.menu-open {
 
   .navbar-logo img,
   .logo-img {
-    display: none;
+  height: 2rem;
   }
 
   .navbar-cta {

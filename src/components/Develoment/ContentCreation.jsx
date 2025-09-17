@@ -1,44 +1,45 @@
 import React, { useState } from 'react'
 import {
-  MessageCircle,
-  Zap,
-  Brain,
-  Users,
+  PenTool,
+  Image as ImageIcon,
+  Video,
+  Type,
   ArrowRight,
-  Code2,
   CheckCircle,
+  Sparkles,
+  FileText,
 } from 'lucide-react'
 import './ChatbotServiceSection.css'
 
-const ChatbotServiceSection = () => {
+const ContentCreationServiceSection = () => {
   const [isHovered, setIsHovered] = useState(false)
 
   const features = [
-    { icon: <Brain className="w-5 h-5" />, text: 'Advanced AI & NLP' },
-    { icon: <Code2 className="w-5 h-5" />, text: 'Custom Development' },
-    { icon: <Users className="w-5 h-5" />, text: 'Multi-platform Integration' },
-    { icon: <Zap className="w-5 h-5" />, text: 'Real-time Learning' },
+    { icon: <PenTool className="w-5 h-5" />, text: 'Engaging Copywriting' },
+    { icon: <ImageIcon className="w-5 h-5" />, text: 'Creative Graphic Design' },
+    { icon: <Video className="w-5 h-5" />, text: 'High-Quality Video Content' },
+    { icon: <Type className="w-5 h-5" />, text: 'SEO-Optimized Blogs' },
   ]
 
   const benefits = [
-    '24/7 Customer Support Automation',
-    'Personalized User Interactions',
-    'Seamless CRM Integration',
-    'Advanced Analytics & Insights',
+    'Boost your brand visibility',
+    'Attract and retain customers',
+    'Multi-format content for all platforms',
+    'Consistent and professional storytelling',
   ]
 
   const whyChoose = [
-    'Tailored AI solutions for your business goals',
-    'Scalable architecture for startups & enterprises',
-    'Proven expertise in AI & automation',
-    'End-to-end support from development to deployment',
+    'Tailored content strategies for your audience',
+    'Creative team with multi-industry expertise',
+    'Data-driven content for measurable results',
+    'Full-service support from concept to delivery',
   ]
 
   const useCases = [
-    'E-commerce: Automate product recommendations and order tracking',
-    'Healthcare: Appointment booking and patient support',
-    'Finance: Instant query resolution and transaction support',
-    'Education: Virtual assistants for student engagement',
+    'Social Media: Eye-catching posts and reels',
+    'Websites: SEO-friendly blogs and articles',
+    'Marketing: Ad copies and brand campaigns',
+    'Education: Tutorials, guides, and e-learning content',
   ]
 
   return (
@@ -49,14 +50,13 @@ const ChatbotServiceSection = () => {
           <div className="chatbot-left">
             <div className="chatbot-heading desktop-heading">
               <h2>
-                Personalized AI <span>Chatbots</span>
+                Professional <span>Content Creation</span>
               </h2>
               <p>
-                We design and build advanced conversational AI chatbots
-                that transform the way businesses connect with customers.
-                Our intelligent bots streamline operations, reduce costs,
-                and enhance customer engagement through natural,
-                human-like interactions.
+                We craft compelling, creative, and high-impact content that
+                helps your brand stand out. From copywriting and graphics to
+                videos and blogs, our team delivers content that inspires and
+                drives engagement across every platform.
               </p>
             </div>
 
@@ -80,7 +80,7 @@ const ChatbotServiceSection = () => {
 
             {/* Why Choose Us */}
             <div className="chatbot-why-choose">
-              <h3>Why Choose Our Chatbot Solutions?</h3>
+              <h3>Why Choose Our Content Creation?</h3>
               <ul>
                 {whyChoose.map((point, index) => (
                   <li key={index}>{point}</li>
@@ -109,7 +109,7 @@ const ChatbotServiceSection = () => {
                   onMouseEnter={() => setIsHovered(true)}
                   onMouseLeave={() => setIsHovered(false)}
                 >
-                  Get Your Custom Chatbot
+                  Get Your Custom Content
                   <ArrowRight className="arrow" />
                 </button>
               </a>
@@ -118,8 +118,8 @@ const ChatbotServiceSection = () => {
 
           <div className="chatbot-right">
             <img
-              src="/services/chatbotilu.png"
-              alt="Chatbot illustration"
+              src="/services/contentcreation.png"
+              alt="Content creation illustration"
               className="chatbot-image"
             />
           </div>
@@ -129,18 +129,18 @@ const ChatbotServiceSection = () => {
         <div className="chatbot-mobile-wrapper">
           <div className="chatbot-heading mobile-heading">
             <h2>
-              Personalized AI <span>Chatbots</span>
+              Professional <span>Content Creation</span>
             </h2>
             <p>
-              Our AI chatbots deliver smarter customer experiences by
-              automating conversations, resolving queries instantly, and
-              keeping your business available around the clock.
+              Our creative experts deliver impactful content across text,
+              design, and video to boost your brand presence and connect
+              meaningfully with your audience.
             </p>
           </div>
 
           <img
-            src="/services/chatbotilu.png"
-            alt="Chatbot illustration"
+            src="/services/contentcreation.png"
+            alt="Content creation illustration"
             className="chatbot-image"
           />
 
@@ -173,7 +173,7 @@ const ChatbotServiceSection = () => {
           </div>
 
           {/* Use Cases */}
-          <div className="chatbot-use-cases">
+          <div className="chatbot-why-choose">
             <h3>Use Cases</h3>
             <ul>
               {useCases.map((useCase, index) => (
@@ -193,7 +193,7 @@ const ChatbotServiceSection = () => {
                 onMouseEnter={() => setIsHovered(true)}
                 onMouseLeave={() => setIsHovered(false)}
               >
-                Get Your Custom Chatbot
+                Get Your Custom Content
                 <ArrowRight className="arrow" />
               </button>
             </a>
@@ -204,4 +204,4 @@ const ChatbotServiceSection = () => {
   )
 }
 
-export default ChatbotServiceSection
+export default ContentCreationServiceSection

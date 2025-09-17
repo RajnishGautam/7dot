@@ -33,7 +33,7 @@ const services = [
     gifImage: '/services/leads.gif',
     title: 'Lead Generation',
     slogan: 'Demand Drives Growth',
-    link: '/digital-marketing',
+    link: '/leadgeneration',
   },
   {
     id: 5,
@@ -49,7 +49,7 @@ const services = [
     gifImage: '/services/contentwriting.gif',
     title: 'Content Creation',
     slogan: 'Content that engages',
-    link: '/digital-marketing',
+    link: '/contentcreation',
   },
   {
     id: 7,
@@ -65,7 +65,7 @@ const services = [
     gifImage: '/services/training.gif',
     title: 'Career & Training',
     slogan: 'Empower your future',
-    link: '/development#career-training',
+    link: '/career',
   },
 ]
 
@@ -81,11 +81,9 @@ const OurServices = () => {
       </div>
 
       <div className="our-services-heading-container">
-        <div className="our-services-line"></div>
-        <div className="our-services-dot"></div>
-        <h2 className="our-services-section-heading">Our Services</h2>
-        <div className="our-services-dot"></div>
-        <div className="our-services-line"></div>
+        
+        <h2 className="our-services-section-heading"> <span className='blackword' >OUR</span> SERVICES</h2>
+        
       </div>
 
       <div className="our-services-grid">

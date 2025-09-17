@@ -15,6 +15,9 @@ import ScrollToTop from './components/common/ScrollToTop'
 import WebDevelopmentPage from './pages/webdevelopment'
 import AppDevelopmentPage from './pages/appdevelopment'
 import ChatbotDevelopmentPage from './pages/chatbotdevelopment'
+import LeadGenerationPage from './pages/leadgeneration'
+import ContentCreationPage from './pages/ContentCreation'
+import CareerPage from './pages/career'
 import './App.css'
 
 function App() {
@@ -44,6 +47,9 @@ function App() {
         <Route path="/webdevelopment" element={<WebDevelopmentPage />} />
         <Route path="/appdevelopment" element={<AppDevelopmentPage />} />
         <Route path="/chatbotdevelopment" element={<ChatbotDevelopmentPage />} />
+        <Route path="/leadgeneration" element={<LeadGenerationPage />} />
+        <Route path="/contentcreation" element={<ContentCreationPage />} />
+        <Route path="/career" element={<CareerPage />} />
       </Routes>
       <Footer />
     </>

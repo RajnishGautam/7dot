@@ -10,35 +10,34 @@ import {
 } from 'lucide-react'
 import './ChatbotServiceSection.css'
 
-const ChatbotServiceSection = () => {
+const LeadGenerationSection = () => {
   const [isHovered, setIsHovered] = useState(false)
 
   const features = [
-    { icon: <Brain className="w-5 h-5" />, text: 'Advanced AI & NLP' },
-    { icon: <Code2 className="w-5 h-5" />, text: 'Custom Development' },
-    { icon: <Users className="w-5 h-5" />, text: 'Multi-platform Integration' },
-    { icon: <Zap className="w-5 h-5" />, text: 'Real-time Learning' },
+    { icon: <Brain className="w-5 h-5" />, text: 'Targeted Audience Research' },
+    { icon: <Code2 className="w-5 h-5" />, text: 'Automated Prospect Outreach' },
+    { icon: <Users className="w-5 h-5" />, text: 'Multi-Channel Campaigns' },
+    { icon: <Zap className="w-5 h-5" />, text: 'AI-Powered Data Insights' },
+    { icon: <MessageCircle className="w-5 h-5" />, text: 'Personalized Messaging' },
+    { icon: <Users className="w-5 h-5" />, text: 'Lead Nurturing Funnels' },
   ]
 
   const benefits = [
-    '24/7 Customer Support Automation',
-    'Personalized User Interactions',
-    'Seamless CRM Integration',
-    'Advanced Analytics & Insights',
-  ]
-
-  const whyChoose = [
-    'Tailored AI solutions for your business goals',
-    'Scalable architecture for startups & enterprises',
-    'Proven expertise in AI & automation',
-    'End-to-end support from development to deployment',
+    'Consistent Stream of Qualified Leads',
+    'Improved Conversion Rates',
+    'Reduced Marketing Costs',
+    'Scalable and Data-Driven Strategies',
+    'Better ROI from Sales Campaigns',
+    'Improved Brand Visibility and Trust',
   ]
 
   const useCases = [
-    'E-commerce: Automate product recommendations and order tracking',
-    'Healthcare: Appointment booking and patient support',
-    'Finance: Instant query resolution and transaction support',
-    'Education: Virtual assistants for student engagement',
+    'B2B: Build targeted pipelines for enterprise clients',
+    'E-commerce: Drive traffic and boost product sales',
+    'Real Estate: Generate buyer and seller leads',
+    'Healthcare: Attract new patients and appointments',
+    'Education: Enroll more students through campaigns',
+    'Finance: Acquire qualified prospects for services',
   ]
 
   return (
@@ -49,14 +48,19 @@ const ChatbotServiceSection = () => {
           <div className="chatbot-left">
             <div className="chatbot-heading desktop-heading">
               <h2>
-                Personalized AI <span>Chatbots</span>
+                Smart Business <span>Lead Generation</span>
               </h2>
               <p>
-                We design and build advanced conversational AI chatbots
-                that transform the way businesses connect with customers.
-                Our intelligent bots streamline operations, reduce costs,
-                and enhance customer engagement through natural,
-                human-like interactions.
+                We deliver customized lead generation strategies designed to
+                attract, engage, and convert your ideal customers. Using modern
+                tools and proven methods, we help businesses maximize outreach,
+                build stronger pipelines, and achieve consistent growth.
+              </p>
+              <p>
+                Our approach combines audience research, automation, and
+                personalized engagement across multiple channels including email,
+                social media, and paid campaigns. We focus on quality over
+                quantity to ensure every lead adds value to your business.
               </p>
             </div>
 
@@ -80,11 +84,12 @@ const ChatbotServiceSection = () => {
 
             {/* Why Choose Us */}
             <div className="chatbot-why-choose">
-              <h3>Why Choose Our Chatbot Solutions?</h3>
+              <h3>Why Choose Our Lead Generation Services?</h3>
               <ul>
-                {whyChoose.map((point, index) => (
-                  <li key={index}>{point}</li>
-                ))}
+                <li>Proven track record of delivering high-quality leads</li>
+                <li>Customized strategies tailored to your industry</li>
+                <li>End-to-end support from prospecting to conversion</li>
+                <li>Transparent reporting and measurable results</li>
               </ul>
             </div>
 
@@ -109,7 +114,7 @@ const ChatbotServiceSection = () => {
                   onMouseEnter={() => setIsHovered(true)}
                   onMouseLeave={() => setIsHovered(false)}
                 >
-                  Get Your Custom Chatbot
+                  Boost Your Lead Generation
                   <ArrowRight className="arrow" />
                 </button>
               </a>
@@ -118,8 +123,8 @@ const ChatbotServiceSection = () => {
 
           <div className="chatbot-right">
             <img
-              src="/services/chatbotilu.png"
-              alt="Chatbot illustration"
+              src="/services/leadgeneration.png"
+              alt="Lead Generation illustration"
               className="chatbot-image"
             />
           </div>
@@ -129,18 +134,22 @@ const ChatbotServiceSection = () => {
         <div className="chatbot-mobile-wrapper">
           <div className="chatbot-heading mobile-heading">
             <h2>
-              Personalized AI <span>Chatbots</span>
+              Smart <span>Lead Generation</span>
             </h2>
             <p>
-              Our AI chatbots deliver smarter customer experiences by
-              automating conversations, resolving queries instantly, and
-              keeping your business available around the clock.
+              We design result-oriented lead generation campaigns that focus on
+              reaching the right audience, driving meaningful interactions, and
+              converting prospects into loyal customers.
+            </p>
+            <p>
+              Our proven methods combine automation, personalization, and
+              analytics to give your business an edge over competitors.
             </p>
           </div>
 
           <img
-            src="/services/chatbotilu.png"
-            alt="Chatbot illustration"
+            src="/services/leadgeneration.png"
+            alt="Lead Generation illustration"
             className="chatbot-image"
           />
 
@@ -162,18 +171,18 @@ const ChatbotServiceSection = () => {
             ))}
           </div>
 
-          {/* Why Choose Us */}
           <div className="chatbot-why-choose">
             <h3>Why Choose Us?</h3>
             <ul>
-              {whyChoose.map((point, index) => (
-                <li key={index}>{point}</li>
-              ))}
+              <li>Industry-specific targeting and research</li>
+              <li>Multi-channel lead generation campaigns</li>
+              <li>Focus on quality and long-term relationships</li>
+              <li>Data-driven strategies for consistent growth</li>
             </ul>
           </div>
 
           {/* Use Cases */}
-          <div className="chatbot-use-cases">
+          <div className="chatbot-why-choose">
             <h3>Use Cases</h3>
             <ul>
               {useCases.map((useCase, index) => (
@@ -193,7 +202,7 @@ const ChatbotServiceSection = () => {
                 onMouseEnter={() => setIsHovered(true)}
                 onMouseLeave={() => setIsHovered(false)}
               >
-                Get Your Custom Chatbot
+                Boost Your Lead Generation
                 <ArrowRight className="arrow" />
               </button>
             </a>
@@ -204,4 +213,4 @@ const ChatbotServiceSection = () => {
   )
 }
 
-export default ChatbotServiceSection
+export default LeadGenerationSection

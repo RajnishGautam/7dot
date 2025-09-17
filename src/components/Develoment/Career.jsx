@@ -1,44 +1,51 @@
 import React, { useState } from 'react'
 import {
-  MessageCircle,
-  Zap,
-  Brain,
+  BookOpen,
+  Laptop,
+  PenTool,
+  Globe,
   Users,
-  ArrowRight,
-  Code2,
   CheckCircle,
+  ArrowRight,
 } from 'lucide-react'
 import './ChatbotServiceSection.css'
 
-const ChatbotServiceSection = () => {
+const CareerTrainingSection = () => {
   const [isHovered, setIsHovered] = useState(false)
 
   const features = [
-    { icon: <Brain className="w-5 h-5" />, text: 'Advanced AI & NLP' },
-    { icon: <Code2 className="w-5 h-5" />, text: 'Custom Development' },
-    { icon: <Users className="w-5 h-5" />, text: 'Multi-platform Integration' },
-    { icon: <Zap className="w-5 h-5" />, text: 'Real-time Learning' },
+    { icon: <Laptop className="w-5 h-5" />, text: 'Hands-on Web Development' },
+    { icon: <Globe className="w-5 h-5" />, text: 'Digital Marketing Campaigns' },
+    { icon: <PenTool className="w-5 h-5" />, text: 'Creative Graphics Design' },
+    { icon: <BookOpen className="w-5 h-5" />, text: 'Content Writing Mastery' },
+    { icon: <Users className="w-5 h-5" />, text: 'Soft Skills & Communication' },
+    { icon: <CheckCircle className="w-5 h-5" />, text: 'Guaranteed Placement Support' },
   ]
 
   const benefits = [
-    '24/7 Customer Support Automation',
-    'Personalized User Interactions',
-    'Seamless CRM Integration',
-    'Advanced Analytics & Insights',
+    'Industry-Relevant Curriculum designed by experts',
+    'Work on Live Projects during training',
+    'Personal Mentorship and Career Guidance',
+    'Interview Preparation and Resume Building',
+    'Internship + Job Placement Assistance',
+    'Certification Recognized by Companies',
   ]
 
-  const whyChoose = [
-    'Tailored AI solutions for your business goals',
-    'Scalable architecture for startups & enterprises',
-    'Proven expertise in AI & automation',
-    'End-to-end support from development to deployment',
+  const trainingTypes = [
+    'Full-Stack Web Development (MERN / MEAN)',
+    'Digital Marketing & SEO',
+    'Graphics and UI/UX Design',
+    'Content Writing & Blogging',
+    'Social Media Marketing',
+    'Corporate Soft Skills & Communication',
   ]
 
   const useCases = [
-    'E-commerce: Automate product recommendations and order tracking',
-    'Healthcare: Appointment booking and patient support',
-    'Finance: Instant query resolution and transaction support',
-    'Education: Virtual assistants for student engagement',
+    'Students: Build job-ready skills for future',
+    'Professionals: Upskill or switch career paths',
+    'Entrepreneurs: Learn digital tools for growth',
+    'Freelancers: Master high-demand services',
+    'Job Seekers: Get placement-ready training',
   ]
 
   return (
@@ -49,14 +56,18 @@ const ChatbotServiceSection = () => {
           <div className="chatbot-left">
             <div className="chatbot-heading desktop-heading">
               <h2>
-                Personalized AI <span>Chatbots</span>
+                Career <span>Training & Development</span>
               </h2>
               <p>
-                We design and build advanced conversational AI chatbots
-                that transform the way businesses connect with customers.
-                Our intelligent bots streamline operations, reduce costs,
-                and enhance customer engagement through natural,
-                human-like interactions.
+                We offer career-focused training programs built to make you
+                industry-ready. Our courses combine theory, practice, and
+                mentorship to help you master in-demand skills and secure
+                successful career opportunities.
+              </p>
+              <p>
+                From coding and digital marketing to graphics and soft skills,
+                we provide comprehensive training with a focus on real-world
+                applications and guaranteed placement support.
               </p>
             </div>
 
@@ -78,19 +89,19 @@ const ChatbotServiceSection = () => {
               ))}
             </div>
 
-            {/* Why Choose Us */}
-            <div className="chatbot-why-choose">
-              <h3>Why Choose Our Chatbot Solutions?</h3>
+            {/* Training Types */}
+            <div className="chatbot-training-types">
+              <h3>Types of Training We Offer</h3>
               <ul>
-                {whyChoose.map((point, index) => (
-                  <li key={index}>{point}</li>
+                {trainingTypes.map((type, index) => (
+                  <li key={index}>{type}</li>
                 ))}
               </ul>
             </div>
 
             {/* Use Cases */}
             <div className="chatbot-why-choose">
-              <h3>Use Cases</h3>
+              <h3>Who Can Benefit?</h3>
               <ul>
                 {useCases.map((useCase, index) => (
                   <li key={index}>{useCase}</li>
@@ -109,7 +120,7 @@ const ChatbotServiceSection = () => {
                   onMouseEnter={() => setIsHovered(true)}
                   onMouseLeave={() => setIsHovered(false)}
                 >
-                  Get Your Custom Chatbot
+                  Start Your Career Training
                   <ArrowRight className="arrow" />
                 </button>
               </a>
@@ -118,8 +129,8 @@ const ChatbotServiceSection = () => {
 
           <div className="chatbot-right">
             <img
-              src="/services/chatbotilu.png"
-              alt="Chatbot illustration"
+              src="/services/careertraining.png"
+              alt="Career Training illustration"
               className="chatbot-image"
             />
           </div>
@@ -129,18 +140,18 @@ const ChatbotServiceSection = () => {
         <div className="chatbot-mobile-wrapper">
           <div className="chatbot-heading mobile-heading">
             <h2>
-              Personalized AI <span>Chatbots</span>
+              Career <span>Training</span>
             </h2>
             <p>
-              Our AI chatbots deliver smarter customer experiences by
-              automating conversations, resolving queries instantly, and
-              keeping your business available around the clock.
+              Unlock your potential with job-ready skills, live projects, and
+              guaranteed placement support. Our training helps you stand out in
+              today’s competitive job market.
             </p>
           </div>
 
           <img
-            src="/services/chatbotilu.png"
-            alt="Chatbot illustration"
+            src="/services/careertraining.png"
+            alt="Career Training illustration"
             className="chatbot-image"
           />
 
@@ -162,19 +173,17 @@ const ChatbotServiceSection = () => {
             ))}
           </div>
 
-          {/* Why Choose Us */}
-          <div className="chatbot-why-choose">
-            <h3>Why Choose Us?</h3>
+          <div className="chatbot-training-types">
+            <h3>Training Programs</h3>
             <ul>
-              {whyChoose.map((point, index) => (
-                <li key={index}>{point}</li>
+              {trainingTypes.map((type, index) => (
+                <li key={index}>{type}</li>
               ))}
             </ul>
           </div>
 
-          {/* Use Cases */}
-          <div className="chatbot-use-cases">
-            <h3>Use Cases</h3>
+          <div className="chatbot-why-choose">
+            <h3>Who Can Join?</h3>
             <ul>
               {useCases.map((useCase, index) => (
                 <li key={index}>{useCase}</li>
@@ -193,7 +202,7 @@ const ChatbotServiceSection = () => {
                 onMouseEnter={() => setIsHovered(true)}
                 onMouseLeave={() => setIsHovered(false)}
               >
-                Get Your Custom Chatbot
+                Start Your Career Training
                 <ArrowRight className="arrow" />
               </button>
             </a>
@@ -204,4 +213,4 @@ const ChatbotServiceSection = () => {
   )
 }
 
-export default ChatbotServiceSection
+export default CareerTrainingSection

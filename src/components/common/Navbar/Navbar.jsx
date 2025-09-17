@@ -23,10 +23,10 @@ const servicesData = [
   { name: 'Branding', path: '/branding', image: '/services/branding.png' },
   { name: 'AI Chatbots', path: '/chatbotdevelopment', image: '/services/chatbot.png' },
   { name: 'Web Development', path: '/webdevelopment', image: '/services/webdevelopment.png' },
-  { name: 'Lead Generation', path: '/digital-marketing', image: '/services/leads.png' },
-  { name: 'Content Creation', path: '/digital-marketing', image: '/services/contentwriting.png' },
+  { name: 'Lead Generation', path: '/leadgeneration', image: '/services/leads.png' },
+  { name: 'Content Creation', path: '/contentcreation', image: '/services/contentwriting.png' },
   { name: 'Digital Marketing', path: '/digital-marketing', image: '/services/marketing.png' },
-  { name: 'Career & Training', path: '/development#career-training', image: '/services/training.png' },
+  { name: 'Career & Training', path: '/career', image: '/services/training.png' },
   { name: 'Mobile App Development', path: '/appdevelopment', image: '/services/appdevelopment.png' }
 ]
 

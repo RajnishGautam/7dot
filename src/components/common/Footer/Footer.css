@@ -110,7 +110,7 @@
 /* ---------- Footer Bottom ---------- */
 .footer-bottom {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
   padding-top: 0.5rem;
   border-top: 1px solid var(--border-color);
@@ -121,13 +121,7 @@
   margin-right: auto;
 }
 
-.footer-left {
-  text-align: left;
-}
 
-.footer-right {
-  text-align: right;
-}
 
 /* Heart Animation */
 .heart {

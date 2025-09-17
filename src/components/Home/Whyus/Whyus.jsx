@@ -349,29 +349,12 @@ const WhyUs3DCards = () => {
   font-weight: 300;
   margin-bottom: 1rem;
   text-align:center;
+  color:var(--text-color);
 }
 
-.dark .section-title {
-  color: #ffffff;
-}
 
-.light .section-title {
-  color: #111111;
-}
 
-.section-subtitle {
-  font-size: 1.2rem;
-  font-weight: normal;
-  opacity: 0.8;
-}
 
-.dark .section-subtitle {
-  color: #ffffff;
-}
-
-.light .section-subtitle {
-  color: #111111;
-}
 
 .cards-container {
   position: relative;
@@ -527,15 +510,10 @@ const WhyUs3DCards = () => {
   font-family: 'Sarabun', sans-serif;
   margin-bottom: 0.5rem;
   line-height: 1;
+  color:var(--text-color);
 }
 
-.dark .card-title {
-  color: white;
-}
 
-.light .card-title {
-  color: #111111;
-}
 
 .card-hover-effect {
   position: absolute;
@@ -650,13 +628,13 @@ const WhyUs3DCards = () => {
 }
 
 .dark .expanded-card {
-  background: rgba(255, 255, 255, 0.1);
-  border: 1px solid rgba(255, 255, 255, 0.2);
+  background:var(--bg-card);
+  border: 1px solid #8e1616;
 }
 
 .light .expanded-card {
-  background: rgba(255, 255, 255, 0.98);
-  border: 1px solid rgba(0, 0, 0, 0.06);
+  background: var(--bg-card);
+  border: 1px solid #8e1616;
   box-shadow:
     0 24px 48px rgba(0, 0, 0, 0.08),
     0 8px 24px rgba(0, 0, 0, 0.04);
@@ -739,15 +717,10 @@ const WhyUs3DCards = () => {
   font-family: 'Sarabun', sans-serif;
   opacity: 1; 
   letter-spacing: 0.1rem;
+  color:var(--text-color);
 }
 
-.dark .expanded-subtitle {
-  color: #ffffff;
-}
 
-.light .expanded-subtitle {
-  color: rgba(17, 17, 17, 0.7);
-}
 
 .expanded-description-container {
   flex: 1;
@@ -761,15 +734,10 @@ const WhyUs3DCards = () => {
   line-height: 1;
   font-weight: 300;
   justify-content: space-between;
+  color:var(--text-color);
 }
 
-.dark .expanded-description {
-  color: rgba(255, 255, 255, 0.9);
-}
 
-.light .expanded-description {
-  color: rgba(17, 17, 17, 0.8);
-}
 
 .facts-grid-horizontal {
   display: grid;
@@ -789,20 +757,11 @@ const WhyUs3DCards = () => {
   gap: 0.8rem;
   transition: all 0.3s ease;
   animation: factSlideIn 0.6s ease-out;
+  background: var(--bg-card);
+  border:1px solid #8e1616;
 }
 
-.dark .fact-card-horizontal {
-  background: rgba(255, 255, 255, 0.1);
-  border: 1px solid rgba(255, 255, 255, 0.2);
-}
 
-.light .fact-card-horizontal {
-  background: rgba(255, 255, 255, 0.9);
-  border: 1px solid rgba(0, 0, 0, 0.06);
-  box-shadow:
-    0 6px 20px rgba(0, 0, 0, 0.06),
-    0 2px 8px rgba(0, 0, 0, 0.02);
-}
 
 .fact-card-horizontal:nth-child(1) { animation-delay: 0.1s; }
 .fact-card-horizontal:nth-child(2) { animation-delay: 0.2s; }
@@ -852,15 +811,10 @@ const WhyUs3DCards = () => {
   font-family: 'Sarabun', sans-serif;
   font-weight: normal;
   line-height: 1.2;
+  color:var(--text-color)
 }
 
-.dark .fact-value {
-  color: white;
-}
 
-.light .fact-value {
-  color: #111111;
-}
 
 .fact-label {
   font-size: .8rem;
@@ -869,15 +823,10 @@ const WhyUs3DCards = () => {
   opacity: 1.8;
   letter-spacing: 0.05rem;
   line-height: 1;
+  color:var(--text-color);
 }
 
-.dark .fact-label {
-  color: rgba(255, 255, 255, 1);
-}
 
-.light .fact-label {
-  color: rgba(17, 17, 17, 0.6);
-}
 
 @keyframes fadeInUp {
   from {

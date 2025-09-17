@@ -144,12 +144,10 @@ const Footer = () => {
 
         {/* Bottom Bar */}
         <div className="footer-bottom">
-          <p className="footer-left">
-            © {new Date().getFullYear()} 7dotIT. All rights reserved.
+          <p>
+            © {new Date().getFullYear()} 7DotIt. All rights reserved.
           </p>
-          <p className="footer-right">
-            Made with <span className="heart">❤️</span> by 7dotIT
-          </p>
+          
         </div>
       </div>
     </footer>
