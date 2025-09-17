@@ -14,21 +14,21 @@ const testimonialsData = [
     role: "School",
     avatar: "/testinomials/fnic.jpg",
     rating: 5,
-    text: "7DotIt created a professional, user-friendly website for my school with excellent service and timely support. Highly recommended."
+    text: "7Dot It created a professional, user-friendly website for my school with excellent service and timely support. Highly recommended."
   },
   {
     name: "Martiza Lopez Palacio",
     role: "Fashion Influencer",
     avatar: "/testinomials/marlo.png",
     rating: 5,
-    text: "Punto7x built a modern, responsive website for our business, combining sleek design with excellent functionality and support."
+    text: "7Dot It built a modern, responsive website for our business, combining sleek design with excellent functionality and support."
   },
   {
     name: "Yazmin Gallegos",
     role: "SM Influencer",
     avatar: "/testinomials/yazmin.png",
     rating: 5,
-    text: "Punto7x crafted smart marketing strategies that boosted our brand visibility and drove consistent customer engagement."
+    text: "7Dot It crafted smart marketing strategies that boosted our brand visibility and drove consistent customer engagement."
   },
   {
     name: "Enrique Gomez",
@@ -42,14 +42,14 @@ const testimonialsData = [
     role: "Educator",
     avatar: "/testinomials/jennifer.jpg",
     rating: 5,
-    text: "Punto7x delivered effective lead generation campaigns, bringing quality leads and improving our conversion rates significantly over time."
+    text: "7Dot It delivered effective lead generation campaigns, bringing quality leads and improving our conversion rates significantly over time."
   },
   {
     name: "Veronica",
     role: "SM Influencer",
     avatar: "/testinomials/veronica.jpg",
     rating: 5,
-    text: "Punto7x managed my social media marketing with creativity, increasing engagement and building stronger connections online."
+    text: "7Dot It managed my social media marketing with creativity, increasing engagement and building stronger connections online."
   },
   {
     name: "Abraham",

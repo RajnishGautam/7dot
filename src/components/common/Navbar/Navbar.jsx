@@ -4,7 +4,8 @@ import './Navbar.css'
 import MoonSunToggle from './MoonSunToggle'
 import logoLight from '../../../assets/logolightmode.png'
 import logoDark from '../../../assets/logodarkmode.png'
-import { FaBars, FaTimes, FaFacebookF, FaWhatsapp, FaInstagram, FaLinkedinIn, FaChevronDown } from 'react-icons/fa'
+import { FaBars, FaTimes, FaFacebookF, FaWhatsapp, FaInstagram, FaLinkedinIn} from 'react-icons/fa'
+import { FiChevronDown } from 'react-icons/fi'
 
 const Navbar = () => {
   const [darkMode, setDarkMode] = useState(() =>
@@ -101,7 +102,7 @@ const servicesData = [
               onMouseLeave={handleServicesMouseLeave}
             >
               SERVICES
-              <FaChevronDown className={`dropdown-arrow ${servicesDropdownOpen ? 'open' : ''}`} />
+              <FiChevronDown className={`dropdown-arrow ${servicesDropdownOpen ? 'open' : ''}`} />
 
               <div className={`navbar-dropdown-menu ${servicesDropdownOpen ? 'open' : ''}`}>
                 {servicesData.map((service, index) => (
@@ -209,7 +210,7 @@ const servicesData = [
                 onClick={() => toggleMobileDropdown('services')}
               >
                 SERVICES
-                <FaChevronDown
+                <FiChevronDown
                   className={`mobile-dropdown-arrow ${openDropdown === 'services' ? 'open' : ''}`}
                 />
               </div>

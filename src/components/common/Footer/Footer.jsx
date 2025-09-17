@@ -70,7 +70,7 @@ const Footer = () => {
                 <p>India Branch: 7dot It Solutions</p>
               </div>
               <div className="contactfooter-item">
-                <p>Other Location: Punto7X, Mexico</p>
+                <p>Other Location: 7Dot It, Mexico</p>
               </div>
               <p className="contactfooter-item">
                 Phone: <a href="tel:+917838649867">+91 7838649867</a>
@@ -79,7 +79,7 @@ const Footer = () => {
                 Phone: <a href="tel:+917838649867">+52 6634149718</a>
               </p>
               <p className="contactfooter-item">
-                Email: <a href="mailto:support@7dotit.solutions">support@7dotit.solutions</a>
+                Email: <a href="mailto:support@7Dot It.solutions">support@7Dot It.solutions</a>
               </p>
             </div>
           </div>
@@ -145,7 +145,7 @@ const Footer = () => {
         {/* Bottom Bar */}
         <div className="footer-bottom">
           <p>
-            © {new Date().getFullYear()} 7DotIt. All rights reserved.
+            © {new Date().getFullYear()} 7Dot It. All rights reserved.
           </p>
           
         </div>

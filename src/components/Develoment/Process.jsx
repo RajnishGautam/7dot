@@ -63,7 +63,7 @@ const ProcessSection = () => {
       number: '07',
       icon: '/process/launch.gif',
       staticIcon: '/process/launch.png',
-      title: 'Site Launch',
+      title: 'Launch',
       description:
         'We manage deployment seamlessly, ensuring smooth launch, optimized performance, and ongoing support with reliable monitoring.',
     },

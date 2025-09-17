@@ -6,7 +6,7 @@ const AboutHero = () => {
       <div className="abouthero-content">
         <h1>We Build Digital Experiences That Drive Growth</h1>
         <p>
-          Punto7x is your trusted web development company in Mexico, creating
+          7Dot It is your trusted web development company in Mexico, creating
           cutting-edge websites and digital solutions to help businesses grow.
         </p>
       </div>

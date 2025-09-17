@@ -216,7 +216,7 @@ const HybridGallery = () => {
     return (
       <div className="hg-loading-container">
         <div className="hg-loading-spinner"></div>
-        <p className="hg-loading-text">Loading Punto7X...</p>
+        <p className="hg-loading-text">Loading 7Dot It...</p>
       </div>
     )
   }
@@ -395,7 +395,7 @@ const HybridGallery = () => {
 
       <div className="hg-cta-section">
         <a
-          href="https://wa.me/917838649867?text=Hello%20Punto%20Design%20Team,%20I%20am%20interested%20in%20your%20branding%20services."
+          href="https://wa.me/917838649867?text=Hello%207Dot It%20Design%20Team,%20I%20am%20interested%20in%20your%20branding%20services."
           target="_blank"
           rel="noopener noreferrer"
           className="hg-cta-button"

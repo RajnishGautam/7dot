@@ -8,7 +8,7 @@ const PrivacyPolicy = () => {
         <div className="privacysection-icon"></div>
         <h1 className="privacysection-title">Privacy Policy</h1>
         <p className="privacysection-subtitle">
-          At Punto7x, your privacy is extremely important to us. This Privacy
+          At 7Dot It, your privacy is extremely important to us. This Privacy
           Policy explains how we collect, use, and protect your information when
           you visit our website, use our services, or interact with our
           advertisements.
@@ -224,13 +224,13 @@ const PrivacyPolicy = () => {
             </p>
             <div className="privacysection-contact-info">
               <div className="privacysection-contact-item">
-                <strong>Punto7x</strong>
+                <strong>7Dot It</strong>
               </div>
               <div className="privacysection-contact-item">
-                <span>Website: www.punto7x.com</span>
+                <span>Website: www.7Dot It.com</span>
               </div>
               <div className="privacysection-contact-item">
-                <span>Email: info@punto7x.com</span>
+                <span>Email: info@7Dot It.com</span>
               </div>
             </div>
           </div>

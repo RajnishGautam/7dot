@@ -1,15 +1,15 @@
 export const blogData = [
   {
   id: 1,
-  metaTitle: "Affordable Website Development Company in Mexico & USA | Punto 7x",
-  metaDescription: "Punto 7x offers professional, affordable website development services in Mexico & USA. We build responsive, SEO-friendly websites that help your business grow.",
+  metaTitle: "Affordable Website Development Company in Mexico & USA | 7Dot It",
+  metaDescription: "7Dot It offers professional, affordable website development services in Mexico & USA. We build responsive, SEO-friendly websites that help your business grow.",
   title: "Professional Website Development Company in Mexico & USA",
   image: "/blog/webdevelopment.jpg",
-  excerpt: "Punto 7x specializes in custom website development for Mexico & USA — delivering responsive, SEO-optimized, and high-converting sites.",
+  excerpt: "7Dot It specializes in custom website development for Mexico & USA — delivering responsive, SEO-optimized, and high-converting sites.",
   content: `
     <h1>Professional Website Development for Businesses in Mexico & USA</h1>
 
-    <p>In the digital age, your website is more than just a business tool — it’s the <strong>face of your brand</strong>. Customers in Mexico and the USA expect websites that are fast, responsive, and visually appealing. At Punto 7x, we deliver <strong>custom website development</strong> solutions that combine creativity, functionality, and SEO optimization to help your business stand out and convert visitors into loyal customers.</p>
+    <p>In the digital age, your website is more than just a business tool — it’s the <strong>face of your brand</strong>. Customers in Mexico and the USA expect websites that are fast, responsive, and visually appealing. At 7Dot It, we deliver <strong>custom website development</strong> solutions that combine creativity, functionality, and SEO optimization to help your business stand out and convert visitors into loyal customers.</p>
 
     <h2>Why a Strong Website is Critical</h2>
     <p>Websites are often the first point of contact for potential customers. In Mexico, mobile usage dominates, and pages that load slowly can lose users instantly. In the USA, visitors expect seamless navigation, professional design, and a clear path to conversion. A well-built website ensures:</p>
@@ -102,7 +102,7 @@ export const blogData = [
       <li>Analytics dashboards for performance insights</li>
     </ul>
 
-    <h2>Why Choose Punto 7x for Website Development</h2>
+    <h2>Why Choose 7Dot It for Website Development</h2>
     <ul>
       <li>Expertise in local and international markets</li>
       <li>Custom designs tailored to your audience</li>
@@ -112,7 +112,7 @@ export const blogData = [
     </ul>
 
     <h2>Conclusion</h2>
-    <p>Investing in a professionally developed website is no longer optional — it’s essential for businesses in Mexico and the USA to stay competitive. Punto 7x creates <strong>responsive, high-performing, SEO-optimized websites</strong> that engage users, drive conversions, and strengthen your brand’s online presence. Our end-to-end solutions, from design and development to analytics and integration, ensure your website is a powerful tool for growth.</p>
+    <p>Investing in a professionally developed website is no longer optional — it’s essential for businesses in Mexico and the USA to stay competitive. 7Dot It creates <strong>responsive, high-performing, SEO-optimized websites</strong> that engage users, drive conversions, and strengthen your brand’s online presence. Our end-to-end solutions, from design and development to analytics and integration, ensure your website is a powerful tool for growth.</p>
 
     <h2>FAQ</h2>
     <ul>
@@ -132,15 +132,15 @@ export const blogData = [
 
 {
   id: 2,
-  metaTitle: "Digital Marketing Agency in Mexico & USA | Punto 7x",
-  metaDescription: "Increase your visibility and sales with Punto 7x’s digital marketing services in Mexico & USA. We offer SEO, PPC, and social media strategies that deliver results.",
+  metaTitle: "Digital Marketing Agency in Mexico & USA | 7Dot It",
+  metaDescription: "Increase your visibility and sales with 7Dot It’s digital marketing services in Mexico & USA. We offer SEO, PPC, and social media strategies that deliver results.",
   title: "Digital Marketing That Drives Real Growth in Mexico & USA",
   image: "/blog/digitalmarketing.png",
-  excerpt: "Punto 7x boosts your business visibility with expert SEO, social media marketing, and paid ad campaigns tailored for Mexico & USA.",
+  excerpt: "7Dot It boosts your business visibility with expert SEO, social media marketing, and paid ad campaigns tailored for Mexico & USA.",
   content: `
     <h1>Digital Marketing That Drives Real Growth in Mexico & USA</h1>
 
-    <p>In today’s fast-paced digital world, businesses must stand out online to succeed. Consumers in Mexico and the USA have countless choices, and your website alone is no longer enough to capture attention. At Punto 7x, we specialize in <strong>data-driven digital marketing strategies</strong> that increase visibility, drive traffic, and generate real growth. Our services combine <strong>SEO, PPC advertising, social media marketing</strong>, and local targeting to reach your ideal customers effectively.</p>
+    <p>In today’s fast-paced digital world, businesses must stand out online to succeed. Consumers in Mexico and the USA have countless choices, and your website alone is no longer enough to capture attention. At 7Dot It, we specialize in <strong>data-driven digital marketing strategies</strong> that increase visibility, drive traffic, and generate real growth. Our services combine <strong>SEO, PPC advertising, social media marketing</strong>, and local targeting to reach your ideal customers effectively.</p>
 
     <h2>Why Digital Marketing is Essential</h2>
     <p>The internet is the first stop for most consumers looking for products or services. In Mexico, buyers often discover brands through <strong>Facebook ads</strong>, Instagram campaigns, and Google searches. In the USA, professionals are influenced by <strong>LinkedIn outreach</strong> and targeted social media content. Without a cohesive digital marketing strategy, your business risks being invisible to the very audience that matters most.</p>
@@ -221,7 +221,7 @@ export const blogData = [
       <li>Analytics: Google Analytics, Hotjar, Mixpanel</li>
     </ul>
 
-    <h2>Why Choose Punto 7x</h2>
+    <h2>Why Choose 7Dot It</h2>
     <p>Our agency combines expertise, creativity, and a deep understanding of the Mexico and USA markets:</p>
     <ul>
       <li>Customized strategies for every business and industry</li>
@@ -232,8 +232,8 @@ export const blogData = [
     </ul>
 
     <h2>Conclusion</h2>
-    <p>Digital marketing is no longer optional—it is essential for businesses that want to grow in Mexico and the USA. With SEO, social media campaigns, PPC advertising, and local targeting, Punto 7x provides the expertise needed to increase visibility, engage customers, and drive revenue. Our tailored strategies ensure that every dollar invested delivers measurable results.</p>
-    <p>Partner with Punto 7x to leverage a <strong>comprehensive digital marketing approach</strong> that boosts brand awareness, generates leads, and maximizes ROI in Mexico and the USA.</p>
+    <p>Digital marketing is no longer optional—it is essential for businesses that want to grow in Mexico and the USA. With SEO, social media campaigns, PPC advertising, and local targeting, 7Dot It provides the expertise needed to increase visibility, engage customers, and drive revenue. Our tailored strategies ensure that every dollar invested delivers measurable results.</p>
+    <p>Partner with 7Dot It to leverage a <strong>comprehensive digital marketing approach</strong> that boosts brand awareness, generates leads, and maximizes ROI in Mexico and the USA.</p>
 
     <h2>FAQ</h2>
     <ul>
@@ -252,14 +252,14 @@ export const blogData = [
 
 {
   id: 3,
-  metaTitle: "Custom App Development Mexico & USA | Punto 7x",
-  metaDescription: "Build powerful mobile and web apps with Punto 7x. Serving Mexico & USA, we deliver apps that drive engagement and revenue.",
+  metaTitle: "Custom App Development Mexico & USA | 7Dot It",
+  metaDescription: "Build powerful mobile and web apps with 7Dot It. Serving Mexico & USA, we deliver apps that drive engagement and revenue.",
   title: "Custom Mobile App Development in Mexico & USA",
   image: "/blog/appdevelopment.jpg",
   excerpt: "We create iOS, Android, and web apps with stunning UI/UX and seamless performance for businesses in Mexico & USA.",
   content: `
     <h1>Custom Mobile App Development in Mexico & USA</h1>
-    <p>Mobile applications have become a cornerstone for business growth. With the surge in smartphone usage, apps provide a direct channel to engage your customers, improve operational efficiency, and drive revenue. At Punto 7x, we specialize in <strong>custom app development</strong> for businesses in <strong>Mexico and the USA</strong>, delivering solutions that combine innovative design, robust functionality, and seamless performance across platforms.</p>
+    <p>Mobile applications have become a cornerstone for business growth. With the surge in smartphone usage, apps provide a direct channel to engage your customers, improve operational efficiency, and drive revenue. At 7Dot It, we specialize in <strong>custom app development</strong> for businesses in <strong>Mexico and the USA</strong>, delivering solutions that combine innovative design, robust functionality, and seamless performance across platforms.</p>
 
     <h2>Why Businesses Need Mobile Apps</h2>
     <p>Apps are no longer just a convenience—they are essential for customer engagement and business growth. Some benefits include:</p>
@@ -272,7 +272,7 @@ export const blogData = [
     </ul>
 
     <h2>Our Mobile App Development Services</h2>
-    <p>Punto 7x provides end-to-end app development services tailored for businesses in Mexico & USA:</p>
+    <p>7Dot It provides end-to-end app development services tailored for businesses in Mexico & USA:</p>
 
     <h3>1. User-Centered Design</h3>
     <p>We prioritize the user experience by designing apps that are intuitive, visually engaging, and aligned with your brand identity. Our design process includes:</p>
@@ -366,8 +366,8 @@ export const blogData = [
     </ul>
 
     <h2>Conclusion</h2>
-    <p>Custom mobile and web apps are essential tools for businesses in Mexico and the USA to engage customers, increase revenue, and streamline operations. Punto 7x combines creativity, technical expertise, and market insight to deliver apps that not only look stunning but also perform flawlessly. By leveraging cross-platform development, robust security, and seamless integration, our apps ensure a competitive edge and measurable results.</p>
-    <p>Partner with Punto 7x for <strong>custom app development</strong> that elevates your business, enhances customer experiences, and drives growth in Mexico and the USA.</p>
+    <p>Custom mobile and web apps are essential tools for businesses in Mexico and the USA to engage customers, increase revenue, and streamline operations. 7Dot It combines creativity, technical expertise, and market insight to deliver apps that not only look stunning but also perform flawlessly. By leveraging cross-platform development, robust security, and seamless integration, our apps ensure a competitive edge and measurable results.</p>
+    <p>Partner with 7Dot It for <strong>custom app development</strong> that elevates your business, enhances customer experiences, and drives growth in Mexico and the USA.</p>
 
     <h2>FAQ</h2>
     <ul>
@@ -387,13 +387,13 @@ export const blogData = [
 
  {
   id: 4,
-  metaTitle: "Branding Agency in Mexico & USA | Punto 7x",
-  metaDescription: "Build a powerful brand with Punto 7x. We offer logo design, brand strategy, and creative services for businesses in Mexico & USA.",
+  metaTitle: "Branding Agency in Mexico & USA | 7Dot It",
+  metaDescription: "Build a powerful brand with 7Dot It. We offer logo design, brand strategy, and creative services for businesses in Mexico & USA.",
   title: "Branding That Tells Your Story in Mexico & USA",
   image: "/blog/branding.jpg",
-  excerpt: "Punto 7x crafts unforgettable brand identities through strategy, design, and creative marketing in Mexico & USA.",
+  excerpt: "7Dot It crafts unforgettable brand identities through strategy, design, and creative marketing in Mexico & USA.",
   content: `
-    <p>Your brand is much more than a logo — it is the story people remember about your business, the promise you deliver, and the emotions you evoke. At Punto 7x, we specialize in creating <strong>memorable and cohesive brand identities</strong> for businesses in <strong>Mexico and the USA</strong>. By blending creativity, strategy, and market insight, we help companies establish a strong presence, differentiate from competitors, and resonate with their target audiences.</p>
+    <p>Your brand is much more than a logo — it is the story people remember about your business, the promise you deliver, and the emotions you evoke. At 7Dot It, we specialize in creating <strong>memorable and cohesive brand identities</strong> for businesses in <strong>Mexico and the USA</strong>. By blending creativity, strategy, and market insight, we help companies establish a strong presence, differentiate from competitors, and resonate with their target audiences.</p>
 
     <h2>Why Branding is Essential</h2>
     <p>Branding is not just a visual identity; it is the backbone of your business. A strong brand conveys trust, professionalism, and credibility. For businesses in Mexico, branding helps establish recognition within local communities, while in the USA, it creates a competitive edge in a saturated market. Key benefits include:</p>
@@ -406,7 +406,7 @@ export const blogData = [
     </ul>
 
     <h2>Our Comprehensive Branding Services</h2>
-    <p>At Punto 7x, we provide end-to-end branding solutions designed to elevate your business presence:</p>
+    <p>At 7Dot It, we provide end-to-end branding solutions designed to elevate your business presence:</p>
 
     <h3>Logo & Visual Identity Design</h3>
     <p>Your logo is the cornerstone of your brand. We craft logos that capture your brand personality, values, and vision. From color schemes to typography, every element is designed to communicate your unique identity. Our visual identity services also include:</p>
@@ -444,7 +444,7 @@ export const blogData = [
       <li>Engagement-focused designs that attract clicks and interactions</li>
     </ul>
 
-    <h2>The Branding Process at Punto 7x</h2>
+    <h2>The Branding Process at 7Dot It</h2>
     <ol>
       <li><strong>Discovery & Research:</strong> Understanding your industry, competitors, and audience.</li>
       <li><strong>Strategy & Concept Development:</strong> Defining brand positioning, voice, and visual direction.</li>
@@ -479,7 +479,7 @@ export const blogData = [
     </ul>
 
     <h2>Integrating Branding with Digital Strategy</h2>
-    <p>Branding alone is not enough; it must work hand-in-hand with digital marketing and web presence. At Punto 7x, we help you:</p>
+    <p>Branding alone is not enough; it must work hand-in-hand with digital marketing and web presence. At 7Dot It, we help you:</p>
     <ul>
       <li>Enhance website UX/UI in line with brand guidelines</li>
       <li>Create social media campaigns that reflect brand voice</li>
@@ -488,7 +488,7 @@ export const blogData = [
     </ul>
 
     <h2>Conclusion</h2>
-    <p>Strong, strategic branding is the foundation of business success in Mexico and the USA. It builds recognition, trust, and emotional connection with your audience while supporting marketing, web, and social initiatives. Punto 7x delivers creative, data-driven, and culturally aware branding solutions that elevate your business, drive engagement, and generate measurable results.</p>
+    <p>Strong, strategic branding is the foundation of business success in Mexico and the USA. It builds recognition, trust, and emotional connection with your audience while supporting marketing, web, and social initiatives. 7Dot It delivers creative, data-driven, and culturally aware branding solutions that elevate your business, drive engagement, and generate measurable results.</p>
     <p>Partner with us to craft <strong>unique, memorable, and effective brand identities</strong> that tell your story, resonate with your audience, and make your business stand out in Mexico and the USA.</p>
 
     <h2>FAQ</h2>
@@ -504,13 +504,13 @@ export const blogData = [
 
 {
   id: 5,
-  metaTitle: "Cheapest Website Development Company in Mexico & USA | Punto 7x",
-  metaDescription: "Punto 7x provides professional, affordable website development services in Mexico & USA. Build responsive, SEO-friendly websites, increase traffic, and grow your business.",
+  metaTitle: "Cheapest Website Development Company in Mexico & USA | 7Dot It",
+  metaDescription: "7Dot It provides professional, affordable website development services in Mexico & USA. Build responsive, SEO-friendly websites, increase traffic, and grow your business.",
   title: "Professional Website Development Company in Mexico & USA",
   image: "/blog/webdevelopment2.jpg",
-  excerpt: "Punto 7x delivers custom website development in Mexico & USA — responsive, SEO-friendly, and conversion-optimized websites tailored to your business goals.",
+  excerpt: "7Dot It delivers custom website development in Mexico & USA — responsive, SEO-friendly, and conversion-optimized websites tailored to your business goals.",
   content: `
-    <p>In the modern digital landscape, your website serves as the <strong>primary touchpoint for your brand</strong>. Businesses in <strong>Mexico and the USA</strong> must have websites that are fast, mobile-friendly, and optimized for search engines. At Punto 7x, we specialize in <strong>custom website development</strong> that combines stunning visuals, seamless user experience, and strategic SEO to help your business grow locally and globally.</p>
+    <p>In the modern digital landscape, your website serves as the <strong>primary touchpoint for your brand</strong>. Businesses in <strong>Mexico and the USA</strong> must have websites that are fast, mobile-friendly, and optimized for search engines. At 7Dot It, we specialize in <strong>custom website development</strong> that combines stunning visuals, seamless user experience, and strategic SEO to help your business grow locally and globally.</p>
 
     <h2>Why Your Business Needs a High-Performance Website</h2>
     <p>Users expect websites to load quickly, look professional, and provide intuitive navigation. A slow or outdated website can cost you valuable leads. Our development ensures:</p>
@@ -554,7 +554,7 @@ export const blogData = [
     </ul>
 
     <h2>Boost Your Digital Presence Today</h2>
-    <p>At Punto 7x, we don’t just build websites; we build <strong>business growth platforms</strong>. Whether you are targeting local customers in Mexico or expanding in the USA, our expert team ensures your website drives traffic, generates leads, and converts visitors into loyal clients.</p>
+    <p>At 7Dot It, we don’t just build websites; we build <strong>business growth platforms</strong>. Whether you are targeting local customers in Mexico or expanding in the USA, our expert team ensures your website drives traffic, generates leads, and converts visitors into loyal clients.</p>
     
     <p>Enhance your marketing strategy with our <a href="/digital-marketing">digital marketing services</a> and reach more potential customers.</p>
     <p>Complement your website with a <a href="/development">custom mobile app</a> to provide seamless experiences on all devices.</p>
@@ -562,13 +562,13 @@ export const blogData = [
 },
   {
   id: 6,
-  metaTitle: "Responsive Web Design Services in Mexico & USA | Punto 7x",
-  metaDescription: "Boost your business with Punto 7x responsive web design services. We create mobile-friendly, SEO-optimized websites for Mexico & USA to increase traffic and conversions.",
+  metaTitle: "Responsive Web Design Services in Mexico & USA | 7Dot It",
+  metaDescription: "Boost your business with 7Dot It responsive web design services. We create mobile-friendly, SEO-optimized websites for Mexico & USA to increase traffic and conversions.",
   title: "Responsive Web Design for Businesses in Mexico & USA",
   image: "/blog/webdevelopment3.jpg",
   excerpt: "Create mobile-friendly, SEO-optimized websites that engage visitors, improve rankings, and convert leads into customers in Mexico & USA.",
   content: `
-    <p>In today’s digital-first world, your website must perform flawlessly across all devices. <strong>Responsive web design</strong> ensures that users have a seamless experience whether they are browsing on smartphones, tablets, laptops, or desktops. For businesses in <strong>Mexico and the USA</strong>, this is essential to engage audiences, enhance visibility, and increase conversions. At Punto 7x, we specialize in <strong>mobile-friendly, SEO-optimized web design</strong> that delivers both usability and measurable results.</p>
+    <p>In today’s digital-first world, your website must perform flawlessly across all devices. <strong>Responsive web design</strong> ensures that users have a seamless experience whether they are browsing on smartphones, tablets, laptops, or desktops. For businesses in <strong>Mexico and the USA</strong>, this is essential to engage audiences, enhance visibility, and increase conversions. At 7Dot It, we specialize in <strong>mobile-friendly, SEO-optimized web design</strong> that delivers both usability and measurable results.</p>
 
     <h2>Why Responsive Design is Critical for Your Business</h2>
     <p>With over 70% of web traffic coming from mobile devices, non-responsive websites risk losing potential customers. Responsive design offers:</p>
@@ -644,7 +644,7 @@ export const blogData = [
     </ol>
 
     <h2>Conclusion</h2>
-    <p>Responsive web design is no longer optional—it is a necessity for businesses in Mexico and the USA. A mobile-friendly, SEO-optimized website not only improves user experience but also boosts search engine rankings, drives conversions, and strengthens your brand presence. At Punto 7x, we provide end-to-end responsive design solutions that combine usability, performance, and aesthetics to create websites that truly engage and convert visitors.</p>
+    <p>Responsive web design is no longer optional—it is a necessity for businesses in Mexico and the USA. A mobile-friendly, SEO-optimized website not only improves user experience but also boosts search engine rankings, drives conversions, and strengthens your brand presence. At 7Dot It, we provide end-to-end responsive design solutions that combine usability, performance, and aesthetics to create websites that truly engage and convert visitors.</p>
     <p>Partner with us to build <strong>responsive, high-performance websites</strong> that adapt seamlessly to any device, attract more traffic, and generate tangible business results across Mexico and the USA.</p>
 
     <h2>FAQ</h2>
@@ -660,13 +660,13 @@ export const blogData = [
 
   {
   id: 7,
-  metaTitle: "Ecommerce Website Development in Mexico & USA | Punto 7x",
-  metaDescription: "Grow your online store with Punto 7x ecommerce website development services in Mexico & USA. We create secure, fast, mobile-friendly, and SEO-optimized online stores.",
+  metaTitle: "Ecommerce Website Development in Mexico & USA | 7Dot It",
+  metaDescription: "Grow your online store with 7Dot It ecommerce website development services in Mexico & USA. We create secure, fast, mobile-friendly, and SEO-optimized online stores.",
   title: "Ecommerce Website Development in Mexico & USA",
   image: "/blog/webdevelopment4.jpg",
-  excerpt: "Launch a high-converting, secure, and scalable ecommerce store for your business in Mexico & USA with Punto 7x.",
+  excerpt: "Launch a high-converting, secure, and scalable ecommerce store for your business in Mexico & USA with 7Dot It.",
   content: `
-    <p>The ecommerce market is growing rapidly in <strong>Mexico and the USA</strong>, making it essential for businesses to have professional, secure, and high-performing online stores. At Punto 7x, we specialize in <strong>ecommerce website development</strong> that helps businesses capture more sales, increase brand trust, and deliver seamless customer experiences.</p>
+    <p>The ecommerce market is growing rapidly in <strong>Mexico and the USA</strong>, making it essential for businesses to have professional, secure, and high-performing online stores. At 7Dot It, we specialize in <strong>ecommerce website development</strong> that helps businesses capture more sales, increase brand trust, and deliver seamless customer experiences.</p>
 
     <h2>Why Ecommerce Websites Are Critical for Your Business</h2>
     <p>Online shoppers expect fast, secure, and easy-to-navigate stores. A poorly designed ecommerce website can lead to lost revenue. Our solutions ensure:</p>
@@ -711,18 +711,18 @@ export const blogData = [
     </ul>
 
     <h2>Grow Your Ecommerce Business</h2>
-    <p>Combine your ecommerce website with our <a href="/digital-marketing">digital marketing campaigns</a> to increase traffic and sales. Enhance customer engagement with a <a href="/app">custom mobile app</a> for shopping on the go. Partner with Punto 7x to build a <strong>secure, fast, scalable, and conversion-focused online store</strong> in Mexico and the USA.</p>
+    <p>Combine your ecommerce website with our <a href="/digital-marketing">digital marketing campaigns</a> to increase traffic and sales. Enhance customer engagement with a <a href="/app">custom mobile app</a> for shopping on the go. Partner with 7Dot It to build a <strong>secure, fast, scalable, and conversion-focused online store</strong> in Mexico and the USA.</p>
   `
 },
   {
   id: 8,
-  metaTitle: "SEO-Friendly Websites for Mexico & USA | Punto 7x",
-  metaDescription: "Enhance your online visibility with Punto 7x SEO-optimized website development in Mexico & USA. Build fast, mobile-friendly websites that attract traffic and increase conversions.",
+  metaTitle: "SEO-Friendly Websites for Mexico & USA | 7Dot It",
+  metaDescription: "Enhance your online visibility with 7Dot It SEO-optimized website development in Mexico & USA. Build fast, mobile-friendly websites that attract traffic and increase conversions.",
   title: "SEO-Friendly Website Development in Mexico & USA",
   image: "/blog/webdevelopment5.jpg",
-  excerpt: "Build fast, mobile-friendly, and SEO-optimized websites for Mexico & USA to drive organic traffic and maximize conversions with Punto 7x.",
+  excerpt: "Build fast, mobile-friendly, and SEO-optimized websites for Mexico & USA to drive organic traffic and maximize conversions with 7Dot It.",
   content: `
-    <p>In a competitive digital landscape, an <strong>SEO-friendly website</strong> is essential to reach your target audience and generate qualified leads. Punto 7x specializes in <strong>SEO-optimized website development</strong> for businesses in <strong>Mexico and the USA</strong>, combining technical expertise, engaging design, and strategic content to improve online visibility and conversion rates.</p>
+    <p>In a competitive digital landscape, an <strong>SEO-friendly website</strong> is essential to reach your target audience and generate qualified leads. 7Dot It specializes in <strong>SEO-optimized website development</strong> for businesses in <strong>Mexico and the USA</strong>, combining technical expertise, engaging design, and strategic content to improve online visibility and conversion rates.</p>
 
     <h2>Why SEO-Friendly Websites Matter</h2>
     <p>Without proper SEO, even a well-designed website may go unnoticed. Our SEO-friendly websites ensure:</p>
@@ -776,18 +776,18 @@ export const blogData = [
     </ul>
 
     <h2>Boost Your Online Presence</h2>
-    <p>Combine your <strong>SEO-friendly website</strong> with our <a href="/digital-marketing">digital marketing services</a> to drive more traffic and generate leads. Strengthen your brand visibility with our <a href="/branding">custom branding solutions</a>. Partner with Punto 7x to create websites that are fast, optimized, and designed for maximum conversions in Mexico and the USA.</p>
+    <p>Combine your <strong>SEO-friendly website</strong> with our <a href="/digital-marketing">digital marketing services</a> to drive more traffic and generate leads. Strengthen your brand visibility with our <a href="/branding">custom branding solutions</a>. Partner with 7Dot It to create websites that are fast, optimized, and designed for maximum conversions in Mexico and the USA.</p>
   `
 },
   {
   id: 9,
-  metaTitle: "Custom Web Applications in Mexico & USA | Punto 7x",
-  metaDescription: "Develop powerful custom web applications with Punto 7x in Mexico & USA. We deliver scalable, secure, and high-performing web solutions.",
+  metaTitle: "Custom Web Applications in Mexico & USA | 7Dot It",
+  metaDescription: "Develop powerful custom web applications with 7Dot It in Mexico & USA. We deliver scalable, secure, and high-performing web solutions.",
   title: "Custom Web Application Development in Mexico & USA",
   image: "/blog/webdevelopment6.jpg",
   excerpt: "Build scalable, secure, and high-performance web applications tailored for your business.",
   content: `
-    <p>In today’s fast-paced digital world, businesses require web applications that are not only functional but also scalable, secure, and tailored to their unique needs. At Punto 7x, we specialize in developing <strong>custom web applications</strong> that streamline business operations, improve customer experience, and enhance overall efficiency for companies in <strong>Mexico and the USA</strong>.</p>
+    <p>In today’s fast-paced digital world, businesses require web applications that are not only functional but also scalable, secure, and tailored to their unique needs. At 7Dot It, we specialize in developing <strong>custom web applications</strong> that streamline business operations, improve customer experience, and enhance overall efficiency for companies in <strong>Mexico and the USA</strong>.</p>
 
     <h2>Why Custom Web Applications Are Essential</h2>
     <p>Unlike off-the-shelf solutions, custom web applications are built specifically for your business requirements. This ensures:</p>
@@ -840,7 +840,7 @@ export const blogData = [
       <li><strong>Healthcare Solution:</strong> Custom patient management system for a clinic in Mexico, streamlining appointments, records, and billing securely.</li>
     </ul>
 
-    <h2>Benefits of Partnering with Punto 7x</h2>
+    <h2>Benefits of Partnering with 7Dot It</h2>
     <ul>
       <li>End-to-end development expertise from planning to deployment.</li>
       <li>Focus on scalable, secure, and high-performing applications.</li>
@@ -860,7 +860,7 @@ export const blogData = [
     </ol>
 
     <h2>Conclusion</h2>
-    <p>Custom web applications are essential for modern businesses seeking efficiency, scalability, and competitive advantage. For companies in Mexico and the USA, a tailored solution ensures processes run smoothly, customers engage effectively, and growth objectives are met. At Punto 7x, we combine deep technical expertise with creative problem-solving to deliver high-performing, secure, and scalable web applications that align perfectly with your business goals.</p>
+    <p>Custom web applications are essential for modern businesses seeking efficiency, scalability, and competitive advantage. For companies in Mexico and the USA, a tailored solution ensures processes run smoothly, customers engage effectively, and growth objectives are met. At 7Dot It, we combine deep technical expertise with creative problem-solving to deliver high-performing, secure, and scalable web applications that align perfectly with your business goals.</p>
     <p>Partner with us to transform your ideas into functional, reliable, and impactful web applications that drive measurable results, support operational excellence, and enhance customer experiences.</p>
 
     <h2>FAQ</h2>
@@ -876,13 +876,13 @@ export const blogData = [
 
   {
   id: 10,
-  metaTitle: "Branding Agency in Mexico & USA | Punto 7x",
-  metaDescription: "Build a powerful brand with Punto 7x. We offer logo design, brand strategy, and creative services for businesses in Mexico & USA.",
+  metaTitle: "Branding Agency in Mexico & USA | 7Dot It",
+  metaDescription: "Build a powerful brand with 7Dot It. We offer logo design, brand strategy, and creative services for businesses in Mexico & USA.",
   title: "Branding That Tells Your Story in Mexico & USA",
   image: "/blog/branding2.jpg",
-  excerpt: "Punto 7x crafts unforgettable brand identities through strategy, design, and creative marketing in Mexico & USA.",
+  excerpt: "7Dot It crafts unforgettable brand identities through strategy, design, and creative marketing in Mexico & USA.",
   content: `
-    <p>Branding is the heart of your business identity—it communicates who you are, what you stand for, and why customers should choose you. At Punto 7x, we specialize in creating <strong>memorable brand identities</strong> that resonate with audiences in Mexico and the USA, combining creativity, strategy, and market insights.</p>
+    <p>Branding is the heart of your business identity—it communicates who you are, what you stand for, and why customers should choose you. At 7Dot It, we specialize in creating <strong>memorable brand identities</strong> that resonate with audiences in Mexico and the USA, combining creativity, strategy, and market insights.</p>
 
     <h2>The Importance of Branding</h2>
     <p>Branding goes beyond logos and color schemes. It encompasses your values, messaging, customer experience, and reputation. A strong brand helps you:</p>
@@ -937,7 +937,7 @@ export const blogData = [
       <li>An emerging tech company in the USA achieved investor interest and brand credibility after a comprehensive branding overhaul.</li>
     </ul>
 
-    <h2>Benefits of Choosing Punto 7x</h2>
+    <h2>Benefits of Choosing 7Dot It</h2>
     <ul>
       <li>Expert understanding of Mexico and USA markets, ensuring culturally relevant branding.</li>
       <li>Creative and experienced team delivering professional, high-impact brand identities.</li>
@@ -956,13 +956,13 @@ export const blogData = [
     </ol>
 
     <h2>Conclusion</h2>
-    <p>Branding is the foundation of business growth. For companies in Mexico and the USA, a professional and cohesive brand identity sets you apart from competitors, builds trust, and drives customer loyalty. At Punto 7x, we combine strategy, design, and creativity to craft brands that are memorable, impactful, and aligned with your business goals.</p>
-    <p>From logo design and visual identity to social media, websites, and marketing collateral, our comprehensive branding solutions ensure that your story is told effectively. Partner with Punto 7x to create a brand that not only stands out but also delivers tangible business results.</p>
+    <p>Branding is the foundation of business growth. For companies in Mexico and the USA, a professional and cohesive brand identity sets you apart from competitors, builds trust, and drives customer loyalty. At 7Dot It, we combine strategy, design, and creativity to craft brands that are memorable, impactful, and aligned with your business goals.</p>
+    <p>From logo design and visual identity to social media, websites, and marketing collateral, our comprehensive branding solutions ensure that your story is told effectively. Partner with 7Dot It to create a brand that not only stands out but also delivers tangible business results.</p>
 
     <h2>FAQ</h2>
     <ul>
       <li><strong>Q:</strong> How long does a branding project take?<br/><strong>A:</strong> Depending on scope, a full branding strategy and implementation can take 6-12 weeks.</li>
-      <li><strong>Q:</strong> Does Punto 7x handle social media branding?<br/><strong>A:</strong> Yes, we ensure visual and messaging consistency across platforms.</li>
+      <li><strong>Q:</strong> Does 7Dot It handle social media branding?<br/><strong>A:</strong> Yes, we ensure visual and messaging consistency across platforms.</li>
       <li><strong>Q:</strong> Can branding help increase sales?<br/><strong>A:</strong> Absolutely, strong branding builds trust and recognition, leading to higher conversion rates.</li>
       <li><strong>Q:</strong> Do you provide ongoing brand support?<br/><strong>A:</strong> Yes, we offer continuous updates, optimization, and guidance to maintain a strong brand presence.</li>
       <li><strong>Q:</strong> Are your services tailored for both Mexico and USA markets?<br/><strong>A:</strong> Yes, we create culturally relevant branding for each market.</li>
@@ -972,13 +972,13 @@ export const blogData = [
 
   {
   id: 11,
-  metaTitle: "Corporate Branding Solutions in Mexico & USA | Punto 7x",
-  metaDescription: "Transform your corporate identity with Punto 7x. We provide professional branding solutions for companies in Mexico & USA.",
+  metaTitle: "Corporate Branding Solutions in Mexico & USA | 7Dot It",
+  metaDescription: "Transform your corporate identity with 7Dot It. We provide professional branding solutions for companies in Mexico & USA.",
   title: "Corporate Branding Solutions in Mexico & USA",
   image: "/blog/branding3.jpg",
-  excerpt: "Elevate your corporate identity with strategic branding and design services from Punto 7x.",
+  excerpt: "Elevate your corporate identity with strategic branding and design services from 7Dot It.",
   content: `
-    <p>Corporate branding is more than a logo or color palette—it’s the essence of how your company is perceived by clients, partners, and stakeholders. In competitive markets like Mexico and the USA, a strong corporate identity establishes credibility, differentiates your business, and creates lasting impressions. At Punto 7x, we specialize in <strong>corporate branding solutions</strong> that help companies communicate their vision, values, and professionalism effectively.</p>
+    <p>Corporate branding is more than a logo or color palette—it’s the essence of how your company is perceived by clients, partners, and stakeholders. In competitive markets like Mexico and the USA, a strong corporate identity establishes credibility, differentiates your business, and creates lasting impressions. At 7Dot It, we specialize in <strong>corporate branding solutions</strong> that help companies communicate their vision, values, and professionalism effectively.</p>
 
     <h2>Why Corporate Branding Matters</h2>
     <p>Effective corporate branding serves as the backbone of business growth, enabling organizations to:</p>
@@ -991,7 +991,7 @@ export const blogData = [
     </ul>
 
     <h2>Our Corporate Branding Approach</h2>
-    <p>Punto 7x follows a structured and research-driven approach to deliver impactful corporate branding solutions:</p>
+    <p>7Dot It follows a structured and research-driven approach to deliver impactful corporate branding solutions:</p>
     <ol>
       <li><strong>Market Research & Competitor Analysis:</strong> Understand your industry, target audience, and competitors to craft a brand that is unique and competitive.</li>
       <li><strong>Brand Identity Development:</strong> Create logos, color schemes, typography, and style guides that reflect your company’s values and positioning.</li>
@@ -1027,7 +1027,7 @@ export const blogData = [
       <li><strong>Technology Startup:</strong> Developed a polished corporate identity that attracted investors and improved public perception.</li>
     </ul>
 
-    <h2>Benefits of Choosing Punto 7x for Corporate Branding</h2>
+    <h2>Benefits of Choosing 7Dot It for Corporate Branding</h2>
     <ul>
       <li>Expert understanding of both Mexican and US markets, ensuring culturally relevant branding.</li>
       <li>Creative team with experience in designing cohesive, professional, and high-impact brand assets.</li>
@@ -1046,14 +1046,14 @@ export const blogData = [
     </ol>
 
     <h2>Conclusion</h2>
-    <p>Corporate branding is a strategic investment that defines how your company is perceived, drives customer loyalty, and strengthens market positioning. For businesses in Mexico and USA, Punto 7x delivers professional, end-to-end branding solutions that integrate creativity, strategy, and practical implementation.</p>
-    <p>From logos and visual identity to messaging, marketing collateral, websites, and social media, our approach ensures that every aspect of your brand communicates professionalism, trust, and distinction in the marketplace. Partner with Punto 7x to elevate your corporate identity, enhance recognition, and achieve measurable business results.</p>
+    <p>Corporate branding is a strategic investment that defines how your company is perceived, drives customer loyalty, and strengthens market positioning. For businesses in Mexico and USA, 7Dot It delivers professional, end-to-end branding solutions that integrate creativity, strategy, and practical implementation.</p>
+    <p>From logos and visual identity to messaging, marketing collateral, websites, and social media, our approach ensures that every aspect of your brand communicates professionalism, trust, and distinction in the marketplace. Partner with 7Dot It to elevate your corporate identity, enhance recognition, and achieve measurable business results.</p>
 
     <h2>FAQ</h2>
     <ul>
       <li><strong>Q:</strong> Why is corporate branding important?<br/><strong>A:</strong> It establishes credibility, differentiates your company, and builds trust with clients and stakeholders.</li>
       <li><strong>Q:</strong> How long does it take to develop corporate branding?<br/><strong>A:</strong> Depending on scope, a full branding strategy and implementation can take 8-12 weeks.</li>
-      <li><strong>Q:</strong> Does Punto 7x handle digital branding?<br/><strong>A:</strong> Yes, including websites, social media, and online campaigns.</li>
+      <li><strong>Q:</strong> Does 7Dot It handle digital branding?<br/><strong>A:</strong> Yes, including websites, social media, and online campaigns.</li>
       <li><strong>Q:</strong> Can branding increase leads and sales?<br/><strong>A:</strong> Absolutely, consistent and professional branding enhances visibility, trust, and conversions.</li>
       <li><strong>Q:</strong> Do you provide ongoing support?<br/><strong>A:</strong> Yes, we offer continuous guidance, updates, and optimizations to maintain a strong corporate identity.</li>
     </ul>
@@ -1062,13 +1062,13 @@ export const blogData = [
 
   {
   id: 12,
-  metaTitle: "Startup Branding Services in Mexico & USA | Punto 7x",
-  metaDescription: "Punto 7x helps startups create memorable brand identities in Mexico & USA. Services include logo design, brand strategy, and marketing materials.",
+  metaTitle: "Startup Branding Services in Mexico & USA | 7Dot It",
+  metaDescription: "7Dot It helps startups create memorable brand identities in Mexico & USA. Services include logo design, brand strategy, and marketing materials.",
   title: "Startup Branding Services in Mexico & USA",
   image: "/blog/branding4.jpg",
   excerpt: "Launch your startup with a strong, recognizable brand across Mexico and USA.",
   content: `
-    <p>For startups, first impressions are everything. A well-crafted brand establishes credibility, attracts customers, and differentiates your business in competitive markets. At Punto 7x, we specialize in <strong>startup branding services</strong> for businesses in Mexico and the USA, helping new ventures launch with confidence, clarity, and a compelling identity.</p>
+    <p>For startups, first impressions are everything. A well-crafted brand establishes credibility, attracts customers, and differentiates your business in competitive markets. At 7Dot It, we specialize in <strong>startup branding services</strong> for businesses in Mexico and the USA, helping new ventures launch with confidence, clarity, and a compelling identity.</p>
 
     <h2>Why Branding is Critical for Startups</h2>
     <p>Branding is more than a logo or color palette; it’s the perception your audience forms about your business. For startups, effective branding:</p>
@@ -1081,7 +1081,7 @@ export const blogData = [
     </ul>
 
     <h2>Our Startup Branding Services</h2>
-    <p>Punto 7x offers comprehensive branding solutions to help startups launch successfully:</p>
+    <p>7Dot It offers comprehensive branding solutions to help startups launch successfully:</p>
     <ul>
       <li><strong>Logo & Visual Identity Design:</strong> Create memorable logos and visual elements that represent your startup’s mission, values, and target audience.</li>
       <li><strong>Brand Strategy Consultation:</strong> Develop a clear positioning, messaging, and brand voice aligned with market trends and customer expectations.</li>
@@ -1135,7 +1135,7 @@ export const blogData = [
     </ul>
 
     <h2>Conclusion</h2>
-    <p>For startups in Mexico and USA, a strong brand identity is crucial for growth, recognition, and long-term success. Punto 7x combines creative design, strategic insights, and practical implementation to help startups launch with confidence and establish a lasting impression in their markets.</p>
+    <p>For startups in Mexico and USA, a strong brand identity is crucial for growth, recognition, and long-term success. 7Dot It combines creative design, strategic insights, and practical implementation to help startups launch with confidence and establish a lasting impression in their markets.</p>
     <p>From logo design to social media integration, marketing collateral, and website branding, we provide a comprehensive approach to startup branding that ensures your business stands out, engages your audience, and achieves measurable results.</p>
 
     <h2>FAQ</h2>
@@ -1144,20 +1144,20 @@ export const blogData = [
       <li><strong>Q:</strong> Can branding influence investor decisions?<br/><strong>A:</strong> Yes, a professional and cohesive brand signals credibility and growth potential.</li>
       <li><strong>Q:</strong> How long does it take to develop a startup brand?<br/><strong>A:</strong> Depending on scope, complete branding can take 6 to 12 weeks.</li>
       <li><strong>Q:</strong> Will branding services include social media setup?<br/><strong>A:</strong> Yes, we provide integrated social media branding tailored for Mexico and USA audiences.</li>
-      <li><strong>Q:</strong> Does Punto 7x provide ongoing support?<br/><strong>A:</strong> Yes, we offer continuous guidance, updates, and optimizations to maintain brand consistency.</li>
+      <li><strong>Q:</strong> Does 7Dot It provide ongoing support?<br/><strong>A:</strong> Yes, we offer continuous guidance, updates, and optimizations to maintain brand consistency.</li>
     </ul>
   `
 },
 
   {
   id: 13,
-  metaTitle: "Creative Branding Agency in Mexico & USA | Punto 7x",
-  metaDescription: "Punto 7x offers creative branding services to craft unique brand identities for businesses in Mexico & USA.",
+  metaTitle: "Creative Branding Agency in Mexico & USA | 7Dot It",
+  metaDescription: "7Dot It offers creative branding services to craft unique brand identities for businesses in Mexico & USA.",
   title: "Creative Branding Agency in Mexico & USA",
   image: "/blog/branding5.jpg",
-  excerpt: "Punto 7x combines creativity and strategy to build unforgettable brands in Mexico & USA.",
+  excerpt: "7Dot It combines creativity and strategy to build unforgettable brands in Mexico & USA.",
   content: `
-    <p>In the modern business world, standing out requires more than just a product or service—it requires a memorable brand identity. At Punto 7x, we provide <strong>creative branding services</strong> in Mexico and the USA, combining artistic vision with strategic planning to create brands that resonate and endure. Whether you're a startup seeking recognition or an established company aiming to refresh your identity, our team delivers innovative solutions tailored to your goals.</p>
+    <p>In the modern business world, standing out requires more than just a product or service—it requires a memorable brand identity. At 7Dot It, we provide <strong>creative branding services</strong> in Mexico and the USA, combining artistic vision with strategic planning to create brands that resonate and endure. Whether you're a startup seeking recognition or an established company aiming to refresh your identity, our team delivers innovative solutions tailored to your goals.</p>
 
     <h2>What Makes Branding Creative?</h2>
     <p>Creative branding is the art of expressing a brand’s essence in a visually and emotionally compelling way. It involves:</p>
@@ -1169,7 +1169,7 @@ export const blogData = [
     </ul>
 
     <h2>Our Creative Branding Services</h2>
-    <p>Punto 7x offers a comprehensive suite of services to build and enhance your brand identity:</p>
+    <p>7Dot It offers a comprehensive suite of services to build and enhance your brand identity:</p>
     <ul>
       <li><strong>Logo & Visual Identity Creation:</strong> Craft distinctive logos and visual systems that convey your brand’s personality and values.</li>
       <li><strong>Marketing Collateral Design:</strong> Design brochures, banners, business cards, packaging, and other materials that reflect your brand image.</li>
@@ -1226,8 +1226,8 @@ export const blogData = [
     </ul>
 
     <h2>Conclusion</h2>
-    <p>Creative branding is the cornerstone of business growth and market differentiation. By combining strategy, design, and consistent implementation, Punto 7x helps businesses in Mexico & USA establish unforgettable brands. Our full-service creative approach ensures that every touchpoint—online or offline—reinforces your identity, resonates with your audience, and drives business results.</p>
-    <p>Partner with Punto 7x to craft a brand that is not only visually striking but strategically positioned for success, delivering long-term value and market impact.</p>
+    <p>Creative branding is the cornerstone of business growth and market differentiation. By combining strategy, design, and consistent implementation, 7Dot It helps businesses in Mexico & USA establish unforgettable brands. Our full-service creative approach ensures that every touchpoint—online or offline—reinforces your identity, resonates with your audience, and drives business results.</p>
+    <p>Partner with 7Dot It to craft a brand that is not only visually striking but strategically positioned for success, delivering long-term value and market impact.</p>
 
     <h2>FAQ</h2>
     <ul>
@@ -1235,21 +1235,21 @@ export const blogData = [
       <li><strong>Q:</strong> How does branding affect marketing campaigns?<br/><strong>A:</strong> Strong branding enhances the performance of advertising, social media, content marketing, and sales initiatives by creating a cohesive identity.</li>
       <li><strong>Q:</strong> Can branding be adapted for multiple markets?<br/><strong>A:</strong> Yes, our approach customizes branding for cultural and demographic differences in Mexico & USA.</li>
       <li><strong>Q:</strong> How long does a branding project take?<br/><strong>A:</strong> Depending on scope, it typically ranges from 6 to 12 weeks for a complete brand identity implementation.</li>
-      <li><strong>Q:</strong> Does Punto 7x provide ongoing brand support?<br/><strong>A:</strong> Yes, we offer continuous guidance, updates, and optimization to maintain brand consistency and relevance.</li>
+      <li><strong>Q:</strong> Does 7Dot It provide ongoing brand support?<br/><strong>A:</strong> Yes, we offer continuous guidance, updates, and optimization to maintain brand consistency and relevance.</li>
     </ul>
   `
 },
 
   {
   id: 14,
-  metaTitle: "Professional Brand Strategy in Mexico & USA | Punto 7x",
-  metaDescription: "Punto 7x provides professional brand strategy services in Mexico & USA. Build a brand that resonates, engages customers, and drives growth.",
+  metaTitle: "Professional Brand Strategy in Mexico & USA | 7Dot It",
+  metaDescription: "7Dot It provides professional brand strategy services in Mexico & USA. Build a brand that resonates, engages customers, and drives growth.",
   title: "Professional Brand Strategy for Businesses in Mexico & USA",
   image: "/blog/branding7.jpg",
   excerpt: "Develop a comprehensive brand strategy that aligns with business goals, engages customers, and drives measurable growth across Mexico & USA.",
   content: `
     <p>In today’s competitive marketplace, a strong brand is more than a logo or tagline—it is the perception your audience has about your business. A well-crafted <strong>brand strategy</strong> ensures consistency, builds trust, and drives long-term growth. Companies in <strong>Mexico and the USA</strong> are increasingly realizing that strategic branding is key to differentiating themselves from competitors and creating lasting relationships with customers.</p>
-    <p>At Punto 7x, we specialize in developing professional brand strategies that resonate with audiences in both countries. Our approach combines market insights, creative storytelling, and actionable plans to help businesses grow sustainably.</p>
+    <p>At 7Dot It, we specialize in developing professional brand strategies that resonate with audiences in both countries. Our approach combines market insights, creative storytelling, and actionable plans to help businesses grow sustainably.</p>
 
     <h2>Why Brand Strategy Matters</h2>
     <p>Brand strategy is critical for several reasons:</p>
@@ -1352,19 +1352,19 @@ export const blogData = [
     </ul>
 
     <h2>Conclusion</h2>
-    <p>A professional brand strategy is vital for businesses seeking growth in Mexico and the USA. It ensures consistency, builds customer trust, and positions your company for long-term success. At Punto 7x, we combine market research, creative storytelling, and strategic execution to deliver brand strategies that make an impact.</p>
+    <p>A professional brand strategy is vital for businesses seeking growth in Mexico and the USA. It ensures consistency, builds customer trust, and positions your company for long-term success. At 7Dot It, we combine market research, creative storytelling, and strategic execution to deliver brand strategies that make an impact.</p>
     <p>Integrate your strategy into a <a href="/development">high-performance website</a>, enhance visibility with <a href="/digital-marketing">digital marketing services</a>, and strengthen your mobile presence with <a href="/development">custom app development</a>. Let your brand stand out, connect with your audience, and drive measurable growth across Mexico and the USA.</p>
   `
 },
   {
   id: 15,
-  metaTitle: "Digital Marketing Agency in Mexico & USA | Punto 7x",
-  metaDescription: "Grow your business with Punto 7x digital marketing services in Mexico & USA. SEO, PPC, content marketing, and social media strategies to drive results.",
+  metaTitle: "Digital Marketing Agency in Mexico & USA | 7Dot It",
+  metaDescription: "Grow your business with 7Dot It digital marketing services in Mexico & USA. SEO, PPC, content marketing, and social media strategies to drive results.",
   title: "Digital Marketing That Delivers Measurable Growth in Mexico & USA",
   image: "/blog/marketing2.jpg",
-  excerpt: "Punto 7x creates impactful digital campaigns in Mexico & USA using SEO, PPC, content marketing, and social media strategies to boost visibility, engagement, and conversions.",
+  excerpt: "7Dot It creates impactful digital campaigns in Mexico & USA using SEO, PPC, content marketing, and social media strategies to boost visibility, engagement, and conversions.",
   content: `
-    <p>Digital marketing is no longer optional — it’s a critical driver of business growth. Companies in <strong>Mexico and the USA</strong> must engage audiences online, build visibility, and convert leads effectively. At Punto 7x, we provide <strong>results-driven digital marketing solutions</strong> that combine strategy, creativity, and analytics to deliver measurable outcomes for businesses of all sizes.</p>
+    <p>Digital marketing is no longer optional — it’s a critical driver of business growth. Companies in <strong>Mexico and the USA</strong> must engage audiences online, build visibility, and convert leads effectively. At 7Dot It, we provide <strong>results-driven digital marketing solutions</strong> that combine strategy, creativity, and analytics to deliver measurable outcomes for businesses of all sizes.</p>
     <p>Whether you are a local retailer in Mexico City or a tech startup in San Francisco, our approach ensures your brand reaches the right audience at the right time with the right message.</p>
 
     <h2>Our Digital Marketing Services</h2>
@@ -1463,19 +1463,19 @@ export const blogData = [
     </ul>
 
     <h2>Conclusion</h2>
-    <p>Digital marketing is the engine driving business growth in Mexico and the USA. With the right strategy, you can reach new audiences, build lasting relationships, and increase revenue. At Punto 7x, we design tailored digital marketing campaigns that combine SEO, PPC, content, and social media strategies to deliver measurable results.</p>
-    <p>Enhance your brand with our <a href="/branding">branding services</a>, create engaging content with our <a href="/content-marketing">content marketing solutions</a>, and expand your reach with our <a href="/digital-marketing">digital marketing campaigns</a>. Let Punto 7x help your business grow online with precision and impact.</p>
+    <p>Digital marketing is the engine driving business growth in Mexico and the USA. With the right strategy, you can reach new audiences, build lasting relationships, and increase revenue. At 7Dot It, we design tailored digital marketing campaigns that combine SEO, PPC, content, and social media strategies to deliver measurable results.</p>
+    <p>Enhance your brand with our <a href="/branding">branding services</a>, create engaging content with our <a href="/content-marketing">content marketing solutions</a>, and expand your reach with our <a href="/digital-marketing">digital marketing campaigns</a>. Let 7Dot It help your business grow online with precision and impact.</p>
   `
 },
 {
   id: 16,
-  metaTitle: "SEO Services in Mexico & USA | Punto 7x",
-  metaDescription: "Rank higher on Google with Punto 7x SEO services in Mexico & USA. Drive organic traffic and long-term business growth.",
+  metaTitle: "SEO Services in Mexico & USA | 7Dot It",
+  metaDescription: "Rank higher on Google with 7Dot It SEO services in Mexico & USA. Drive organic traffic and long-term business growth.",
   title: "SEO That Gets You Found in Mexico & USA",
   image: "/blog/marketing3.jpg",
   excerpt: "We help businesses in Mexico & USA achieve higher search rankings and attract qualified leads with our expert SEO strategies.",
   content: `
-    <p>SEO is about more than keywords — it’s about visibility. At Punto 7x, we design <strong>SEO strategies that put your business on the map</strong> in <strong>Mexico and the USA</strong>. With tailored campaigns, we ensure your website not only ranks high but also attracts the right audience to boost sales and conversions.</p>
+    <p>SEO is about more than keywords — it’s about visibility. At 7Dot It, we design <strong>SEO strategies that put your business on the map</strong> in <strong>Mexico and the USA</strong>. With tailored campaigns, we ensure your website not only ranks high but also attracts the right audience to boost sales and conversions.</p>
 
     <h2>Our SEO Services</h2>
     <h3>On-Page SEO</h3>
@@ -1521,13 +1521,13 @@ export const blogData = [
 
 {
   id: 17,
-  metaTitle: "PPC Advertising in Mexico & USA | Punto 7x",
-  metaDescription: "Maximize ROI with Punto 7x PPC advertising campaigns in Mexico & USA. Targeted ads on Google and social media platforms.",
+  metaTitle: "PPC Advertising in Mexico & USA | 7Dot It",
+  metaDescription: "Maximize ROI with 7Dot It PPC advertising campaigns in Mexico & USA. Targeted ads on Google and social media platforms.",
   title: "PPC Campaigns That Drive Conversions in Mexico & USA",
   image: "/blog/marketing4.jpg",
   excerpt: "We build cost-effective PPC campaigns for businesses in Mexico & USA to generate leads and sales quickly.",
   content: `
-    <p>Want instant results? PPC is the way to go. Punto 7x designs <strong>high-performing PPC campaigns</strong> that deliver measurable outcomes in <strong>Mexico and the USA</strong>. Whether your goal is lead generation, sales, or brand awareness, our strategies ensure every click counts.</p>
+    <p>Want instant results? PPC is the way to go. 7Dot It designs <strong>high-performing PPC campaigns</strong> that deliver measurable outcomes in <strong>Mexico and the USA</strong>. Whether your goal is lead generation, sales, or brand awareness, our strategies ensure every click counts.</p>
 
     <h2>Our PPC Services</h2>
     <h3>Google Ads</h3>
@@ -1566,7 +1566,7 @@ export const blogData = [
     <h2>Tips for Successful PPC Campaigns</h2>
     <p>For businesses in Mexico and the USA, a successful PPC strategy requires constant monitoring and adjustments. Always test different ad copies, use negative keywords to avoid wasted spend, and analyze performance data to refine your approach.</p>
 
-    <h2>Why Choose Punto 7x for PPC?</h2>
+    <h2>Why Choose 7Dot It for PPC?</h2>
     <p>We combine data-driven insights, creative ad design, and industry expertise to deliver campaigns that not only drive clicks but also conversions. Our team tracks every metric, from impressions to ROI, ensuring transparency and measurable growth.</p>
 
     <h2>Take Your Next Step With Us</h2>
@@ -1579,13 +1579,13 @@ export const blogData = [
 
 {
   id: 18,
-  metaTitle: "Social Media Marketing Agency in Mexico & USA | Punto 7x",
-  metaDescription: "Build your brand online with Punto 7x social media marketing services in Mexico & USA. Grow followers, engagement, and sales.",
+  metaTitle: "Social Media Marketing Agency in Mexico & USA | 7Dot It",
+  metaDescription: "Build your brand online with 7Dot It social media marketing services in Mexico & USA. Grow followers, engagement, and sales.",
   title: "Social Media Marketing That Builds Communities in Mexico & USA",
   image: "/blog/marketing5.jpg",
-  excerpt: "From Instagram campaigns to LinkedIn strategies, Punto 7x helps businesses in Mexico & USA grow their brand on social media.",
+  excerpt: "From Instagram campaigns to LinkedIn strategies, 7Dot It helps businesses in Mexico & USA grow their brand on social media.",
   content: `
-    <p>Social media is where your audience spends most of their time. At Punto 7x, we create <strong>engaging social media strategies</strong> to connect you with customers in <strong>Mexico and the USA</strong>. Whether you want to build awareness, grow your followers, or increase conversions, our team designs campaigns that align with your brand voice and goals.</p>
+    <p>Social media is where your audience spends most of their time. At 7Dot It, we create <strong>engaging social media strategies</strong> to connect you with customers in <strong>Mexico and the USA</strong>. Whether you want to build awareness, grow your followers, or increase conversions, our team designs campaigns that align with your brand voice and goals.</p>
 
     <h2>Our Social Media Services</h2>
     <h3>Content Creation</h3>
@@ -1630,19 +1630,19 @@ export const blogData = [
     <p>Integrate campaigns with <a href="/development">custom app development</a> for user retention.</p>
 
     <h2>Conclusion</h2>
-    <p>Social media is the new marketplace of attention. Whether you’re a small business in Mexico or a growing brand in the USA, Punto 7x helps you build communities, grow your audience, and increase conversions. With our proven strategies, creative execution, and data-driven approach, your brand will not just participate in the conversation—it will lead it.</p>
+    <p>Social media is the new marketplace of attention. Whether you’re a small business in Mexico or a growing brand in the USA, 7Dot It helps you build communities, grow your audience, and increase conversions. With our proven strategies, creative execution, and data-driven approach, your brand will not just participate in the conversation—it will lead it.</p>
   `
 },
 
 {
   id: 19,
-  metaTitle: "Content Marketing Services in Mexico & USA | Punto 7x",
-  metaDescription: "Engage and convert audiences with powerful content marketing from Punto 7x in Mexico & USA. Blogs, videos, infographics, and storytelling that drive traffic and leads.",
+  metaTitle: "Content Marketing Services in Mexico & USA | 7Dot It",
+  metaDescription: "Engage and convert audiences with powerful content marketing from 7Dot It in Mexico & USA. Blogs, videos, infographics, and storytelling that drive traffic and leads.",
   title: "Content Marketing That Engages & Converts in Mexico & USA",
   image: "/blog/marketing6.jpg",
   excerpt: "We create impactful blogs, videos, infographics, and campaigns for businesses in Mexico & USA to boost engagement, authority, and lead generation.",
   content: `
-    <p>Content is king, and consistency is the crown. Punto 7x delivers <strong>content marketing services</strong> for brands in <strong>Mexico and the USA</strong> that increase visibility, engage audiences, and drive conversions. Our approach combines strategy, creativity, and SEO to position your brand as a market leader.</p>
+    <p>Content is king, and consistency is the crown. 7Dot It delivers <strong>content marketing services</strong> for brands in <strong>Mexico and the USA</strong> that increase visibility, engage audiences, and drive conversions. Our approach combines strategy, creativity, and SEO to position your brand as a market leader.</p>
 
     <h2>Our Content Marketing Services</h2>
     <h3>Blog Writing</h3>
@@ -1689,18 +1689,18 @@ export const blogData = [
     </ul>
 
     <h2>Enhance Your Brand Presence</h2>
-    <p>Combine your content marketing with our <a href="/digital-marketing">digital marketing services</a> to increase reach and drive qualified leads. Strengthen brand identity with <a href="/branding">branding solutions</a> and boost conversions with <a href="/digital-marketing">PPC advertising campaigns</a>. Partner with Punto 7x to deliver <strong>content that engages, educates, and converts</strong> in Mexico and the USA.</p>
+    <p>Combine your content marketing with our <a href="/digital-marketing">digital marketing services</a> to increase reach and drive qualified leads. Strengthen brand identity with <a href="/branding">branding solutions</a> and boost conversions with <a href="/digital-marketing">PPC advertising campaigns</a>. Partner with 7Dot It to deliver <strong>content that engages, educates, and converts</strong> in Mexico and the USA.</p>
   `
 },
 {
   id: 20,
-  metaTitle: "Expert Social Media Marketing Services | Mexico & USA | Punto 7x",
-  metaDescription: "Punto 7x offers expert social media marketing services in Mexico & USA. Boost brand awareness, engagement, and conversions through tailored, data-driven campaigns.",
+  metaTitle: "Expert Social Media Marketing Services | Mexico & USA | 7Dot It",
+  metaDescription: "7Dot It offers expert social media marketing services in Mexico & USA. Boost brand awareness, engagement, and conversions through tailored, data-driven campaigns.",
   title: "Professional Social Media Marketing Services for Businesses in Mexico & USA",
   image: "/blog/marketing7.jpg",
-  excerpt: "Maximize your brand presence with Punto 7x social media marketing services. Engage audiences in Mexico & USA and grow your business through content, campaigns, and data-driven strategies.",
+  excerpt: "Maximize your brand presence with 7Dot It social media marketing services. Engage audiences in Mexico & USA and grow your business through content, campaigns, and data-driven strategies.",
   content: `
-    <p>Social media marketing has become a critical channel for businesses looking to reach audiences in <strong>Mexico and the USA</strong>. A strong presence on platforms like Instagram, Facebook, LinkedIn, TikTok, and YouTube helps brands engage customers, build loyalty, and drive measurable results. At Punto 7x, we provide end-to-end social media marketing solutions tailored to your market, ensuring your brand stands out, connects with audiences, and achieves growth objectives.</p>
+    <p>Social media marketing has become a critical channel for businesses looking to reach audiences in <strong>Mexico and the USA</strong>. A strong presence on platforms like Instagram, Facebook, LinkedIn, TikTok, and YouTube helps brands engage customers, build loyalty, and drive measurable results. At 7Dot It, we provide end-to-end social media marketing solutions tailored to your market, ensuring your brand stands out, connects with audiences, and achieves growth objectives.</p>
     <p>Our services combine creative content, targeted campaigns, influencer collaborations, and data-driven analytics to deliver results for businesses of all sizes.</p>
 
     <h2>Why Social Media Marketing Matters</h2>
@@ -1787,7 +1787,7 @@ export const blogData = [
     </ul>
 
     <h2>Conclusion</h2>
-    <p>Social media marketing is essential for businesses in Mexico & USA seeking to enhance visibility, engagement, and conversions. At Punto 7x, we combine creative content, targeted campaigns, influencer collaborations, and data-driven analytics to deliver measurable results. By integrating social media with <a href="/digital-marketing">digital marketing</a> and <a href="/branding">branding</a> strategies, your business can achieve long-term growth and build meaningful connections with your audience.</p>
+    <p>Social media marketing is essential for businesses in Mexico & USA seeking to enhance visibility, engagement, and conversions. At 7Dot It, we combine creative content, targeted campaigns, influencer collaborations, and data-driven analytics to deliver measurable results. By integrating social media with <a href="/digital-marketing">digital marketing</a> and <a href="/branding">branding</a> strategies, your business can achieve long-term growth and build meaningful connections with your audience.</p>
 
     <h2>FAQ</h2>
     <ul>
@@ -1802,13 +1802,13 @@ export const blogData = [
 
   {
   id: 21,
-  metaTitle: "Creative Social Media Strategies | Mexico & USA | Punto 7x",
-  metaDescription: "Boost engagement, leads, and brand presence with creative social media strategies from Punto 7x. Target audiences in Mexico & USA with compelling campaigns and content.",
+  metaTitle: "Creative Social Media Strategies | Mexico & USA | 7Dot It",
+  metaDescription: "Boost engagement, leads, and brand presence with creative social media strategies from 7Dot It. Target audiences in Mexico & USA with compelling campaigns and content.",
   title: "Creative Social Media Strategies for Businesses in Mexico & USA",
   image: "/blog/marketing8.jpg",
-  excerpt: "Punto 7x develops creative social media strategies for businesses in Mexico & USA, enhancing engagement, brand awareness, and lead generation through tailored campaigns and innovative content.",
+  excerpt: "7Dot It develops creative social media strategies for businesses in Mexico & USA, enhancing engagement, brand awareness, and lead generation through tailored campaigns and innovative content.",
   content: `
-    <p>In the digital era, creativity is the differentiator that sets brands apart. With millions of posts competing for attention daily, businesses in <strong>Mexico and the USA</strong> need innovative social media strategies to stand out. At Punto 7x, we craft creative campaigns that captivate audiences, reinforce brand identity, and drive measurable results.</p>
+    <p>In the digital era, creativity is the differentiator that sets brands apart. With millions of posts competing for attention daily, businesses in <strong>Mexico and the USA</strong> need innovative social media strategies to stand out. At 7Dot It, we craft creative campaigns that captivate audiences, reinforce brand identity, and drive measurable results.</p>
     <p>Our approach combines research, storytelling, visual design, and targeted execution to ensure your social media efforts generate engagement, leads, and conversions.</p>
 
     <h2>Why Creative Social Media Strategies Matter</h2>
@@ -1892,7 +1892,7 @@ export const blogData = [
     </ul>
 
     <h2>Conclusion</h2>
-    <p>Creative social media strategies are essential for businesses in Mexico & USA to engage audiences, generate leads, and build lasting brand relationships. At Punto 7x, we combine innovative content, targeted campaigns, influencer collaborations, and analytics-driven optimization to deliver measurable results. By integrating social media with <a href="/digital-marketing">digital marketing</a> and <a href="/branding">branding</a>, your campaigns achieve higher engagement, visibility, and conversion rates.</p>
+    <p>Creative social media strategies are essential for businesses in Mexico & USA to engage audiences, generate leads, and build lasting brand relationships. At 7Dot It, we combine innovative content, targeted campaigns, influencer collaborations, and analytics-driven optimization to deliver measurable results. By integrating social media with <a href="/digital-marketing">digital marketing</a> and <a href="/branding">branding</a>, your campaigns achieve higher engagement, visibility, and conversion rates.</p>
 
     <h2>FAQ</h2>
     <ul>
@@ -1907,13 +1907,13 @@ export const blogData = [
 
   {
   id: 22,
-  metaTitle: "Social Media Advertising Services | Mexico & USA | Punto 7x",
-  metaDescription: "Maximize ROI with social media advertising from Punto 7x. Target audiences in Mexico & USA with highly effective campaigns on Facebook, Instagram, LinkedIn, TikTok, and YouTube.",
+  metaTitle: "Social Media Advertising Services | Mexico & USA | 7Dot It",
+  metaDescription: "Maximize ROI with social media advertising from 7Dot It. Target audiences in Mexico & USA with highly effective campaigns on Facebook, Instagram, LinkedIn, TikTok, and YouTube.",
   title: "Social Media Advertising Services in Mexico & USA",
   image: "/blog/marketing9.jpg",
-  excerpt: "Drive leads, sales, and brand awareness with social media advertising from Punto 7x. Expertly manage campaigns on Facebook, Instagram, LinkedIn, and TikTok for businesses in Mexico & USA.",
+  excerpt: "Drive leads, sales, and brand awareness with social media advertising from 7Dot It. Expertly manage campaigns on Facebook, Instagram, LinkedIn, and TikTok for businesses in Mexico & USA.",
   content: `
-    <p>Paid social media advertising is one of the fastest ways to reach potential customers and grow your business online. In Mexico and USA, audiences are active on platforms like Facebook, Instagram, LinkedIn, TikTok, and YouTube. At Punto 7x, we design high-performing social media advertising campaigns tailored to your target market, optimizing for clicks, leads, conversions, and sales.</p>
+    <p>Paid social media advertising is one of the fastest ways to reach potential customers and grow your business online. In Mexico and USA, audiences are active on platforms like Facebook, Instagram, LinkedIn, TikTok, and YouTube. At 7Dot It, we design high-performing social media advertising campaigns tailored to your target market, optimizing for clicks, leads, conversions, and sales.</p>
     <p>By combining strategic planning, creative ad design, audience targeting, and analytics, our campaigns deliver measurable results while maximizing budget efficiency.</p>
 
     <h2>Benefits of Social Media Advertising</h2>
@@ -1999,7 +1999,7 @@ export const blogData = [
     </ul>
 
     <h2>Conclusion</h2>
-    <p>Social media advertising is an essential tool for businesses in Mexico & USA aiming to increase brand awareness, generate leads, and drive conversions. At Punto 7x, we combine strategy, creative ad design, audience targeting, and analytics to deliver high-performing campaigns. By integrating social media advertising with <a href="/digital-marketing">digital marketing</a> and <a href="/branding">branding</a>, businesses can maximize ROI and achieve sustainable growth.</p>
+    <p>Social media advertising is an essential tool for businesses in Mexico & USA aiming to increase brand awareness, generate leads, and drive conversions. At 7Dot It, we combine strategy, creative ad design, audience targeting, and analytics to deliver high-performing campaigns. By integrating social media advertising with <a href="/digital-marketing">digital marketing</a> and <a href="/branding">branding</a>, businesses can maximize ROI and achieve sustainable growth.</p>
 
     <h2>FAQ</h2>
     <ul>
@@ -2013,13 +2013,13 @@ export const blogData = [
 },
 {
   id: 23,
-  metaTitle: "Social Media Analytics & Optimization | Mexico & USA | Punto 7x",
-  metaDescription: "Punto 7x offers social media analytics and optimization services for businesses in Mexico & USA. Track performance, improve engagement, leads, and conversions with data-driven insights.",
+  metaTitle: "Social Media Analytics & Optimization | Mexico & USA | 7Dot It",
+  metaDescription: "7Dot It offers social media analytics and optimization services for businesses in Mexico & USA. Track performance, improve engagement, leads, and conversions with data-driven insights.",
   title: "Social Media Analytics & Optimization Services in Mexico & USA",
   image: "/blog/marketing10.jpg",
-  excerpt: "Enhance your social media performance with analytics and optimization services from Punto 7x. Monitor engagement, leads, and conversions for businesses in Mexico & USA.",
+  excerpt: "Enhance your social media performance with analytics and optimization services from 7Dot It. Monitor engagement, leads, and conversions for businesses in Mexico & USA.",
   content: `
-    <p>In today's competitive digital landscape, data-driven social media marketing is essential for business success. Simply posting content is not enough — understanding performance metrics, audience behavior, and campaign effectiveness is crucial. Punto 7x provides comprehensive <strong>social media analytics and optimization services</strong> for businesses in Mexico and USA, ensuring every campaign is strategically optimized for engagement, leads, and conversions.</p>
+    <p>In today's competitive digital landscape, data-driven social media marketing is essential for business success. Simply posting content is not enough — understanding performance metrics, audience behavior, and campaign effectiveness is crucial. 7Dot It provides comprehensive <strong>social media analytics and optimization services</strong> for businesses in Mexico and USA, ensuring every campaign is strategically optimized for engagement, leads, and conversions.</p>
     <p>Through meticulous monitoring, insights-driven strategies, and continuous adjustments, our services help businesses maximize their social media ROI and achieve measurable growth.</p>
 
     <h2>Importance of Social Media Analytics</h2>
@@ -2042,7 +2042,7 @@ export const blogData = [
     </ol>
 
     <h2>Advanced Analytics Tools & Techniques</h2>
-    <p>At Punto 7x, we utilize advanced analytics tools and methodologies to maximize social media campaign performance:</p>
+    <p>At 7Dot It, we utilize advanced analytics tools and methodologies to maximize social media campaign performance:</p>
     <ul>
       <li>Platform-native analytics tools: Facebook Insights, Instagram Analytics, LinkedIn Analytics, TikTok Analytics.</li>
       <li>Third-party tools: Google Analytics, Sprout Social, Hootsuite, and SEMrush to track cross-platform performance.</li>
@@ -2079,7 +2079,7 @@ export const blogData = [
     </ul>
 
     <h2>Conclusion</h2>
-    <p>Social media analytics and optimization services are essential for businesses in Mexico & USA seeking to maximize engagement, leads, and conversions. By leveraging data insights, refining strategies, and continuously optimizing content and campaigns, Punto 7x ensures measurable results and sustainable growth. Combining analytics with <a href="/digital-marketing">digital marketing</a> and <a href="/branding">branding</a> efforts amplifies impact, allowing businesses to make informed decisions and achieve maximum ROI.</p>
+    <p>Social media analytics and optimization services are essential for businesses in Mexico & USA seeking to maximize engagement, leads, and conversions. By leveraging data insights, refining strategies, and continuously optimizing content and campaigns, 7Dot It ensures measurable results and sustainable growth. Combining analytics with <a href="/digital-marketing">digital marketing</a> and <a href="/branding">branding</a> efforts amplifies impact, allowing businesses to make informed decisions and achieve maximum ROI.</p>
 
     <h2>FAQ</h2>
     <ul>
@@ -2094,13 +2094,13 @@ export const blogData = [
 
   {
   id: 24,
-  metaTitle: "Integrated Social Media Marketing Solutions | Mexico & USA | Punto 7x",
-  metaDescription: "Punto 7x provides integrated social media marketing solutions for businesses in Mexico & USA. Boost engagement, leads, and brand awareness through comprehensive campaigns.",
+  metaTitle: "Integrated Social Media Marketing Solutions | Mexico & USA | 7Dot It",
+  metaDescription: "7Dot It provides integrated social media marketing solutions for businesses in Mexico & USA. Boost engagement, leads, and brand awareness through comprehensive campaigns.",
   title: "Integrated Social Media Marketing Solutions in Mexico & USA",
   image: "/blog/marketing11.jpg",
-  excerpt: "Punto 7x offers integrated social media marketing solutions to enhance engagement, generate leads, and strengthen brand presence for businesses in Mexico & USA.",
+  excerpt: "7Dot It offers integrated social media marketing solutions to enhance engagement, generate leads, and strengthen brand presence for businesses in Mexico & USA.",
   content: `
-    <p>In today’s fast-paced digital landscape, businesses need more than just individual social media efforts. Integrated social media marketing combines strategy, creative content, advertising, and analytics to deliver measurable results. At Punto 7x, we provide comprehensive integrated solutions tailored for businesses in Mexico and USA to maximize engagement, leads, and brand visibility.</p>
+    <p>In today’s fast-paced digital landscape, businesses need more than just individual social media efforts. Integrated social media marketing combines strategy, creative content, advertising, and analytics to deliver measurable results. At 7Dot It, we provide comprehensive integrated solutions tailored for businesses in Mexico and USA to maximize engagement, leads, and brand visibility.</p>
     <p>By aligning social media campaigns with branding, digital marketing, and website strategies, we ensure that every interaction reinforces your brand identity and drives business growth.</p>
 
     <h2>Why Integrated Social Media Marketing Matters</h2>
@@ -2140,7 +2140,7 @@ export const blogData = [
     </ol>
 
     <h2>Advanced Tools & Techniques</h2>
-    <p>Punto 7x leverages advanced tools to maximize the impact of integrated social media marketing:</p>
+    <p>7Dot It leverages advanced tools to maximize the impact of integrated social media marketing:</p>
     <ul>
       <li>Social media management tools: Hootsuite, Buffer, Sprout Social for scheduling and analytics.</li>
       <li>Analytics platforms: Google Analytics, SEMrush, Facebook Insights, LinkedIn Analytics for cross-platform reporting.</li>
@@ -2149,7 +2149,7 @@ export const blogData = [
       <li>Trend monitoring: Identify viral topics, hashtags, and cultural trends to enhance campaign relevance in Mexico & USA.</li>
     </ul>
 
-    <h2>Benefits of Choosing Punto 7x</h2>
+    <h2>Benefits of Choosing 7Dot It</h2>
     <ul>
       <li>Localized campaigns for Mexico & USA audiences with culturally relevant content.</li>
       <li>Full-service approach from strategy, content creation, advertising, to analytics and optimization.</li>
@@ -2159,7 +2159,7 @@ export const blogData = [
     </ul>
 
     <h2>Conclusion</h2>
-    <p>Integrated social media marketing ensures businesses in Mexico & USA achieve strong engagement, generate high-quality leads, and strengthen brand presence. By combining strategy, creative content, advertising, analytics, and alignment with broader marketing efforts, Punto 7x delivers campaigns that maximize ROI and drive business growth. Partnering with us allows your brand to reach the right audience, at the right time, with the right message, consistently.</p>
+    <p>Integrated social media marketing ensures businesses in Mexico & USA achieve strong engagement, generate high-quality leads, and strengthen brand presence. By combining strategy, creative content, advertising, analytics, and alignment with broader marketing efforts, 7Dot It delivers campaigns that maximize ROI and drive business growth. Partnering with us allows your brand to reach the right audience, at the right time, with the right message, consistently.</p>
 
     <h2>FAQ</h2>
     <ul>
@@ -2174,15 +2174,15 @@ export const blogData = [
 
   {
   id: 25,
-  metaTitle: "Digital Marketing Trends in Mexico & USA | Punto 7x",
-  metaDescription: "Stay ahead with the latest digital marketing trends in Mexico & USA. Punto 7x helps you adopt strategies like AI-driven ads, video marketing, and voice search optimization.",
+  metaTitle: "Digital Marketing Trends in Mexico & USA | 7Dot It",
+  metaDescription: "Stay ahead with the latest digital marketing trends in Mexico & USA. 7Dot It helps you adopt strategies like AI-driven ads, video marketing, and voice search optimization.",
   title: "Top Digital Marketing Trends to Watch in Mexico & USA",
   image: "/blog/marketing12.jpg",
-  excerpt: "Punto 7x explores the newest trends like AI ads, TikTok growth, and local SEO that are reshaping digital marketing in Mexico & USA.",
+  excerpt: "7Dot It explores the newest trends like AI ads, TikTok growth, and local SEO that are reshaping digital marketing in Mexico & USA.",
   content: `
     <p>Digital marketing is evolving faster than ever before. Businesses in <strong>Mexico and the USA</strong> face unique challenges and opportunities when it comes to staying relevant, building trust, and driving conversions. What worked just a year ago may already feel outdated. Consumers are more connected, more informed, and more selective about the brands they engage with. For that reason, keeping up with the latest <strong>digital marketing trends</strong> is not just important—it’s essential for survival and growth.</p>
 
-    <p>At Punto 7x, we work with companies across industries—ranging from e-commerce brands to B2B service providers—and we see firsthand which strategies actually drive measurable results. In this article, we will explore the biggest <strong>digital marketing trends</strong> shaping Mexico and the USA, complete with examples, statistics, and actionable tips you can use right away. Whether you’re a startup or a growing enterprise, these trends will help you future-proof your strategy and maximize ROI.</p>
+    <p>At 7Dot It, we work with companies across industries—ranging from e-commerce brands to B2B service providers—and we see firsthand which strategies actually drive measurable results. In this article, we will explore the biggest <strong>digital marketing trends</strong> shaping Mexico and the USA, complete with examples, statistics, and actionable tips you can use right away. Whether you’re a startup or a growing enterprise, these trends will help you future-proof your strategy and maximize ROI.</p>
 
     <h2>1. Artificial Intelligence (AI) in Marketing</h2>
     <p>AI is no longer just a buzzword. It is fundamentally reshaping digital marketing worldwide, and both Mexican and US businesses are adopting it at a rapid pace. From AI-powered analytics to automated ad optimization, brands are using machine learning to better understand their customers and make smarter decisions.</p>
@@ -2274,7 +2274,7 @@ export const blogData = [
     <h2>Conclusion</h2>
     <p>Digital marketing in Mexico and the USA is rapidly shifting towards <strong>AI-driven personalization, short-form video dominance, localized campaigns, and trust-based strategies</strong>. Brands that adapt early to these trends will enjoy greater visibility, stronger engagement, and higher ROI. Whether you’re focusing on SEO, PPC, or influencer partnerships, the key is to stay agile, experiment, and keep your audience at the heart of your strategy.</p>
 
-    <p>Ready to embrace these trends and outpace your competitors? Partner with Punto 7x to craft <strong>future-ready digital marketing strategies</strong> tailored to your business goals.</p>
+    <p>Ready to embrace these trends and outpace your competitors? Partner with 7Dot It to craft <strong>future-ready digital marketing strategies</strong> tailored to your business goals.</p>
 
     <p>Explore our<a href="/digital-marketing"> SEO services</a> to rank higher on search engines.</p>
     <p>Check out our<a href="/branding"> branding services</a> to strengthen your market presence.</p>
@@ -2282,15 +2282,15 @@ export const blogData = [
 },
 {
   id: 26,
-  metaTitle: "Local Digital Marketing in Mexico & USA | Punto 7x",
-  metaDescription: "Dominate your local market with Punto 7x’s location-based digital marketing strategies in Mexico & USA. We optimize for local SEO, maps, and geo-targeted ads.",
+  metaTitle: "Local Digital Marketing in Mexico & USA | 7Dot It",
+  metaDescription: "Dominate your local market with 7Dot It’s location-based digital marketing strategies in Mexico & USA. We optimize for local SEO, maps, and geo-targeted ads.",
   title: "How Local Digital Marketing Helps You Win Customers in Mexico & USA",
   image: "/blog/marketing13.jpg",
-  excerpt: "Punto 7x creates hyper-local marketing strategies that help businesses in Mexico & USA capture nearby customers through SEO and ads.",
+  excerpt: "7Dot It creates hyper-local marketing strategies that help businesses in Mexico & USA capture nearby customers through SEO and ads.",
   content: `
     <p>When people search online for products or services, they often want results that are close to home. Whether it’s a café in Mexico City or a dental clinic in Los Angeles, <strong>local digital marketing</strong> ensures your business shows up in the right place, at the right time. In fact, research shows that <strong>46% of all Google searches are looking for local information</strong>. For businesses in <strong>Mexico and the USA</strong>, this represents a huge opportunity to attract nearby customers who are ready to buy.</p>
 
-    <p>At Punto 7x, we help brands connect with their local audience through a mix of <strong>local SEO, Google Maps optimization, geo-targeted ads, and localized content strategies</strong>. In this detailed guide, we’ll explore why local digital marketing matters, the top strategies to implement, and real-world examples of businesses thriving with localized campaigns.</p>
+    <p>At 7Dot It, we help brands connect with their local audience through a mix of <strong>local SEO, Google Maps optimization, geo-targeted ads, and localized content strategies</strong>. In this detailed guide, we’ll explore why local digital marketing matters, the top strategies to implement, and real-world examples of businesses thriving with localized campaigns.</p>
 
     <h2>1. Why Local Digital Marketing is Essential</h2>
     <p>Local marketing ensures your business is visible to the people most likely to visit you or purchase your services. Without it, you risk being invisible in your own neighborhood while competitors capture the market. Let’s break down why it matters:</p>
@@ -2372,7 +2372,7 @@ export const blogData = [
 
     <h2>Conclusion</h2>
     <p>Local digital marketing in Mexico and the USA is no longer optional—it’s the backbone of visibility, trust, and growth for small and medium businesses. By optimizing your Google Business Profile, investing in local SEO, leveraging geo-targeted ads, and building strong customer reviews, you position your brand as the go-to option in your community.</p>
-    <p>At Punto 7x, we specialize in creating <strong>localized strategies</strong> that drive measurable results for businesses across Mexico and the USA. Whether you run a café, a clinic, or a nationwide chain, we’ll help you dominate your local market with precision-targeted campaigns.</p>
+    <p>At 7Dot It, we specialize in creating <strong>localized strategies</strong> that drive measurable results for businesses across Mexico and the USA. Whether you run a café, a clinic, or a nationwide chain, we’ll help you dominate your local market with precision-targeted campaigns.</p>
 
     <p>Start building your local presence today with our<a href="/digital-marketing"> SEO services</a>.</p>
     <p>Stand out in your neighborhood with our<a href="/branding"> branding solutions</a>.</p>
@@ -2380,7 +2380,7 @@ export const blogData = [
 },
 {
   id: 27,
-  metaTitle: "Digital Marketing Trends in Mexico & USA 2025 | Punto 7x",
+  metaTitle: "Digital Marketing Trends in Mexico & USA 2025 | 7Dot It",
   metaDescription: "Stay ahead of the competition with the latest digital marketing trends in Mexico & USA. Learn how SEO, social media, AI, and content marketing are transforming business growth.",
   title: "Top Digital Marketing Trends in Mexico & USA for 2025",
   image: "/blog/marketing14.jpg",
@@ -2388,7 +2388,7 @@ export const blogData = [
   content: `
     <p>The world of digital marketing is evolving at lightning speed. Businesses in <strong>Mexico and the USA</strong> are navigating a landscape where consumer expectations are shifting, algorithms are constantly updated, and new technologies like AI and automation are becoming integral. To remain competitive, brands must understand and adopt the <strong>latest marketing trends</strong> shaping 2025.</p>
 
-    <p>At Punto 7x, we specialize in helping companies adapt their strategies for both Mexican and U.S. markets. These countries share some similarities but also have unique cultural, economic, and digital ecosystems. This blog dives deep into the <strong>emerging trends</strong> that are transforming how businesses attract, engage, and retain customers.</p>
+    <p>At 7Dot It, we specialize in helping companies adapt their strategies for both Mexican and U.S. markets. These countries share some similarities but also have unique cultural, economic, and digital ecosystems. This blog dives deep into the <strong>emerging trends</strong> that are transforming how businesses attract, engage, and retain customers.</p>
 
     <h2>1. AI-Powered Marketing</h2>
     <p>Artificial intelligence has moved beyond being a buzzword — it is now the backbone of modern marketing. In both Mexico and the USA, businesses are embracing AI-driven tools to personalize experiences, analyze consumer behavior, and automate repetitive tasks.</p>
@@ -2462,20 +2462,20 @@ export const blogData = [
     <h2>Conclusion</h2>
     <p>The digital marketing landscape in Mexico and the USA is both challenging and full of opportunity. By embracing AI, short-form video, localized SEO, and social commerce, businesses can stay ahead of the curve in 2025. The key is to remain adaptable, data-driven, and customer-focused.</p>
 
-    <p>At Punto 7x, we help businesses implement strategies tailored to their target markets in both countries. Whether you’re looking to optimize SEO, create impactful social media campaigns, or launch high-ROI PPC ads, we are here to guide you.</p>
+    <p>At 7Dot It, we help businesses implement strategies tailored to their target markets in both countries. Whether you’re looking to optimize SEO, create impactful social media campaigns, or launch high-ROI PPC ads, we are here to guide you.</p>
 
     <p>Ready to transform your marketing strategy? Explore our <a href="/digital-marketing">digital marketing services</a>, <a href="/development">web development solutions</a>, and <a href="/branding">branding expertise</a> today.</p>
   `
 },
 {
   id: 28,
-  metaTitle: "Social Media Marketing in Mexico & USA | Punto 7x",
-  metaDescription: "Build brand awareness and customer engagement with Punto 7x’s social media marketing services in Mexico & USA. From Instagram to TikTok, we help you grow.",
+  metaTitle: "Social Media Marketing in Mexico & USA | 7Dot It",
+  metaDescription: "Build brand awareness and customer engagement with 7Dot It’s social media marketing services in Mexico & USA. From Instagram to TikTok, we help you grow.",
   title: "Social Media Marketing That Builds Communities in Mexico & USA",
   image: "/blog/marketing15.jpg",
-  excerpt: "Punto 7x helps businesses in Mexico & USA build loyal communities through platform-specific social media strategies on Facebook, Instagram, TikTok, and LinkedIn.",
+  excerpt: "7Dot It helps businesses in Mexico & USA build loyal communities through platform-specific social media strategies on Facebook, Instagram, TikTok, and LinkedIn.",
   content: `
-    <p>Social media has transformed the way businesses communicate with their audiences. In <strong>Mexico and the USA</strong>, platforms like <strong>Facebook, Instagram, TikTok, LinkedIn, and YouTube</strong> are not just for entertainment—they’re critical tools for <strong>brand building, customer acquisition, and sales growth</strong>. At Punto 7x, we specialize in creating <strong>social media marketing strategies</strong> that engage, inspire, and convert.</p>
+    <p>Social media has transformed the way businesses communicate with their audiences. In <strong>Mexico and the USA</strong>, platforms like <strong>Facebook, Instagram, TikTok, LinkedIn, and YouTube</strong> are not just for entertainment—they’re critical tools for <strong>brand building, customer acquisition, and sales growth</strong>. At 7Dot It, we specialize in creating <strong>social media marketing strategies</strong> that engage, inspire, and convert.</p>
 
     <h2>The Power of Social Media Marketing</h2>
     <p>Over 4.9 billion people use social media globally, and in Mexico alone, nearly 95 million are active users. In the USA, the number surpasses 300 million. This makes social media one of the most effective channels for reaching customers where they spend the majority of their time. But success on these platforms isn’t about random posting—it’s about creating <strong>consistent, targeted, and data-driven campaigns</strong>.</p>
@@ -2488,7 +2488,7 @@ export const blogData = [
     </ul>
 
     <h2>Our Approach to Social Media Marketing</h2>
-    <p>At Punto 7x, our social media strategies are customized for each client’s target market. We focus on creating <strong>brand stories</strong> that resonate with audiences and encourage long-term loyalty. Here’s how we do it:</p>
+    <p>At 7Dot It, our social media strategies are customized for each client’s target market. We focus on creating <strong>brand stories</strong> that resonate with audiences and encourage long-term loyalty. Here’s how we do it:</p>
 
     <h3>1. Audience Research</h3>
     <p>We analyze your customers’ demographics, behaviors, and preferences. For example, in Mexico, audiences engage more with short videos, while US audiences often interact with educational carousels and LinkedIn thought leadership content.</p>
@@ -2553,26 +2553,26 @@ export const blogData = [
       <li>Need for consistent creative output</li>
       <li>Managing negative comments or PR crises</li>
     </ul>
-    <p>At Punto 7x, we help clients overcome these challenges with agility and expertise.</p>
+    <p>At 7Dot It, we help clients overcome these challenges with agility and expertise.</p>
 
     <h2>Future of Social Media Marketing</h2>
     <p>The future of social media lies in <strong>AI-driven personalization, influencer micro-marketing, and immersive experiences like AR/VR</strong>. Brands that adopt these early will stand out in both Mexico and the USA.</p>
 
     <h2>Conclusion</h2>
-    <p>Social media is no longer optional—it’s essential. Whether you’re a small business in Guadalajara or a multinational in Los Angeles, your audience is already online, waiting to engage with you. At Punto 7x, we craft strategies that build not just followers but real communities that drive business growth.</p>
+    <p>Social media is no longer optional—it’s essential. Whether you’re a small business in Guadalajara or a multinational in Los Angeles, your audience is already online, waiting to engage with you. At 7Dot It, we craft strategies that build not just followers but real communities that drive business growth.</p>
 
     <p>Take your brand to the next level with our <a href="/development">web development services</a> and <a href="/branding">branding solutions</a>.</p>
   `
 },{
   id: 29,
-  metaTitle: "Content Marketing Strategy in Mexico & USA | Punto 7x",
-  metaDescription: "Create impactful content that drives engagement and conversions with Punto 7x’s content marketing strategies in Mexico & USA. Blogs, videos, social content, and more.",
+  metaTitle: "Content Marketing Strategy in Mexico & USA | 7Dot It",
+  metaDescription: "Create impactful content that drives engagement and conversions with 7Dot It’s content marketing strategies in Mexico & USA. Blogs, videos, social content, and more.",
   title: "How Content Marketing Drives Business Growth in Mexico & USA",
   image: "/blog/marketing16.jpg",
-  excerpt: "Punto 7x helps businesses in Mexico & USA create content that educates, engages, and converts audiences through blogs, videos, social media, and email campaigns.",
+  excerpt: "7Dot It helps businesses in Mexico & USA create content that educates, engages, and converts audiences through blogs, videos, social media, and email campaigns.",
   content: `
     <p>In the digital age, content is the cornerstone of effective marketing. For businesses in <strong>Mexico and the USA</strong>, having a strong <strong>content marketing strategy</strong> can mean the difference between being noticed and being invisible. With audiences consuming information across blogs, social media, video platforms, and email, brands must deliver valuable, relevant, and consistent content to attract and retain customers.</p>
-    <p>At Punto 7x, we design content strategies that are tailored to your audience’s needs, blending creativity with data-driven insights to maximize engagement, leads, and conversions.</p>
+    <p>At 7Dot It, we design content strategies that are tailored to your audience’s needs, blending creativity with data-driven insights to maximize engagement, leads, and conversions.</p>
 
     <h2>Why Content Marketing Matters</h2>
     <p>Content marketing allows businesses to:</p>
@@ -2676,7 +2676,7 @@ export const blogData = [
     </ol>
 
     <h2>Conclusion</h2>
-    <p>Content marketing is an essential tool for businesses looking to grow in Mexico and the USA. By creating valuable, targeted, and culturally relevant content, brands can build authority, engage audiences, and drive conversions. At Punto 7x, we design and execute content strategies that deliver measurable results, whether through blogs, videos, social media, or email marketing.</p>
+    <p>Content marketing is an essential tool for businesses looking to grow in Mexico and the USA. By creating valuable, targeted, and culturally relevant content, brands can build authority, engage audiences, and drive conversions. At 7Dot It, we design and execute content strategies that deliver measurable results, whether through blogs, videos, social media, or email marketing.</p>
     <p>Boost your brand visibility and engagement with our <a href="/digital-marketing">digital marketing services</a>, enhance your online presence with our <a href="/development">web development solutions</a>, and create a strong brand identity with our <a href="/branding">branding services</a>.</p>
   `
 }

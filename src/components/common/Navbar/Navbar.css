@@ -164,9 +164,10 @@ body.dark {
 }
 
 .dropdown-arrow {
-  font-size: 0.7rem;
+  font-size: 1.5rem;
   transition: transform 0.3s ease;
-  margin-left: 0.25rem;
+  margin-left: 0rem;
+  stroke-width: 1;
 }
 
 .dropdown-arrow.open {
@@ -393,10 +394,6 @@ body.dark {
   background-color: #8e1616;
   color: white;
 }
-
- 
-
-
 /* ========== HAMBURGER MENU ========== */
 .hamburger-icon {
   display: none;

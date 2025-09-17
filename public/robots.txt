@@ -17,4 +17,4 @@ Disallow: /src/
 Disallow: /assets/
 
 # Optional: Sitemap location for better indexing
-Sitemap: https://punto-sigma.vercel.app/sitemap.xml
+Sitemap: https://7Dot It-sigma.vercel.app/sitemap.xml

@@ -377,7 +377,7 @@ const WhyUs3DCards = () => {
 .floating-card {
   width: 100%;
   max-width: 380px;
-  height: 220px;
+  height: 200px;
   position: relative;
   border-radius: 24px;
   overflow: hidden;

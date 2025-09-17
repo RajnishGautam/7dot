@@ -211,7 +211,7 @@ const LogoDesignWork = () => {
     return (
       <div className="carousel3d-loading-container">
         <div className="carousel3d-loading-spinner"></div>
-        <p className="carousel3d-loading-text">Loading 7DotIt...</p>
+        <p className="carousel3d-loading-text">Loading 7Dot It...</p>
       </div>
     );
   }

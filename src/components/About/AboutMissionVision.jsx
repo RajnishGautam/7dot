@@ -14,7 +14,7 @@ const AboutMissionVision = () => {
             <h2>Our Story</h2>
           </div>
           <p>
-            Punto7x was founded to empower businesses in Mexico and beyond with
+            7Dot It was founded to empower businesses in Mexico and beyond with
             modern web development, digital marketing, and branding solutions —
             helping startups and enterprises turn ideas into impactful digital
             experiences.
