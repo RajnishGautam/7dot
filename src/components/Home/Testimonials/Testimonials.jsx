@@ -12,7 +12,7 @@ const testimonialsData = [
   {
     name: "FNIC",
     role: "School",
-    avatar: "/testinomials/fnic.png",
+    avatar: "/testinomials/fnic.jpg",
     rating: 5,
     text: "7DotIt created a professional, user-friendly website for my school with excellent service and timely support. Highly recommended."
   },
