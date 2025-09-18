@@ -4,7 +4,14 @@ import './Navbar.css'
 import MoonSunToggle from './MoonSunToggle'
 import logoLight from '../../../assets/logolightmode.png'
 import logoDark from '../../../assets/logodarkmode.png'
-import { FaBars, FaTimes, FaFacebookF, FaWhatsapp, FaInstagram, FaLinkedinIn} from 'react-icons/fa'
+import {
+  FaBars,
+  FaTimes,
+  FaFacebookF,
+  FaWhatsapp,
+  FaInstagram,
+  FaLinkedinIn,
+} from 'react-icons/fa'
 import { FiChevronDown } from 'react-icons/fi'
 
 const Navbar = () => {
@@ -19,17 +26,49 @@ const Navbar = () => {
 
   const location = useLocation()
 
-// Services data
-const servicesData = [
-  { name: 'Branding', path: '/services/branding', image: '/services/branding.png' },
-  { name: 'AI Chatbots', path: '/services/chatbotdevelopment', image: '/services/chatbot.png' },
-  { name: 'Web Development', path: '/services/webdevelopment', image: '/services/webdevelopment.png' },
-  { name: 'Lead Generation', path: '/services/leadgeneration', image: '/services/leads.png' },
-  { name: 'Content Creation', path: '/services/contentcreation', image: '/services/contentwriting.png' },
-  { name: 'Digital Marketing', path: '/services/digital-marketing', image: '/services/marketing.png' },
-  { name: 'Career & Training', path: '/services/career', image: '/services/training.png' },
-  { name: 'Mobile App Development', path: '/services/appdevelopment', image: '/services/appdevelopment.png' }
-]
+  // Services data
+  const servicesData = [
+    {
+      name: 'Branding',
+      path: '/services/branding',
+      image: '/services/branding.png',
+    },
+    {
+      name: 'AI Chatbots',
+      path: '/services/chatbotdevelopment',
+      image: '/services/chatbot.png',
+    },
+    {
+      name: 'Web Development',
+      path: '/services/webdevelopment',
+      image: '/services/webdevelopment.png',
+    },
+    {
+      name: 'Lead Generation',
+      path: '/services/leadgeneration',
+      image: '/services/leads.png',
+    },
+    {
+      name: 'Content Creation',
+      path: '/services/contentcreation',
+      image: '/services/contentwriting.png',
+    },
+    {
+      name: 'Digital Marketing',
+      path: '/services/digital-marketing',
+      image: '/services/marketing.png',
+    },
+    {
+      name: 'Career & Training',
+      path: '/services/career',
+      image: '/services/training.png',
+    },
+    {
+      name: 'Mobile App Development',
+      path: '/services/appdevelopment',
+      image: '/services/appdevelopment.png',
+    },
+  ]
 
   const toggleMenu = () => setMenuOpen(!menuOpen)
   const closeMenu = () => setMenuOpen(false)
@@ -75,11 +114,13 @@ const servicesData = [
       <header className="navbar">
         <div className="navbar-container">
           <div className="navbar-logo">
-            <img
-              src={darkMode ? logoDark : logoLight}
-              alt="Logo"
-              className="logo-img"
-            />
+            <Link to="/">
+              <img
+                src={darkMode ? logoDark : logoLight}
+                alt="Logo"
+                className="logo-img"
+              />
+            </Link>
           </div>
 
           {/* Desktop Navigation */}
@@ -96,39 +137,43 @@ const servicesData = [
             </Link>
 
             {/* Services Dropdown */}
-<div
-  className="navbar-dropdown"
-  onMouseEnter={handleServicesMouseEnter}
-  onMouseLeave={handleServicesMouseLeave}
->
-  <Link 
-    to="/services" 
-    className={location.pathname === '/services' ? 'active' : ''}
-  >
-    SERVICES
-  </Link>
-  <FiChevronDown className={`dropdown-arrow ${servicesDropdownOpen ? 'open' : ''}`} />
+            <div
+              className="navbar-dropdown"
+              onMouseEnter={handleServicesMouseEnter}
+              onMouseLeave={handleServicesMouseLeave}
+            >
+              <Link
+                to="/services"
+                className={location.pathname === '/services' ? 'active' : ''}
+              >
+                SERVICES
+              </Link>
+              <FiChevronDown
+                className={`dropdown-arrow ${servicesDropdownOpen ? 'open' : ''}`}
+              />
 
-  <div className={`navbar-dropdown-menu ${servicesDropdownOpen ? 'open' : ''}`}>
-    {servicesData.map((service, index) => (
-      <Link
-        key={index}
-        to={service.path}
-        className={`dropdown-item ${location.pathname === service.path ? 'active' : ''}`}
-      >
-        <img 
-          src={service.image} 
-          alt={service.name}
-          className="dropdown-item-image"
-          onError={(e) => {
-            e.target.style.display = 'none'
-          }}
-        />
-        <span className="dropdown-item-text">{service.name}</span>
-      </Link>
-    ))}
-  </div>
-</div>
+              <div
+                className={`navbar-dropdown-menu ${servicesDropdownOpen ? 'open' : ''}`}
+              >
+                {servicesData.map((service, index) => (
+                  <Link
+                    key={index}
+                    to={service.path}
+                    className={`dropdown-item ${location.pathname === service.path ? 'active' : ''}`}
+                  >
+                    <img
+                      src={service.image}
+                      alt={service.name}
+                      className="dropdown-item-image"
+                      onError={(e) => {
+                        e.target.style.display = 'none'
+                      }}
+                    />
+                    <span className="dropdown-item-text">{service.name}</span>
+                  </Link>
+                ))}
+              </div>
+            </div>
 
             <Link
               to="/contact"
@@ -220,7 +265,9 @@ const servicesData = [
                 />
               </div>
 
-              <div className={`mobile-sub-items ${openDropdown === 'services' ? 'open' : ''}`}>
+              <div
+                className={`mobile-sub-items ${openDropdown === 'services' ? 'open' : ''}`}
+              >
                 {servicesData.map((service, index) => (
                   <Link
                     key={index}
@@ -228,8 +275,8 @@ const servicesData = [
                     onClick={closeMenu}
                     className={`mobile-sub-item ${location.pathname === service.path ? 'active' : ''}`}
                   >
-                    <img 
-                      src={service.image} 
+                    <img
+                      src={service.image}
                       alt={service.name}
                       className="mobile-sub-item-image"
                       onError={(e) => {

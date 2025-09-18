@@ -19,19 +19,13 @@
 
 .process-section__title {
   font-size: 1.5rem;
-  font-weight: normal;
+  font-weight: 300;
   color: var(--text-color);
   line-height: 1.2;
   font-family: 'Sarabun', sans-serif;
   letter-spacing: 0.1rem;
 }
 
-.process-section__highlight {
-  color: #8e1616;
-  display: inline-block;
-  margin-left: 0;
-  font-weight: normal;
-}
 
 /* Cards container */
 .process-section__cards-container {

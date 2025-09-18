@@ -29,21 +29,18 @@
 .brand-section {
   display: flex;
   flex-direction: column;
-  align-items: flex-start;
+  align-items: center;
   gap: 0px;
   margin-left: 20px;
 }
 
 .footer-logo-img {
   width: 180px;
-  height: auto;
+  height: 2.5rem;
   object-fit: contain;
   transition: transform 0.3s ease;
 }
 
-.footer-logo-img:hover {
-  transform: scale(1.1);
-}
 
 .brand-description {
   color: var(--text-secondary);
@@ -55,6 +52,7 @@
   color: var(--text-color);
   margin: 0.5rem 0;
   line-height: 1.5;
+  text-align: center;
 }
 
 /* ---------- Sections Common Styles ---------- */

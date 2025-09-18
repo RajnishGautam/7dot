@@ -28,16 +28,18 @@ const Footer = () => {
         <div className="footer-content">
           <div className="brand-section">
             <div className="brand-logo">
-              <img
-                src={darkMode ? logoDark : logoLight}
-                alt="Footer Logo"
-                className="footer-logo-img"
-              />
+              <Link to="/">
+                <img
+                  src={darkMode ? logoDark : logoLight}
+                  alt="Footer Logo"
+                  className="footer-logo-img"
+                />
+              </Link>
             </div>
-            <p className="brand-description">
-                Digital Tech
+            <p className="brand-description">Digital Tech</p>
+            <p className="footer-address">
+              SCO 2/3 IT Park, Chandigarh (Panchkula)
             </p>
-            <p>SCO 2/3 IT Park, Chandigarh (Panchkula)</p>
           </div>
 
           {/* Blog Page Section */}
@@ -70,8 +72,18 @@ const Footer = () => {
                 <p>India Branch: 7dot It Solutions</p>
               </div>
               <div className="contactfooter-item">
-                <p>Other Location: 7Dot It, Mexico</p>
+                <p>
+                  Mexico Branch:{' '}
+                  <a
+                    href="https://punto7x.com/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    Pnnto7x, Tijuana
+                  </a>
+                </p>
               </div>
+
               <p className="contactfooter-item">
                 Phone: <a href="tel:+917838649867">+91 7838649867</a>
               </p>
@@ -79,14 +91,17 @@ const Footer = () => {
                 Phone: <a href="tel:+917838649867">+52 6634149718</a>
               </p>
               <p className="contactfooter-item">
-                Email: <a href="mailto:support@7Dot It.solutions">support@7Dot It.solutions</a>
+                Email:{' '}
+                <a href="mailto:support@7Dot It.solutions">
+                  support@7Dot It.solutions
+                </a>
               </p>
             </div>
           </div>
 
           {/* Career Section */}
           <div className="career-section">
-            <h3 className="contactsection-title">Career</h3>
+            <h3 className="contactfootersection-title">Career</h3>
             <ul className="career-list">
               <li>
                 <a
@@ -97,7 +112,7 @@ const Footer = () => {
                   Training
                 </a>
               </li>
-              
+
               <li>
                 <a
                   href="https://forms.gle/nQbKTrSjCPJ9bziN8"
@@ -121,22 +136,24 @@ const Footer = () => {
 
           {/* Services Section */}
           <div className="services-section">
-            <h3 className="contactsection-title">Services</h3>
+            <h3 className="contactfootersection-title">Services</h3>
             <ul className="services-list">
               <li>
                 <Link to="/services/digital-marketing">Digital Marketing</Link>
               </li>
               <li>
-                <Link to="/services/branding">UI & UX Designing</Link>
+                <Link to="/services/branding#logo-design-work">UI & UX Designing</Link>
               </li>
               <li>
-                <Link to="/services/branding">Branding & Identity</Link>
+                <Link to="/services/branding#horizontal-gallery">Branding & Identity</Link>
               </li>
               <li>
                 <Link to="/services/webdevelopment">Website Development</Link>
               </li>
               <li>
-                <Link to="/services/appdevelopment">Mobile App Development</Link>
+                <Link to="/services/appdevelopment">
+                  Mobile App Development
+                </Link>
               </li>
             </ul>
           </div>
@@ -144,10 +161,7 @@ const Footer = () => {
 
         {/* Bottom Bar */}
         <div className="footer-bottom">
-          <p>
-            © {new Date().getFullYear()} 7Dot It. All rights reserved.
-          </p>
-          
+          <p>© {new Date().getFullYear()} 7Dot It. All rights reserved.</p>
         </div>
       </div>
     </footer>

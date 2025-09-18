@@ -11,7 +11,7 @@ const AboutUSP = () => {
 
   return (
     <section className="aboutusp-section">
-      <h2 className="aboutusp-title">What Makes Us Different</h2>
+      <h2 className="aboutusp-title">What Makes Us <span className='highlight-text'> Different</span></h2>
       <div className="aboutusp-cards">
         {usp.map((item, index) => (
           <div className="aboutusp-card" key={index}>

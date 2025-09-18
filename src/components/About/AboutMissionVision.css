@@ -20,12 +20,9 @@
   background: rgba(255, 255, 255, 0.05); /* lighter for mirror feel */
   backdrop-filter: blur(18px) saturate(180%);
   -webkit-backdrop-filter: blur(18px) saturate(180%);
-  padding: 2rem;
+  padding: 1.5rem;
   border-radius: 1.5rem;
   border: .5px solid #8e1616;
-  box-shadow:
-    0 8px 25px rgba(0, 0, 0, 0.4),
-    inset 0 0 25px rgba(255, 255, 255, 0.05);
   transition:
     transform 0.4s ease,
     box-shadow 0.4s ease,
@@ -45,9 +42,12 @@
 .aboutmv-header {
   display: flex;
   align-items: center;
+  justify-content: center;
+  text-align: center;
   gap: 0.8rem;
   margin-bottom: 1rem;
 }
+
 
 .aboutmv-header h2 {
   font-size: 1.5rem;

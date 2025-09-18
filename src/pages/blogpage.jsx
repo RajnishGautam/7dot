@@ -14,11 +14,15 @@ export default function BlogPage() {
             className={`blog-card ${index % 2 !== 0 ? 'reverse' : ''}`}
           >
             <div className="blog-card-image">
-              <img src={blog.image} alt={blog.title} />
+              <Link to={`/blog/${blog.id}`}>
+                <img src={blog.image} alt={blog.title} />
+              </Link>
             </div>
             <div className="blog-card-content">
-              <h2>{blog.title}</h2>
-              <p>{blog.excerpt}</p>
+              <Link to={`/blog/${blog.id}`} className="blog-card-text-link">
+                <h2>{blog.title}</h2>
+                <p>{blog.excerpt}</p>
+              </Link>
               <Link to={`/blog/${blog.id}`} className="read-more">
                 Read More →
               </Link>

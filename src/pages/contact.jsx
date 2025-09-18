@@ -78,7 +78,7 @@ const ContactPage = () => {
       <div className="contact-header">
         <div className="header-content">
           <h1 className="contact-title">Get In Touch</h1>
-          <p className="contact-subtitle">Ready to start your next project?</p>
+          <p className="contact-subtitle">Ready to start your project?</p>
         </div>
       </div>
 

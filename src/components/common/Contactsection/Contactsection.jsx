@@ -150,7 +150,7 @@ const HeroWithVideo = () => {
               rows="5"
             ></textarea>
             <button type="submit" className="submitform-button">
-              Get A Call
+              Send Message
             </button>
           </form>
 

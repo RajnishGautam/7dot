@@ -10,25 +10,15 @@
 
 .aboutusp-title {
   font-size: 1.5rem;
-  font-weight: normal;
+  font-weight: 300;
   margin-bottom: 4rem;
-  background: linear-gradient(90deg, #8e1616, #ff4040);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
   letter-spacing: 2px;
   text-transform: uppercase;
   position: relative;
   display: inline-block;
+
 }
-.aboutusp-title::after {
-  content: '';
-  display: block;
-  height: 3px;
-  width: 60%;
-  background: linear-gradient(90deg, #8e1616, #ff4040);
-  margin: 0rem auto 0;
-  border-radius: 3px;
-}
+
 
 /* Cards Grid */
 .aboutusp-cards {
@@ -46,10 +36,8 @@
   -webkit-backdrop-filter: blur(18px) saturate(180%);
   padding: 2rem;
   border-radius: 1.5rem;
-  border: 1px solid rgba(255, 255, 255, 0.2);
-  box-shadow:
-    0 8px 25px rgba(0, 0, 0, 0.4),
-    inset 0 0 25px rgba(255, 255, 255, 0.05);
+  border: 1px solid #8e1616;
+  
   transition:
     transform 0.4s ease,
     box-shadow 0.4s ease,

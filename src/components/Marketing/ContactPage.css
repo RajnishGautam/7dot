@@ -25,11 +25,13 @@
 
 .contact-title {
   font-family: 'Sarabun', sans-serif;
-  font-size: 2rem;
+  font-size: 1.5rem;
   font-weight: normal;
   color: var(--text-color);
+  text-transform: uppercase;
   line-height: 1.2;
   letter-spacing: -0.02em;
+  letter-spacing: .1rem;
 }
 
 .contact-subtitle {
@@ -103,7 +105,7 @@
 
 .contact-item h4 {
   font-family: 'sarabun';
-  font-size: 1.1rem;
+  font-size: 1rem;
   color: var(--text-color);
   margin-bottom: 2px;
   font-weight: normal;
@@ -130,7 +132,7 @@
 
 .social-media h4 {
   font-family: 'sarabun',sans-serif;
-  font-size: 1.1rem;
+  font-size: 1rem;
   color: var(--text-color);
   margin-bottom: 20px;
   font-weight: normal;
@@ -176,7 +178,7 @@
 
 .form-header h3 {
   font-family: 'sarabun',sans-serif;
-  font-size: 2rem;
+  font-size: 1.8rem;
   color: var(--text-color);
   margin-bottom: 10px;
   font-weight: normal;
@@ -185,7 +187,7 @@
 .form-header p {
   font-family: 'sarabun',sans-serif;
   font-size: 1rem;
-  color: var(--text-color);
+  color: #111111;
   opacity: 0.8;
   line-height: 1.5;
 }
@@ -300,18 +302,6 @@
   }
 }
 
-/* Map Section */
-.map-section {
-  position: relative;
-  height: 500px;
-  width: 80%;
-  overflow: hidden;
-  margin: 0 auto; /* centers horizontally */
-  display: block;
-  margin-bottom: 100px;
-  border-radius: 40px;
-  border: 5px solid #8e1616;
-}
 
 /* Responsive Design */
 @media (max-width: 1024px) {
@@ -398,9 +388,5 @@
   .social-links {
     justify-content: center;
   }
-  .map-section {
-    max-height: 180px;
-    border: 2px solid #8e1616;
-    margin-bottom: 2rem;
-  }
+ 
 }

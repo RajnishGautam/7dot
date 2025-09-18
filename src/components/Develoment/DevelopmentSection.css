@@ -1,6 +1,10 @@
-.developmentsection {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding: 0rem;
+.development-section {
+  padding: 4rem 2rem; /* top-bottom 4rem, left-right 2rem */
+}
+
+/* optional: adjust padding for mobile */
+@media (max-width: 768px) {
+  .development-section {
+    padding: 2rem 1rem;
+  }
 }

@@ -8,7 +8,7 @@ import OurServices from '../components/Home/Ourservices/Ourservices'
 
 const About = () => {
   return (
-    <div className="about-page">
+    <div className="about-page" style={{ paddingBottom: '3rem' }}>
       <AboutHero />
       <AboutMissionVision />
       <AboutUSP />

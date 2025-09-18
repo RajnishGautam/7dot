@@ -1,9 +1,9 @@
 # Allow all search engines to crawl main pages
 User-agent: *
 Allow: / 
-Allow: /development
-Allow: /branding
-Allow: /digital-marketing
+Allow: /services/development
+Allow: /services/branding
+Allow: /services/digital-marketing
 Allow: /blog
 Allow: /blog/*
 Allow: /contact

@@ -142,7 +142,7 @@
 }
 
 .blog-detail p {
-  font-size: 1.2rem;
+  font-size: 1rem;
   font-family: 'sarabun',sans-serif !important;
   width: 100%;
   text-align: justify;
@@ -160,25 +160,25 @@
 
 .blog-detail li {
   margin-bottom: 0.5rem;
-  font-size: 1.2rem;
+  font-size: 1rem;
   line-height: 1;
 }
 
-.blog-detail a {
-  color: #0077cc !important;
+/* Service Interlinks inside blog content */
+.blog-detail a[href^="/services"] {
+  color: #007bff; /* Bright blue highlight */
+  font-weight: normal;
   text-decoration: none;
-  transition:
-    color 0.2s,
-    border-color 0.2s;
+  
+  transition: all 0.3s ease;
 }
 
-.blog-detail a:hover {
-  color: #8e1616;
-  border-color: #8e1616;
+.blog-detail a[href^="/services"]:hover {
+  color: #8e1616; /* Darker blue on hover */
 }
 
 .blog-detail blockquote {
-  border-left: 4px solid #0077cc;
+  border-left: 4px solid #d60f0f;
   padding-left: 1rem;
   margin: 1.5rem 0;
   color: #555;
@@ -223,7 +223,7 @@
   border: 2px solid #8e1616;
   text-decoration: none;
   border-radius: 4px;
-  font-size: 1.5rem;
+  font-size: 1rem;
   font-weight: normal;
   border-radius: 40px;
   transition: background 0.3s ease;

@@ -149,7 +149,7 @@ const ProcessSection = () => {
       <div className="process-section__container">
         <div className="process-section__header">
           <h2 className="process-section__title">
-            OUR <span className="process-section__highlight">PIPELINE</span>
+            OUR <span className="highlight-text">PIPELINE</span>
           </h2>
         </div>
 
