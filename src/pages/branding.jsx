@@ -22,17 +22,14 @@ const BrandingSection = () => {
 
   return (
     <div>
+      <div id="horizontal-gallery">
+        <HorizontalGallery />
+      </div>
       <div id="logo-design-work">
         <LogoDesignWork />
       </div>
 
-      <div id="horizontal-gallery">
-        <HorizontalGallery />
-      </div>
-
-      <div id="contact-section">
-        <HeroWithVideo />
-      </div>
+      <HeroWithVideo />
     </div>
   )
 }

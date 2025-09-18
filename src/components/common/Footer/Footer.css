@@ -3,7 +3,7 @@
   color: var(--text-color);
   padding: 0px 0px;
   font-family: 'Sarabun', sans-serif;
-  font-size: .9rem;
+  font-size: 0.9rem;
   font-weight: 300;
   line-height: 1.4;
   transition:
@@ -41,7 +41,6 @@
   transition: transform 0.3s ease;
 }
 
-
 .brand-description {
   color: var(--text-secondary);
   font-size: 1.2rem;
@@ -58,12 +57,12 @@
 /* ---------- Sections Common Styles ---------- */
 .pagesection-title,
 .contactfootersection-title {
-  font-size: 1rem;         
-  font-weight: 500;         
-  margin-bottom: 0rem;     
-  color: var(--text-color);  
+  font-size: 1rem;
+  font-weight: 500;
+  margin-bottom: 0rem;
+  color: var(--text-color);
   font-family: 'Sarabun', sans-serif;
-  letter-spacing: 0.5px;     
+  letter-spacing: 0.5px;
 }
 .contactfooter-section,
 .career-section,
@@ -118,8 +117,6 @@
   margin-left: auto;
   margin-right: auto;
 }
-
-
 
 /* Heart Animation */
 .heart {
@@ -196,18 +193,18 @@
 /* ================= SMALL TABLET / LARGE MOBILE (481px – 767px) ================= */
 @media (min-width: 700px) and (max-width: 767px) {
   .footer {
-    font-size: .8rem;
+    font-size: 0.8rem;
   }
   .brand-section {
     display: none !important; /* hide logo/brand */
   }
 
   .footer-content {
-    display: flex; 
+    display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: flex-start;
-    flex-wrap: nowrap; 
+    flex-wrap: nowrap;
     gap: 10px;
     padding: 0 0px;
     margin-bottom: 0;
@@ -217,7 +214,7 @@
   .career-section,
   .services-section,
   .pages-section {
-    flex: 1; 
+    flex: 1;
     margin-left: 0;
     text-align: center;
     align-items: center;
