@@ -9,7 +9,7 @@ const services = [
     gifImage: '/services/webdevelopment.gif',
     title: 'Web Development',
     slogan: 'We create Digital Magic',
-    link: '/webdevelopment',
+    link: '/services/webdevelopment',
   },
   {
     id: 2,
@@ -17,7 +17,7 @@ const services = [
     gifImage: '/services/appdevelopment.gif',
     title: 'App Development',
     slogan: 'Mobile apps that scale',
-    link: '/appdevelopment',
+    link: '/services/appdevelopment',
   },
   {
     id: 3,
@@ -25,7 +25,7 @@ const services = [
     gifImage: '/services/chatbot.gif',
     title: 'AI Chatbots',
     slogan: 'Smart solutions for business',
-    link: '/chatbotdevelopment',
+    link: '/services/chatbotdevelopment',
   },
   {
     id: 4,
@@ -33,7 +33,7 @@ const services = [
     gifImage: '/services/leads.gif',
     title: 'Lead Generation',
     slogan: 'Demand Drives Growth',
-    link: '/leadgeneration',
+    link: '/services/leadgeneration',
   },
   {
     id: 5,
@@ -41,7 +41,7 @@ const services = [
     gifImage: '/services/marketing.gif',
     title: 'Digital Marketing',
     slogan: 'Strategies that work',
-    link: '/digital-marketing',
+    link: '/services/digital-marketing',
   },
   {
     id: 6,
@@ -49,7 +49,7 @@ const services = [
     gifImage: '/services/contentwriting.gif',
     title: 'Content Creation',
     slogan: 'Content that engages',
-    link: '/contentcreation',
+    link: '/services/contentcreation',
   },
   {
     id: 7,
@@ -57,7 +57,7 @@ const services = [
     gifImage: '/services/branding.gif',
     title: 'Branding',
     slogan: 'Build your brand identity',
-    link: '/branding',
+    link: '/services/branding',
   },
   {
     id: 8,
@@ -65,7 +65,7 @@ const services = [
     gifImage: '/services/training.gif',
     title: 'Career & Training',
     slogan: 'Empower your future',
-    link: '/career',
+    link: '/services/career',
   },
 ]
 

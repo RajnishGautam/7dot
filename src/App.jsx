@@ -36,20 +36,20 @@ function App() {
       <ScrollToTop />
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/branding" element={<Branding />} />
-        <Route path="/digital-marketing" element={<DigitalMarketing />} />
-        <Route path="/development" element={<Development />} />
+        <Route path="/services/branding" element={<Branding />} />
+        <Route path="/services/digital-marketing" element={<DigitalMarketing />} />
+        <Route path="/services" element={<Development />} />
         <Route path="/blog" element={<Blog />} />
         <Route path="/blog/:id" element={<BlogDetail />} />
         <Route path="/contact" element={<ContactPage />} />
         <Route path="/about" element={<About />} />
         <Route path="/privacypolicy" element={<PrivacyPolicy />} />
-        <Route path="/webdevelopment" element={<WebDevelopmentPage />} />
-        <Route path="/appdevelopment" element={<AppDevelopmentPage />} />
-        <Route path="/chatbotdevelopment" element={<ChatbotDevelopmentPage />} />
-        <Route path="/leadgeneration" element={<LeadGenerationPage />} />
-        <Route path="/contentcreation" element={<ContentCreationPage />} />
-        <Route path="/career" element={<CareerPage />} />
+        <Route path="/services/webdevelopment" element={<WebDevelopmentPage />} />
+        <Route path="/services/appdevelopment" element={<AppDevelopmentPage />} />
+        <Route path="/services/chatbotdevelopment" element={<ChatbotDevelopmentPage />} />
+        <Route path="/services/leadgeneration" element={<LeadGenerationPage />} />
+        <Route path="/services/contentcreation" element={<ContentCreationPage />} />
+        <Route path="/services/career" element={<CareerPage />} />
       </Routes>
       <Footer />
     </>

@@ -124,19 +124,19 @@ const Footer = () => {
             <h3 className="contactsection-title">Services</h3>
             <ul className="services-list">
               <li>
-                <Link to="/digital-marketing">Digital Marketing</Link>
+                <Link to="/services/digital-marketing">Digital Marketing</Link>
               </li>
               <li>
-                <Link to="/branding">UI & UX Designing</Link>
+                <Link to="/services/branding">UI & UX Designing</Link>
               </li>
               <li>
-                <Link to="/branding">Branding & Identity</Link>
+                <Link to="/services/branding">Branding & Identity</Link>
               </li>
               <li>
-                <Link to="/development">Website Development</Link>
+                <Link to="/services/webdevelopment">Website Development</Link>
               </li>
               <li>
-                <Link to="/development">Mobile App Development</Link>
+                <Link to="/services/appdevelopment">Mobile App Development</Link>
               </li>
             </ul>
           </div>

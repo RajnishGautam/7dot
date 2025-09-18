@@ -165,7 +165,7 @@
 }
 
 .blog-detail a {
-  color: #0077cc;
+  color: #0077cc !important;
   text-decoration: none;
   transition:
     color 0.2s,
