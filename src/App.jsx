@@ -2,7 +2,7 @@ import { Routes, Route, useLocation } from 'react-router-dom'
 import { useEffect } from 'react'
 import Home from './pages/Home'
 import Branding from './pages/branding'
-import DigitalMarketing from './pages/marketing'
+import DigitalMarketingPage from './pages/digitalmarketing'
 import Development from './pages/development'
 import Blog from './pages/blogpage'
 import BlogDetail from './pages/blogdetail'
@@ -37,7 +37,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/services/branding" element={<Branding />} />
-        <Route path="/services/digital-marketing" element={<DigitalMarketing />} />
+        
         <Route path="/services" element={<Development />} />
         <Route path="/blog" element={<Blog />} />
         <Route path="/blog/:id" element={<BlogDetail />} />
@@ -48,6 +48,7 @@ function App() {
         <Route path="/services/appdevelopment" element={<AppDevelopmentPage />} />
         <Route path="/services/chatbotdevelopment" element={<ChatbotDevelopmentPage />} />
         <Route path="/services/leadgeneration" element={<LeadGenerationPage />} />
+        <Route path="/services/digital-marketing" element={<DigitalMarketingPage />} />
         <Route path="/services/contentcreation" element={<ContentCreationPage />} />
         <Route path="/services/career" element={<CareerPage />} />
       </Routes>
