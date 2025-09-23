@@ -111,7 +111,7 @@ const CareerTrainingSection = () => {
 
             <div className="chatbot-cta">
               <a
-                href="https://wa.me/917838649867"
+                href="https://forms.gle/jEz6jBuSDMCAqK3r7"
                 target="_blank"
                 rel="noopener noreferrer"
               >

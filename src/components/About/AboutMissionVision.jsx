@@ -14,7 +14,7 @@ const AboutMissionVision = () => {
             <h2>Our Story</h2>
           </div>
           <p>
-            7Dot It was founded to empower businesses in Mexico and beyond with
+            7Dot It was founded to empower businesses in India and beyond with
             modern web development, digital marketing, and branding solutions —
             helping startups and enterprises turn ideas into impactful digital
             experiences.
@@ -43,7 +43,7 @@ const AboutMissionVision = () => {
             <h2>Our Vision</h2>
           </div>
           <p>
-            To become Mexico’s leading digital agency, driving global businesses
+            To become India’s leading digital agency, driving global businesses
             towards growth with creativity and technology.
           </p>
         </div>

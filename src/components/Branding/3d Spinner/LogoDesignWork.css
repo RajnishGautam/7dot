@@ -138,7 +138,7 @@
 .carousel3d-card {
   position: relative;
   width: 13rem;
-  height: 16rem;
+  height: 13rem;
   backdrop-filter: blur(20px);
   border: 1px solid #8e1616;
   border-radius: 20px;
@@ -288,6 +288,7 @@
   }
   .carousel3d-card {
     width: 12rem;
+    height: 12rem;
   }
   .carousel3d-image-title {
     font-size: .5rem;
@@ -310,7 +311,7 @@
   }
   .carousel3d-card {
     width: 12rem;
-    height: 18rem;
+    height: 12rem;
   }
   .carousel3d-nav {
     display: none;

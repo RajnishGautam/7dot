@@ -15,8 +15,8 @@ const LogoDesignWork = () => {
     {
       id: 1,
       type: "image",
-      src: "/branding/brand1.JPG",
-      title: "Serene Mountain Lake",
+      src: "/testinomials/yogafiy.png",
+      title: "",
       description: "Crystal clear waters reflecting majestic mountain peaks in perfect harmony"
     },
     {
