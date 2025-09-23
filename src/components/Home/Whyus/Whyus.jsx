@@ -352,10 +352,6 @@ const WhyUs3DCards = () => {
   color:var(--text-color);
 }
 
-
-
-
-
 .cards-container {
   position: relative;
   min-height: 300px;

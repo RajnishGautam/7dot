@@ -233,13 +233,13 @@
    letter-spacing: .1rem;
 }
   .testimonials-arrows {
-    display: flex;
+    display: none;
   }
   .testimonials-section{
     padding: 2.5rem 0rem 1rem;
   }
   .testimonial-text {
-  font-size: 1rem;
+  font-size: .8rem;
   line-height: 1;
   color: var(--text-color);
   margin-top: 0.5rem;

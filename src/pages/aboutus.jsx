@@ -5,6 +5,7 @@ import AboutUSP from '../components/About/AboutUSP'
 import ProcessSection from '../components/Develoment/Process'
 import AboutAchievements from '../components/About/AboutAchievements'
 import OurServices from '../components/Home/Ourservices/Ourservices'
+import HeroWithVideo from '../components/common/Contactsection/Contactsection'
 
 const About = () => {
   return (
@@ -15,6 +16,7 @@ const About = () => {
       <AboutAchievements />
       <OurServices />
       <ProcessSection />
+      <HeroWithVideo />
     </div>
   )
 }

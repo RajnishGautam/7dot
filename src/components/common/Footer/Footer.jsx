@@ -105,7 +105,7 @@ const Footer = () => {
             <ul className="career-list">
               <li>
                 <a
-                  href="https://forms.gle/nQbKTrSjCPJ9bziN8"
+                  href="https://forms.gle/jEz6jBuSDMCAqK3r7"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
@@ -115,7 +115,7 @@ const Footer = () => {
 
               <li>
                 <a
-                  href="https://forms.gle/nQbKTrSjCPJ9bziN8"
+                  href="https://forms.gle/jEz6jBuSDMCAqK3r7"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
@@ -124,7 +124,7 @@ const Footer = () => {
               </li>
               <li>
                 <a
-                  href="https://forms.gle/nQbKTrSjCPJ9bziN8"
+                  href="https://forms.gle/jEz6jBuSDMCAqK3r7"
                   target="_blank"
                   rel="noopener noreferrer"
                 >

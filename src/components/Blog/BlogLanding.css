@@ -273,11 +273,11 @@
     border: none;
   }
   .blog-card-content h2 {
-    font-size: 1.4rem;
+    font-size: 1rem;
   }
 
   .blog-card-content p {
-    font-size: 0.9rem;
+    font-size: 0.8rem;
   }
 
   .read-more {
@@ -316,7 +316,7 @@
   }
 
   .blog-detail p {
-    font-size: 1rem;
+    font-size: .8rem;
     font-family: 'sarabun',sans-serif;
     text-align: left;
     width: 100%;
@@ -332,7 +332,7 @@
     font-size: 0.7rem;
   }
   .blog-detail li {
-    font-size: 1rem;
+    font-size: .8rem;
     margin-bottom: 5px;
   }
 }

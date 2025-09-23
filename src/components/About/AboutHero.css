@@ -53,7 +53,7 @@
 ========================= */
 @media (max-width: 1024px) {
   .abouthero-content h1 {
-    font-size: 2.2rem;
+    font-size: 1.5rem;
   }
 
   .abouthero-content p {
@@ -63,16 +63,21 @@
 
 @media (max-width: 600px) {
   .about-hero {
-    min-height: 35vh;
-    padding: 0rem 5%;
+    min-height: fit-content;
+    padding: 4rem 0%  1rem;
+    max-width: 100%;
   }
 
   .abouthero-content h1 {
-    font-size: 1.8rem;
+    font-size: 1rem;
     margin-bottom: 0;
   }
 
   .abouthero-content p {
     display: none;
   }
+  .abouthero-content {
+  max-width: 100%;
+  animation: fadeInUp 1.2s ease forwards;
+}
 }

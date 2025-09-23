@@ -117,8 +117,8 @@
   }
 
   .about-achievements h2 {
-    font-size: 1.5rem;
-    margin-bottom: 1.5rem;
+    font-size: 1rem;
+    margin-bottom: 1rem;
     letter-spacing: 0.1rem;
   }
 
@@ -128,10 +128,11 @@
 
   .stats-grid {
     gap: 1rem;
+    grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
   }
 
   .stat-card {
-    padding: 1.5rem 1rem;
+    padding: .5rem .1rem;
   }
 
   .stat-card h3 {
@@ -139,6 +140,9 @@
   }
 
   .stat-card p {
-    font-size: 0.95rem;
+    font-size: 0.8rem;
+    line-height: 1;
   }
+  .stat-card h3 {
+    font-size: 1.5rem;}
 }

@@ -124,7 +124,7 @@
   }
   .aboutusp-title {
     text-align: center;
-    font-size: 1.5rem;
+    font-size: 1rem;
     letter-spacing: 0.1rem;
     margin-bottom: 1rem;
     color: #8e1616;
@@ -133,10 +133,10 @@
     display: none;
   }
   .aboutusp-cards {
-    gap: 1rem;
+    gap: .5rem;
   }
   .aboutusp-card {
-    padding: 1rem;
+    padding: .5rem;
   }
   .aboutusp-header {
     display: flex;

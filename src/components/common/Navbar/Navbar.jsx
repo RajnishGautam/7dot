@@ -38,20 +38,21 @@ const Navbar = () => {
       path: '/services/chatbotdevelopment',
       image: '/services/chatbot.png',
     },
-    {
-      name: 'Web Development',
-      path: '/services/webdevelopment',
-      image: '/services/webdevelopment.png',
-    },
-    {
+     {
       name: 'Lead Generation',
       path: '/services/leadgeneration',
       image: '/services/leads.png',
     },
+    
     {
       name: 'Content Creation',
       path: '/services/contentcreation',
       image: '/services/contentwriting.png',
+    },
+    {
+      name: 'Web Development',
+      path: '/services/webdevelopment',
+      image: '/services/webdevelopment.png',
     },
     {
       name: 'Digital Marketing',
@@ -63,6 +64,7 @@ const Navbar = () => {
       path: '/services/career',
       image: '/services/training.png',
     },
+    
     {
       name: 'Mobile App Development',
       path: '/services/appdevelopment',
