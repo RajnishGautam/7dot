@@ -17,6 +17,7 @@ import AppDevelopmentPage from './pages/appdevelopment'
 import ChatbotDevelopmentPage from './pages/chatbotdevelopment'
 import LeadGenerationPage from './pages/leadgeneration'
 import ContentCreationPage from './pages/ContentCreation'
+import PhotoShootPage from './pages/Photoshoot'
 import CareerPage from './pages/career'
 import './App.css'
 
@@ -37,7 +38,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/services/branding" element={<Branding />} />
-        
+        <Route path="/services/photoshoot" element={<PhotoShootPage />} />
         <Route path="/services" element={<Development />} />
         <Route path="/blog" element={<Blog />} />
         <Route path="/blog/:id" element={<BlogDetail />} />
@@ -51,6 +52,7 @@ function App() {
         <Route path="/services/digital-marketing" element={<DigitalMarketingPage />} />
         <Route path="/services/contentcreation" element={<ContentCreationPage />} />
         <Route path="/services/career" element={<CareerPage />} />
+        <Route path="/career" element={<CareerPage />} />
       </Routes>
       <Footer />
     </>

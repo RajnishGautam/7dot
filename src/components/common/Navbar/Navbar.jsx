@@ -29,6 +29,22 @@ const Navbar = () => {
   // Services data
   const servicesData = [
     {
+      name: 'Digital Marketing',
+      path: '/services/digital-marketing',
+      image: '/services/marketing.png',
+    },
+    {
+      name: 'Web Development',
+      path: '/services/webdevelopment',
+      image: '/services/webdevelopment.png',
+    },
+    
+    {
+      name: 'Lead Generation',
+      path: '/services/leadgeneration',
+      image: '/services/leads.png',
+    },
+    {
       name: 'Branding',
       path: '/services/branding',
       image: '/services/branding.png',
@@ -38,31 +54,19 @@ const Navbar = () => {
       path: '/services/chatbotdevelopment',
       image: '/services/chatbot.png',
     },
-     {
-      name: 'Lead Generation',
-      path: '/services/leadgeneration',
-      image: '/services/leads.png',
-    },
+     
     
     {
       name: 'Content Creation',
       path: '/services/contentcreation',
       image: '/services/contentwriting.png',
     },
+    
+    
     {
-      name: 'Web Development',
-      path: '/services/webdevelopment',
-      image: '/services/webdevelopment.png',
-    },
-    {
-      name: 'Digital Marketing',
-      path: '/services/digital-marketing',
-      image: '/services/marketing.png',
-    },
-    {
-      name: 'Career & Training',
-      path: '/services/career',
-      image: '/services/training.png',
+      name: 'Photoshoot',
+      path: '/services/photoshoot',
+      image: '/services/camera.png',
     },
     
     {
@@ -184,10 +188,10 @@ const Navbar = () => {
               CONTACT US
             </Link>
             <Link
-              to="/blog"
-              className={location.pathname === '/blog' ? 'active' : ''}
+              to="/career"
+              className={location.pathname === '/career' ? 'active' : ''}
             >
-              BLOGS
+              CAREER
             </Link>
           </nav>
 
@@ -299,11 +303,11 @@ const Navbar = () => {
               CONTACT US
             </Link>
             <Link
-              to="/blog"
+              to="/career"
               onClick={closeMenu}
-              className={location.pathname === '/blog' ? 'active' : ''}
+              className={location.pathname === '/career' ? 'active' : ''}
             >
-              BLOGS
+              CAREER
             </Link>
           </nav>
 

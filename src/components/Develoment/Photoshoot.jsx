@@ -1,51 +1,40 @@
 import React, { useState } from 'react'
 import {
-  BookOpen,
-  Laptop,
-  PenTool,
-  Globe,
+  Camera,
+  Image,
+  Video,
+  Zap,
   Users,
-  CheckCircle,
   ArrowRight,
+  CheckCircle,
 } from 'lucide-react'
 import './ChatbotServiceSection.css'
 
-const CareerTrainingSection = () => {
+const PhotoshootServiceSection = () => {
   const [isHovered, setIsHovered] = useState(false)
 
   const features = [
-    { icon: <Laptop className="w-5 h-5" />, text: 'Hands-on Web Development' },
-    { icon: <Globe className="w-5 h-5" />, text: 'Digital Marketing Campaigns' },
-    { icon: <PenTool className="w-5 h-5" />, text: 'Creative Graphics Design' },
-    { icon: <BookOpen className="w-5 h-5" />, text: 'Content Writing Mastery' },
-    { icon: <Users className="w-5 h-5" />, text: 'Soft Skills & Communication' },
-    { icon: <CheckCircle className="w-5 h-5" />, text: 'Guaranteed Placement Support' },
+    { icon: <Camera className="w-5 h-5" />, text: 'Professional Photography' },
+    { icon: <Image className="w-5 h-5" />, text: 'High-Quality Images' },
+    { icon: <Video className="w-5 h-5" />, text: 'Cinematic Video Shoots' },
+    { icon: <Zap className="w-5 h-5" />, text: 'Creative Lighting & Setup' },
+    { icon: <Users className="w-5 h-5" />, text: 'Team & Product Shoots' },
   ]
 
   const benefits = [
-    'Industry-Relevant Curriculum designed by experts',
-    'Work on Live Projects during training',
-    'Personal Mentorship and Career Guidance',
-    'Interview Preparation and Resume Building',
-    'Internship + Job Placement Assistance',
-    'Certification Recognized by Companies',
-  ]
-
-  const trainingTypes = [
-    'Full-Stack Web Development (MERN / MEAN)',
-    'Digital Marketing & SEO',
-    'Graphics and UI/UX Design',
-    'Content Writing & Blogging',
-    'Social Media Marketing',
-    'Corporate Soft Skills & Communication',
+    'Boost your brand visuals',
+    'High engagement content for social media',
+    'Professional representation for products and services',
+    'Creative storytelling through imagery',
+    'Consistent visual identity across platforms',
   ]
 
   const useCases = [
-    'Students: Build job-ready skills for future',
-    'Professionals: Upskill or switch career paths',
-    'Entrepreneurs: Learn digital tools for growth',
-    'Freelancers: Master high-demand services',
-    'Job Seekers: Get placement-ready training',
+    'Corporate: Team portraits and office coverage',
+    'E-commerce: Product photography and lifestyle images',
+    'Social Media: Engaging photos and reels',
+    'Events: Conferences, launch events, and brand activations',
+    'Fashion: Model and portfolio shoots',
   ]
 
   return (
@@ -56,18 +45,13 @@ const CareerTrainingSection = () => {
           <div className="chatbot-left">
             <div className="chatbot-heading desktop-heading">
               <h2>
-                Career <span>Training & Development</span>
+                Professional <span>Photoshoot Services</span>
               </h2>
               <p>
-                We offer career-focused training programs built to make you
-                industry-ready. Our courses combine theory, practice, and
-                mentorship to help you master in-demand skills and secure
-                successful career opportunities.
+                We provide high-quality photoshoot services tailored to your brand and business needs. From product photography to corporate portraits, we create visuals that impress and engage your audience.
               </p>
               <p>
-                From coding and digital marketing to graphics and soft skills,
-                we provide comprehensive training with a focus on real-world
-                applications and guaranteed placement support.
+                Our team combines creativity, technical expertise, and modern equipment to deliver stunning images and videos that strengthen your brand identity and marketing campaigns.
               </p>
             </div>
 
@@ -89,19 +73,18 @@ const CareerTrainingSection = () => {
               ))}
             </div>
 
-            {/* Training Types */}
-            <div className="chatbot-training-types">
-              <h3>Types of Training We Offer</h3>
+            <div className="chatbot-why-choose">
+              <h3>Why Choose Our Photoshoot Services?</h3>
               <ul>
-                {trainingTypes.map((type, index) => (
-                  <li key={index}>{type}</li>
-                ))}
+                <li>Experienced photographers and videographers</li>
+                <li>Creative and professional approach for all projects</li>
+                <li>High-resolution content suitable for web and print</li>
+                <li>Quick turnaround and end-to-end support</li>
               </ul>
             </div>
 
-            {/* Use Cases */}
             <div className="chatbot-why-choose">
-              <h3>Who Can Benefit?</h3>
+              <h3>Use Cases</h3>
               <ul>
                 {useCases.map((useCase, index) => (
                   <li key={index}>{useCase}</li>
@@ -120,7 +103,7 @@ const CareerTrainingSection = () => {
                   onMouseEnter={() => setIsHovered(true)}
                   onMouseLeave={() => setIsHovered(false)}
                 >
-                  Start Your Career Training
+                  Book a Photoshoot
                   <ArrowRight className="arrow" />
                 </button>
               </a>
@@ -129,8 +112,8 @@ const CareerTrainingSection = () => {
 
           <div className="chatbot-right">
             <img
-              src="/services/careertraining.png"
-              alt="Career Training illustration"
+              src="/services/photoshoot.png"
+              alt="Photoshoot illustration"
               className="chatbot-image"
             />
           </div>
@@ -140,18 +123,16 @@ const CareerTrainingSection = () => {
         <div className="chatbot-mobile-wrapper">
           <div className="chatbot-heading mobile-heading">
             <h2>
-              Career <span>Training</span>
+              Professional <span>Photoshoot Services</span>
             </h2>
             <p>
-              Unlock your potential with job-ready skills, live projects, and
-              guaranteed placement support. Our training helps you stand out in
-              today’s competitive job market.
+              Stunning visuals for your brand, products, or events. Our photoshoot services capture your story in high-quality images and videos.
             </p>
           </div>
 
           <img
-            src="/services/careertraining.png"
-            alt="Career Training illustration"
+            src="/services/photoshoot.png"
+            alt="Photoshoot illustration"
             className="chatbot-image"
           />
 
@@ -173,17 +154,18 @@ const CareerTrainingSection = () => {
             ))}
           </div>
 
-          <div className="chatbot-training-types">
-            <h3>Training Programs</h3>
+          <div className="chatbot-why-choose">
+            <h3>Why Choose Us?</h3>
             <ul>
-              {trainingTypes.map((type, index) => (
-                <li key={index}>{type}</li>
-              ))}
+              <li>Creative and professional approach for every project</li>
+              <li>High-quality images and videos for marketing</li>
+              <li>Flexible packages to suit your needs</li>
+              <li>Quick turnaround and reliable service</li>
             </ul>
           </div>
 
           <div className="chatbot-why-choose">
-            <h3>Who Can Join?</h3>
+            <h3>Use Cases</h3>
             <ul>
               {useCases.map((useCase, index) => (
                 <li key={index}>{useCase}</li>
@@ -193,7 +175,7 @@ const CareerTrainingSection = () => {
 
           <div className="chatbot-cta">
             <a
-              href="https://forms.gle/jEz6jBuSDMCAqK3r7"
+              href="https://wa.me/917838649867"
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -202,7 +184,7 @@ const CareerTrainingSection = () => {
                 onMouseEnter={() => setIsHovered(true)}
                 onMouseLeave={() => setIsHovered(false)}
               >
-                Start Your Career
+                Book a Photoshoot
                 <ArrowRight className="arrow" />
               </button>
             </a>
@@ -213,4 +195,4 @@ const CareerTrainingSection = () => {
   )
 }
 
-export default CareerTrainingSection
+export default PhotoshootServiceSection

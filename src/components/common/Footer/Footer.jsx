@@ -142,7 +142,7 @@ const Footer = () => {
                 <Link to="/services/digital-marketing">Digital Marketing</Link>
               </li>
               <li>
-                <Link to="/services/branding#logo-design-work">UI & UX Designing</Link>
+                <Link to="/services/branding#logo-design-work">Logo Designing</Link>
               </li>
               <li>
                 <Link to="/services/branding#horizontal-gallery">Branding & Identity</Link>
