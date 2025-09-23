@@ -29,8 +29,8 @@ const LogoDesignWork = () => {
     {
       id: 3,
       type: "image",
-      src: "/branding/brand3.JPG",
-      title: "Endless Ocean Vista",
+      src: "/testinomials/home2home.jpg",
+      title: "",
       description: "Where the infinite ocean meets the boundless sky in eternal dance"
     },
     {
