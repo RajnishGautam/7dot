@@ -5,56 +5,56 @@ const testimonialsData = [
   {
     name: "Afreen",
     role: "CEO Yagafiy",
-    avatar: "/testinomials/yogafiy.png",
+    avatar: "",
     rating: 5,
     text: "My website looks amazing and loads so quickly. The SEO has improved my rankings, and SM marketing is bringing real engagement."
   },
   {
     name: "FNIC",
     role: "School",
-    avatar: "/testinomials/fnic.jpg",
+    avatar: "",
     rating: 5,
     text: "7Dot It created a professional, user-friendly website for my school with excellent service and timely support. Highly recommended."
   },
   {
     name: "Martiza Lopez Palacio",
     role: "Fashion Influencer",
-    avatar: "/testinomials/marlo.png",
+    avatar: "",
     rating: 5,
     text: "7Dot It built a modern, responsive website for our business, combining sleek design with excellent functionality and support."
   },
   {
     name: "Yazmin Gallegos",
     role: "SM Influencer",
-    avatar: "/testinomials/yazmin.png",
+    avatar: "",
     rating: 5,
     text: "7Dot It crafted smart marketing strategies that boosted our brand visibility and drove consistent customer engagement."
   },
   {
     name: "Enrique Gomez",
     role: "Business Owner",
-    avatar: "/testinomials/liam.jpg",
+    avatar: "",
     rating: 5,
     text: "Their marketing solutions are innovative and result-driven, helping us reach new audiences and strengthen overall market presence."
   },
   {
     name: "Jennifer",
     role: "Educator",
-    avatar: "/testinomials/jennifer.jpg",
+    avatar: "",
     rating: 5,
     text: "7Dot It delivered effective lead generation campaigns, bringing quality leads and improving our conversion rates significantly over time."
   },
   {
     name: "Veronica",
     role: "SM Influencer",
-    avatar: "/testinomials/veronica.jpg",
+    avatar: "",
     rating: 5,
     text: "7Dot It managed my social media marketing with creativity, increasing engagement and building stronger connections online."
   },
   {
     name: "Abraham",
     role: "Dentist",
-    avatar: "/testinomials/Abraham.jpg",
+    avatar: "",
     rating: 5,
     text: "Their strategies for lead generation are practical and result-oriented, consistently driving potential customers to our business pipeline."
   }

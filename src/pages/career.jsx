@@ -1,14 +1,12 @@
 import React, { useEffect } from 'react'
 import CareerTrainingSection from '../components/Develoment/Career'
 import Process from '../components/Develoment/Process'
-import HeroWithVideo from '../components/common/Contactsection/Contactsection'
+
 
 const CareerPage = () => {
   return (
-    <div>
+    <div className="Career-Page" style={{ paddingBottom: '3rem' }}>
       <CareerTrainingSection />
-      <Process />
-      <HeroWithVideo />
     </div>
   )
 }
