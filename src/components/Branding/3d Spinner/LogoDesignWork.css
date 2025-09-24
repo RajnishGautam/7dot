@@ -5,7 +5,7 @@
   max-width: 100%;
   background: var(--bg-color);
   overflow-y: auto; /* Allow scrolling if content is too tall */
-  font-family: 'Sarabun', -apple-system, BlinkMacSystemFont, sans-serif;
+  font-family: 'Sarabun',  sans-serif;
 }
 
 /* ✨ MODIFIED: Changed to a flex column layout */
@@ -124,7 +124,7 @@
 
 .carousel3d-item--adjacent {
   --scale: 0.9;
-  --opacity: 0.7;
+  --opacity: 0.5;
   --z-offset: 0px;
   z-index: 5;
 }
@@ -259,8 +259,8 @@
 }
 
 .carousel3d-dot {
-  width: 10px;
-  height: 10px;
+  width: .4rem;
+  height: .4rem;
   border-radius: 50%;
   background: rgba(240, 70, 70, 0.4);
   border: none;
@@ -304,7 +304,7 @@
   }
   
   .carousel3d-viewport {
-    height: 70vh;
+    height: 23rem;
   }
   .carousel3d-item {
     --radius: 15rem;

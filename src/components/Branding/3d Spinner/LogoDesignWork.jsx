@@ -15,36 +15,36 @@ const LogoDesignWork = () => {
     {
       id: 1,
       type: "image",
-      src: "/testinomials/yogafiy.png",
+      src: "/branding/yogafiy.png",
       title: "",
       description: "Crystal clear waters reflecting majestic mountain peaks in perfect harmony"
     },
     {
       id: 2,
-      type: "video",
-      src: "/branding/brand2.mp4",
-      title: "Nature in Motion",
+      type: "image",
+      src: "/branding/alp.jpg",
+      title: "",
       description: "Flowing streams and swaying trees in a peaceful forest"
     },
     {
       id: 3,
       type: "image",
-      src: "/testinomials/home2home.jpg",
+      src: "/branding/home2home.jpg",
       title: "",
       description: "Where the infinite ocean meets the boundless sky in eternal dance"
     },
     {
       id: 4,
-      type: "video",
-      src: "/branding/brand4.mp4",
-      title: "Aurora Borealis Magic",
+      type: "image",
+      src: "/branding/playbox.png",
+      title: "",
       description: "Dancing lights weaving stories across the arctic night sky"
     },
     {
       id: 5,
       type: "image",
-      src: "/branding/brand5.JPG",
-      title: "Golden Desert Dunes",
+      src: "/branding/castinlove2.jpg",
+      title: "",
       description: "Endless sands sculpted by wind and time into perfect waves"
     },
     {
