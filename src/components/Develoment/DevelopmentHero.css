@@ -65,8 +65,8 @@ html {
 :root .devhero-background {
   background: radial-gradient(
     ellipse 80% 80% at center,
-    rgba(142, 22, 22, 0.08) 0%,
-    rgba(221, 75, 57, 0.06) 25%,
+    rgba(142, 22, 22, 0.3) 0%,
+    rgba(221, 75, 57, 0.15) 25%,
     rgba(142, 22, 22, 0.04) 50%,
     var(--bg-color) 100%
   );

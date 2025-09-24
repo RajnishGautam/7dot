@@ -28,17 +28,17 @@ const DevelopmentHeroSection = () => {
       {/* Main Content */}
       <div className="devhero-content">
         <div className="devhero-text">
-          <h1 className="devhero-titleline1">Crafting Your</h1>
-          <h1 className="devhero-titleline2">Web Destiny With</h1>
+          <h1 className="devhero-titleline1">Shaping Your</h1>
+          <h1 className="devhero-titleline2">Online World With</h1>
           <h1 className="devhero-titleline3">
-            Stunning<span className="devhighlight-text"> Designs</span>
+            Elegent<span className="devhighlight-text"> Designs</span>
           </h1>
         </div>
 
         <h2 className="devhero-subtitle">
-          We don’t just create websites; we build
+          We don’t just build pages; we craft
           <br />
-          websites that turn your visitors into customers.
+          websites that guide your visitors into loyal customers.
         </h2>
 
         <a

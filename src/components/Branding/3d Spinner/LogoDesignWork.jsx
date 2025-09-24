@@ -51,7 +51,7 @@ const LogoDesignWork = () => {
       id: 6,
       type: "image",
       src: "/branding/brand1.JPG",
-      title: "Serene Mountain Lake",
+      title: "",
       description: "Crystal clear waters reflecting majestic mountain peaks in perfect harmony"
     },
     {
@@ -65,21 +65,21 @@ const LogoDesignWork = () => {
       id: 8,
       type: "image",
       src: "/branding/brand3.JPG",
-      title: "Endless Ocean Vista",
+      title: "",
       description: "Where the infinite ocean meets the boundless sky in eternal dance"
     },
     {
       id: 9,
       type: "video",
       src: "/branding/brand4.mp4",
-      title: "Aurora Borealis Magic",
+      title: "",
       description: "Dancing lights weaving stories across the arctic night sky"
     },
     {
       id: 10,
       type: "image",
       src: "/branding/brand5.JPG",
-      title: "Golden Desert Dunes",
+      title: "",
       description: "Endless sands sculpted by wind and time into perfect waves"
     }    
   ];
