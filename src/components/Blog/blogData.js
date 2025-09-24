@@ -7,7 +7,7 @@ export const blogData = [
   image: "/blog/webdevelopment.jpg",
   excerpt: "7Dot It specializes in custom website development for India, Lucknow & Chandigarh — delivering responsive, SEO-optimized, and high-converting sites.",
   content: `
-    <h1>Professional Website Development in Lucknow & Chandigarh</h1>
+    
 
     <p>In today’s digital-first world, your website is more than just an online presence — it is the <strong>face of your brand</strong>. Customers in India, especially in cities like Lucknow and Chandigarh, expect websites that are fast, responsive, and visually engaging. At 7Dot It, we deliver <strong>custom website development</strong> solutions that combine creativity, performance, and SEO optimization to help your business attract and convert customers effectively.</p>
 
@@ -175,7 +175,7 @@ export const blogData = [
   image: "/blog/digitalmarketing.png",
   excerpt: "7Dot It helps businesses in India thrive with expert SEO, social media marketing, and paid ad campaigns tailored for Chandigarh and Lucknow.",
   content: `
-    <h1>Digital Marketing That Drives Real Growth in Chandigarh & Lucknow</h1>
+    
     <p>In today’s fast-paced digital world, businesses in India must stand out online to succeed. Consumers in Chandigarh, Lucknow, and across the country have countless choices, and your website alone is no longer enough to capture attention. At 7Dot It, we specialize in <strong>data-driven digital marketing strategies</strong> that increase visibility, drive traffic, and generate measurable growth. Our services combine <strong>SEO, PPC advertising, social media marketing</strong>, and local targeting to reach your ideal customers effectively.</p>
 
     <h2>Why Digital Marketing is Essential</h2>
@@ -252,7 +252,7 @@ export const blogData = [
   image: "/blog/appdevelopment.jpg",
   excerpt: "We create iOS, Android, and web apps with stunning UI/UX and seamless performance for businesses in India, including Chandigarh and Lucknow.",
   content: `
-    <h1>Custom Mobile App Development in India</h1>
+   
     <p>Mobile applications have become a cornerstone for business growth. With the surge in smartphone usage across India, apps provide a direct channel to engage customers, improve operational efficiency, and drive revenue. At 7Dot It, we specialize in <strong>custom app development</strong> for businesses in <strong>India</strong>, particularly in <strong>Chandigarh</strong> and <strong>Lucknow</strong>, delivering solutions that combine innovative design, robust functionality, and seamless performance across platforms.</p>
 
     <h2>Why Businesses Need Mobile Apps</h2>

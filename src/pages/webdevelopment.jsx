@@ -8,8 +8,9 @@ import HeroWithVideo from '../components/common/Contactsection/Contactsection'
 const WebDevelopmentPage = () => {
   return (
     <div className='WebService-Page' style={{ paddingTop: '4rem' }}>
-      <WorkSection />
       <WebServices />
+      <WorkSection />
+      
       <Process />
       <HeroWithVideo />
     </div>

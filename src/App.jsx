@@ -27,7 +27,7 @@ function App() {
   useEffect(() => {
     // GA pageview tracking for SPA route changes
     if (window.gtag) {
-      window.gtag('config', 'G-MT8Q1ZBJG7', { page_path: location.pathname })
+      window.gtag('config', 'G-YLCVPSRTCV', { page_path: location.pathname })
     }
   }, [location])
 
