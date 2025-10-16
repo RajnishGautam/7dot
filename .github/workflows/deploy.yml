@@ -3,7 +3,7 @@ name: Deploy React App to Hostinger
 on:
   push:
     branches:
-      - main   # Deploys when you push to the main branch
+      - main   # deploys when you push to main branch
 
 jobs:
   build-and-deploy:
@@ -18,22 +18,23 @@ jobs:
       - name: Set up Node.js
         uses: actions/setup-node@v3
         with:
-          node-version: '20'  # Your Node.js version
+          node-version: '20'
 
       # Step 3: Install dependencies
       - name: Install dependencies
         run: npm install
 
       # Step 4: Build React app
-      - name: Build React app
+      - name: Build
         run: npm run build
 
-      # Step 5: Deploy via FTP
-      - name: Deploy to Hostinger via FTP
+      # Step 5: Deploy via SFTP
+      - name: Deploy to Hostinger via SFTP
         uses: SamKirkland/FTP-Deploy-Action@v4.3.6
         with:
           server: ${{ secrets.HOSTINGER_FTP_HOST }}
           username: ${{ secrets.HOSTINGER_FTP_USERNAME }}
           password: ${{ secrets.HOSTINGER_FTP_PASSWORD }}
-          local-dir: dist/          # Trailing slash is important
-          server-dir: public_html/   # Trailing slash is important
+          protocol: sftp
+          local-dir: dist/
+          server-dir: public_html/
