@@ -2219,7 +2219,7 @@ export const blogData = [
   metaTitle: "Best Social Media Agency in Lucknow | 7Dot It",
   metaDescription: "Partner with 7Dot It, the best social media agency in Lucknow, to boost engagement, leads, and brand visibility. Data-driven strategies, creative campaigns, and optimized results.",
   title: "Best Social Media Agency in Lucknow",
-  image: "/blog/best-social-media-agency-lucknow.jpg",
+  image: "/blog/marketing6.jpg",
   excerpt: "7Dot It is the leading social media agency in Lucknow, delivering data-driven strategies, creative campaigns, and measurable results to grow your brand online.",
   content: `
     <p>In the fast-evolving digital landscape of <strong>Lucknow</strong>, partnering with the right <strong>social media agency</strong> is crucial for brand growth. 7Dot It combines expertise, creativity, and analytics to deliver campaigns that increase engagement, generate leads, and enhance visibility for businesses in Lucknow.</p>
