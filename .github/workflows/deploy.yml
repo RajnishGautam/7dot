@@ -28,13 +28,13 @@ jobs:
       - name: Build
         run: npm run build
 
-      # Step 5: Deploy via SFTP
-      - name: Deploy to Hostinger via SFTP
+      # Step 5: Deploy via FTP
+      - name: Deploy to Hostinger via FTP
         uses: SamKirkland/FTP-Deploy-Action@v4.3.6
         with:
           server: ${{ secrets.HOSTINGER_FTP_HOST }}
           username: ${{ secrets.HOSTINGER_FTP_USERNAME }}
           password: ${{ secrets.HOSTINGER_FTP_PASSWORD }}
-          protocol: sftp
-          local-dir: dist/
-          server-dir: public_html/
+          protocol: ftp        # or 'ftps' if your Hostinger account supports it
+          local-dir: dist/     # your React build folder
+          server-dir: public_html/  # make sure it ends with /
