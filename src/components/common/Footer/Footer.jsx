@@ -79,7 +79,7 @@ const Footer = () => {
                     target="_blank"
                     rel="noopener noreferrer"
                   >
-                    Pnnto7x, Tijuana
+                    Punto7x, Tijuana
                   </a>
                 </p>
               </div>
@@ -92,8 +92,8 @@ const Footer = () => {
               </p>
               <p className="contactfooter-item">
                 Email:{' '}
-                <a href="mailto:support@7Dot It.solutions">
-                  support@7Dot It.solutions
+                <a href="mailto:support@7dotit.solutions">
+                  support@7dotit.solutions
                 </a>
               </p>
             </div>

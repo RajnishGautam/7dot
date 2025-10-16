@@ -5,7 +5,7 @@
   max-width: 100%;
   background: var(--bg-color);
   overflow-y: auto; /* Allow scrolling if content is too tall */
-  font-family: 'Sarabun',  sans-serif;
+  font-family: 'Sarabun', sans-serif;
 }
 
 /* ✨ MODIFIED: Changed to a flex column layout */
@@ -42,7 +42,9 @@
 }
 
 @keyframes carousel3d-spin {
-  100% { transform: rotate(360deg); }
+  100% {
+    transform: rotate(360deg);
+  }
 }
 
 .carousel3d-header {
@@ -64,13 +66,12 @@
   text-transform: uppercase;
 }
 
-
 /* ✨ MODIFIED: Removed absolute positioning and set a fixed height */
 .carousel3d-viewport {
   position: relative; /* Keep for nav buttons */
   width: 100%;
-  height: 1000px; 
-  max-height: 550px; 
+  height: 1000px;
+  max-height: 550px;
   perspective: 2000px;
   perspective-origin: center center;
   overflow: hidden;
@@ -100,16 +101,15 @@
   transition: all 0.8s cubic-bezier(0.25, 0.46, 0.45, 0.94);
   transform-style: preserve-3d;
   will-change: transform, opacity;
-  --angle: calc(var(--carousel3d-position) * (360deg / var(--carousel3d-total)));
+  --angle: calc(
+    var(--carousel3d-position) * (360deg / var(--carousel3d-total))
+  );
   --radius: 40rem;
   --scale: 0.6;
-  --opacity: .3;
+  --opacity: 0.3;
   --z-offset: 0px;
-  transform: 
-    rotateY(var(--angle))
-    translateZ(var(--radius))
-    translateZ(var(--z-offset))
-    scale(var(--scale));
+  transform: rotateY(var(--angle)) translateZ(var(--radius))
+    translateZ(var(--z-offset)) scale(var(--scale));
   opacity: var(--opacity);
   z-index: 1;
 }
@@ -174,7 +174,12 @@
   left: -100%;
   width: 100%;
   height: 100%;
-  background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.3), transparent);
+  background: linear-gradient(
+    90deg,
+    transparent,
+    rgba(255, 255, 255, 0.3),
+    transparent
+  );
   transform: skewX(-25deg);
   transition: left 0.8s ease;
 }
@@ -213,9 +218,8 @@
 
 .carousel3d-item--active .carousel3d-image-description,
 .carousel3d-card:hover .carousel3d-image-description {
-    opacity: 1;
+  opacity: 1;
 }
-
 
 /* ====== NAVIGATION & INDICATORS ====== */
 .carousel3d-nav {
@@ -242,8 +246,12 @@
   transform: translateY(-50%) scale(1.1);
 }
 
-.carousel3d-nav--prev { left: clamp(10px, 3vw, 30px); }
-.carousel3d-nav--next { right: clamp(10px, 3vw, 30px); }
+.carousel3d-nav--prev {
+  left: clamp(10px, 3vw, 30px);
+}
+.carousel3d-nav--next {
+  right: clamp(10px, 3vw, 30px);
+}
 
 .carousel3d-nav-icon {
   width: clamp(20px, 2.5vw, 28px);
@@ -257,8 +265,8 @@
 }
 
 .carousel3d-dot {
-  width: .4rem;
-  height: .4rem;
+  width: 0.4rem;
+  height: 0.4rem;
   border-radius: 50%;
   background: rgba(240, 70, 70, 0.4);
   border: none;
@@ -289,9 +297,8 @@
     height: 12rem;
   }
   .carousel3d-image-title {
-    font-size: .5rem;
+    font-size: 0.5rem;
   }
-
 }
 
 @media (max-width: 480px) {
@@ -300,7 +307,7 @@
     justify-content: start; /* Align to top on mobile */
     padding-top: 0rem;
   }
-  
+
   .carousel3d-viewport {
     height: 23rem;
   }

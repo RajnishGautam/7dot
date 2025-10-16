@@ -316,6 +316,7 @@ const PrivacyPolicy = () => {
           font-size: 1rem;
           margin-bottom: 1rem;
           font-size:1.2rem;
+          color:#111;
         }
 
         .privacysection-section-content ul {
@@ -348,10 +349,11 @@ const PrivacyPolicy = () => {
 
         .privacysection-contact .privacysection-section-header {
           border-bottom-color: rgba(255,255,255,0.2);
+          
         }
 
         .privacysection-contact .privacysection-section-header h2 {
-          color: white;
+          color: 111;
         }
 
         .privacysection-contact .privacysection-section-content {
@@ -370,6 +372,7 @@ const PrivacyPolicy = () => {
           align-items: center;
           gap: 0.5rem;
           margin-bottom: 0.75rem;
+          color:111;
         }
 
         .privacysection-contact-item:last-child {
@@ -377,12 +380,12 @@ const PrivacyPolicy = () => {
         }
 
         .privacysection-contact a {
-          color: white;
+          color: #111;
           text-decoration: underline;
         }
 
         .privacysection-contact a:hover {
-          color: rgba(255,255,255,0.8);
+          color: rgba(218, 21, 21, 0.8);
         }
 
         @media (max-width: 768px) {

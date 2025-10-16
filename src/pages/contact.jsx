@@ -116,7 +116,7 @@ const ContactPage = () => {
                 <div>
                   <h4>Email</h4>
                   <h5>
-                    <a href="mailto:hello@7Dot It.com">support@7Dot It.solutions</a>
+                    <a href="mailto:hello@dDotit.com">support@7dotit.solutions</a>
                   </h5>
                 </div>
               </div>

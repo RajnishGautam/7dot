@@ -50,35 +50,35 @@ const LogoDesignWork = () => {
     {
       id: 6,
       type: "image",
-      src: "/branding/brand1.JPG",
+      src: "/branding/farmerj.jpg",
       title: "",
       description: "Crystal clear waters reflecting majestic mountain peaks in perfect harmony"
     },
     {
       id: 7,
-      type: "video",
-      src: "/branding/brand2.mp4",
+      type: "image",
+      src: "/branding/marlo.png",
       title: "",
       description: ""
     },
     {
       id: 8,
       type: "image",
-      src: "/branding/brand3.JPG",
+      src: "/branding/polneeti.webp",
       title: "",
       description: "Where the infinite ocean meets the boundless sky in eternal dance"
     },
     {
       id: 9,
-      type: "video",
-      src: "/branding/brand4.mp4",
+      type: "image",
+      src: "/branding/healthcaremantra.jpg",
       title: "",
       description: "Dancing lights weaving stories across the arctic night sky"
     },
     {
       id: 10,
       type: "image",
-      src: "/branding/brand5.JPG",
+      src: "/branding/punto7x.png",
       title: "",
       description: "Endless sands sculpted by wind and time into perfect waves"
     }    
