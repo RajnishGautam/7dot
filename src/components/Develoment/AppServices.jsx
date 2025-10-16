@@ -157,7 +157,7 @@ const AppServices = () => {
         <div className={`section-header ${isVisible ? 'visible' : ''}`}>
           <h2 className="appsection-title">
             <span className="setion-title">
-  <span className="process-section__highlight">MOBILE APP</span> DEVELOPMENT
+  <span className="process-section__highlight">MOBILE APPS</span> DEVELOPMENT
 </span>
 
           </h2>
