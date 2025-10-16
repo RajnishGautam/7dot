@@ -1,14 +1,22 @@
-import React from 'react'
+import React, { useState, useEffect } from 'react'
 import '../components/Blog/BlogLanding.css'
 import { Link } from 'react-router-dom'
-import { blogData } from '../components/Blog/blogData'
 
 export default function BlogPage() {
+  const [blogs, setBlogs] = useState([])
+
+  useEffect(() => {
+    fetch('/dynamic-blogs/blogs.json') // fetch the JSON from public folder
+      .then((res) => res.json())
+      .then((data) => setBlogs(data))
+      .catch((err) => console.error('Error fetching blogs:', err))
+  }, [])
+
   return (
     <div className="blog-page">
       <h1 className="blog-title">Our Blogs</h1>
       <div className="blog-list">
-        {blogData.map((blog, index) => (
+        {blogs.map((blog, index) => (
           <div
             key={blog.id}
             className={`blog-card ${index % 2 !== 0 ? 'reverse' : ''}`}
