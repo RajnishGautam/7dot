@@ -35,5 +35,5 @@ jobs:
           server: ${{ secrets.HOSTINGER_FTP_HOST }}
           username: ${{ secrets.HOSTINGER_FTP_USERNAME }}
           password: ${{ secrets.HOSTINGER_FTP_PASSWORD }}
-          local-dir: build/          # Trailing slash is important
+          local-dir: dist/          # Trailing slash is important
           server-dir: public_html/   # Trailing slash is important
