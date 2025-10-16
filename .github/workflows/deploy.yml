@@ -3,38 +3,32 @@ name: Deploy React App to Hostinger
 on:
   push:
     branches:
-      - main   # Deploy when you push to main branch
+      - main
 
 jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
 
     steps:
-      # Step 1: Checkout repository
       - name: Checkout repository
         uses: actions/checkout@v3
 
-      # Step 2: Set up Node.js
       - name: Set up Node.js
         uses: actions/setup-node@v3
         with:
-          node-version: '20'  # Your Node.js version
+          node-version: '20'
 
-      # Step 3: Install dependencies
       - name: Install dependencies
         run: npm install
 
-      # Step 4: Build React app
       - name: Build React app
         run: npm run build
 
-      # Step 5: Deploy to Hostinger via FTP
       - name: Deploy to Hostinger via FTP
         uses: SamKirkland/FTP-Deploy-Action@v4.3.6
         with:
           server: ${{ secrets.HOSTINGER_FTP_HOST }}
           username: ${{ secrets.HOSTINGER_FTP_USERNAME }}
           password: ${{ secrets.HOSTINGER_FTP_PASSWORD }}
-          local-dir: build
-          server-dir: public_html   # Change if your site is in subfolder
-          git-ftp-args: --insecure
+          local-dir: build/          # Add trailing slash
+          server-dir: public_html    # Change if your site is in subfolder
