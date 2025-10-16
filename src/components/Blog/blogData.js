@@ -1,3 +1,6 @@
+import { dynamicBlogs } from '../dynamic-blogs/dynamicBlogList';
+
+
 export const blogData = [
   {
   id: 1,
@@ -2850,6 +2853,7 @@ export const blogData = [
     <p>Local digital marketing in Chandigarh is essential for businesses to reach nearby customers effectively. By optimizing Google Business Profile, leveraging local SEO, geo-targeted ads, and hyperlocal content, Chandigarh businesses can increase visibility, engagement, and revenue.</p>
     <p>7Dot It creates comprehensive, data-driven <strong>local marketing strategies</strong> that integrate with <a href="/services/webdevelopment">Web Development</a>, <a href="/services/appdevelopment">App Development</a>, <a href="/services/digital-marketing">Digital Marketing</a>, <a href="/services/branding">Branding</a>, <a href="/services/contentcreation">Content Creation</a>, <a href="/services/leadgeneration">Lead Generation</a>, and <a href="/services/chatbotdevelopment">AI Chatbots</a> to ensure Chandigarh businesses dominate their local market.</p>
   `
-}
+},
+...dynamicBlogs
 
 ];
