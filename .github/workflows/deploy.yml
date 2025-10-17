@@ -1,16 +1,16 @@
-name: Deploy React App to Hostinger
+name: Deploy Vite App to Hostinger
 
 on:
   push:
     branches:
-      - main   # deploy when you push to main branch
+      - main   # triggers on push to main branch
 
 jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
 
     steps:
-      # Step 1: Checkout repository
+      # Step 1: Checkout your repo
       - name: Checkout repository
         uses: actions/checkout@v3
 
@@ -18,22 +18,34 @@ jobs:
       - name: Set up Node.js
         uses: actions/setup-node@v3
         with:
-          node-version: '20'   # your Node.js version
+          node-version: '20'
 
       # Step 3: Install dependencies
       - name: Install dependencies
         run: npm install
 
-      # Step 4: Build React app
-      - name: Build
-        run: npm run build   # or `npm run build:prod` if using Vite
+      # Step 4: Build the Vite app
+      - name: Build Vite app
+        run: npm run build
 
-      # Step 5: Deploy via FTP
-      - name: Deploy to Hostinger via FTP
+      # Step 5 (Optional, for testing FTP connection):
+      - name: Upload test file to Hostinger
         uses: SamKirkland/FTP-Deploy-Action@v4.3.6
         with:
-          server: ${{ secrets.HOSTINGER_FTP_HOST }}       # ftp.7dotit.solutions
-          username: ${{ secrets.HOSTINGER_FTP_USERNAME }} # u971141230.Admin
-          password: ${{ secrets.HOSTINGER_FTP_PASSWORD }} # your FTP password
-          local-dir: dist/                                # build folder
-          server-dir: domains/7dotit.solutions/public_html/  # exact server path
+          server: ${{ secrets.HOSTINGER_FTP_HOST }}
+          username: ${{ secrets.HOSTINGER_FTP_USERNAME }}
+          password: ${{ secrets.HOSTINGER_FTP_PASSWORD }}
+          local-dir: ./test-deploy.txt
+          server-dir: /home/u971141230/domains/7dotit.solutions/public_html/
+          protocol: ftp
+
+      # Step 6: Deploy built files to Hostinger
+      - name: Deploy Vite build to Hostinger
+        uses: SamKirkland/FTP-Deploy-Action@v4.3.6
+        with:
+          server: ${{ secrets.HOSTINGER_FTP_HOST }}
+          username: ${{ secrets.HOSTINGER_FTP_USERNAME }}
+          password: ${{ secrets.HOSTINGER_FTP_PASSWORD }}
+          local-dir: dist/                   # Vite build output
+          server-dir: /home/u971141230/domains/7dotit.solutions/public_html/
+          protocol: ftp
