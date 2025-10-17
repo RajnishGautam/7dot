@@ -1,4 +1,4 @@
-name: Deploy to Hostinger
+name: Deploy 7DotIt Website
 
 on:
   push:
@@ -9,28 +9,26 @@ jobs:
   ftp-deploy:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout repository
-        uses: actions/checkout@v3
+      - uses: actions/checkout@v3
 
       - name: Setup Node
         uses: actions/setup-node@v3
         with:
-          node-version: 20
+          node-version: '20'
 
       - name: Install dependencies
-        run: npm install
+        run: npm ci
 
       - name: Build project
         run: npm run build
 
-      - name: Deploy to Hostinger
+      - name: Deploy via FTP
         uses: SamKirkland/FTP-Deploy-Action@v4.3.6
         with:
-          server: 7dotit.solutions
+          server: ${{ secrets.FTP_HOST }}
           username: ${{ secrets.FTP_USERNAME }}
           password: ${{ secrets.FTP_PASSWORD }}
           local-dir: dist
-          server-dir: public_html
+          server-dir: ${{ secrets.FTP_SERVER_DIR || 'public_html' }}
           port: 21
           protocol: ftp
-          git-ftp-args: --insecure --passive-mode
