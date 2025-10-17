@@ -6,7 +6,9 @@ export default function BlogPage() {
   const [blogs, setBlogs] = useState([])
 
   useEffect(() => {
-    fetch('/dynamic-blogs/blogs.json') // fetch the JSON from public folder
+    // Add a timestamp to bypass cache
+    const timestamp = new Date().getTime()
+    fetch(`/dynamic-blogs/blogs.json?ts=${timestamp}`)
       .then((res) => res.json())
       .then((data) => setBlogs(data))
       .catch((err) => console.error('Error fetching blogs:', err))
