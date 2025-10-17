@@ -1,4 +1,4 @@
-name: Deploy Vite App to Hostinger
+name: Deploy to Hostinger
 
 on:
   push:
@@ -6,40 +6,31 @@ on:
       - main
 
 jobs:
-  build-and-deploy:
+  ftp-deploy:
     runs-on: ubuntu-latest
-
     steps:
-      # Checkout code
       - name: Checkout repository
         uses: actions/checkout@v3
 
-      # Set up Node.js
-      - name: Set up Node.js
+      - name: Setup Node
         uses: actions/setup-node@v3
         with:
-          node-version: '20'
+          node-version: 20
 
-      # Install dependencies
       - name: Install dependencies
         run: npm install
 
-      # Build Vite project
-      - name: Build Vite app
+      - name: Build project
         run: npm run build
 
-      # Debug: list files in dist folder
-      - name: List files in dist
-        run: ls -R dist/
-
-      # Deploy via FTP
-      - name: Deploy to Hostinger via FTP
+      - name: Deploy to Hostinger
         uses: SamKirkland/FTP-Deploy-Action@v4.3.6
         with:
-          server: ${{ secrets.HOSTINGER_FTP_HOST }}
-          username: ${{ secrets.HOSTINGER_FTP_USERNAME }}
-          password: ${{ secrets.HOSTINGER_FTP_PASSWORD }}
-          local-dir: ./dist/
-          server-dir: public_html/
+          server: 7dotit.solutions
+          username: ${{ secrets.FTP_USERNAME }}
+          password: ${{ secrets.FTP_PASSWORD }}
+          local-dir: dist
+          server-dir: public_html
+          port: 21
           protocol: ftp
-          delete: true          # ensures old files are removed
+          git-ftp-args: --insecure --passive-mode
