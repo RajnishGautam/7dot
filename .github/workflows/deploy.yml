@@ -8,27 +8,34 @@ on:
 jobs:
   ftp-deploy:
     runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v3
 
-      - name: Setup Node
+    steps:
+      # Step 1: Checkout code
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      # Step 2: Setup Node.js
+      - name: Setup Node.js
         uses: actions/setup-node@v3
         with:
           node-version: '20'
 
+      # Step 3: Install dependencies
       - name: Install dependencies
         run: npm ci
 
+      # Step 4: Build project
       - name: Build project
         run: npm run build
 
+      # Step 5: Deploy via FTP
       - name: Deploy via FTP
         uses: SamKirkland/FTP-Deploy-Action@v4.3.6
         with:
-          server: ${{ secrets.FTP_HOST }}
-          username: ${{ secrets.FTP_USERNAME }}
-          password: ${{ secrets.FTP_PASSWORD }}
-          local-dir: dist/
-          server-dir: ${{ secrets.FTP_SERVER_DIR || 'public_html' }}
+          server: ${{ secrets.FTP_HOST }}          # e.g., ftp://7dotit.solutions
+          username: ${{ secrets.FTP_USERNAME }}    # your FTP username
+          password: ${{ secrets.FTP_PASSWORD }}    # your FTP password
+          local-dir: dist/                          # folder created by `npm run build`
+          server-dir: ${{ secrets.FTP_SERVER_DIR || 'public_html/' }}  # must end with slash
           port: 21
           protocol: ftp
