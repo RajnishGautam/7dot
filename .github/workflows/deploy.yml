@@ -3,7 +3,7 @@ name: Deploy Vite App to Hostinger
 on:
   push:
     branches:
-      - main   # deploy only on push to main branch
+      - main   # Deploy on push to main branch
 
 jobs:
   build-and-deploy:
@@ -28,12 +28,13 @@ jobs:
       - name: Build Vite app
         run: npm run build
 
-      # Step 5: Deploy built files to Hostinger
+      # Step 5: Deploy build to Hostinger
       - name: Deploy to Hostinger via FTP
         uses: SamKirkland/FTP-Deploy-Action@v4.3.6
         with:
-          server: ${{ secrets.HOSTINGER_FTP_HOST }}            
-          username: ${{ secrets.HOSTINGER_FTP_USERNAME }}      
-          password: ${{ secrets.HOSTINGER_FTP_PASSWORD }}      
-          local-dir: dist/                                     
-          server-dir: /home/u971141230/domains/7dotit.solutions/public_html/  
+          server: ${{ secrets.HOSTINGER_FTP_HOST }}        # 82.25.125.249
+          username: ${{ secrets.HOSTINGER_FTP_USERNAME }}  # u971141230
+          password: ${{ secrets.HOSTINGER_FTP_PASSWORD }}  # your FTP password
+          local-dir: dist/                                 # Vite build folder
+          server-dir: public_html/                         # target folder on Hostinger
+          protocol: ftp
